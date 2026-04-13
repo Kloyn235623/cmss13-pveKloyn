@@ -320,3 +320,28 @@ GLOBAL_LIST_INIT(cm_vending_clothing_rmc_sniper, list(
 
 /obj/structure/machinery/cm_vending/clothing/specialist/rmc/get_listed_products(mob/user)
 	return GLOB.cm_vending_clothing_rmc_sniper
+
+GLOBAL_LIST_INIT(cm_vending_gear_specsadar, list(
+		list("PRECISION WEAPON SET (MANDATORY)", 0, null, null, null),
+		list("sadar set", 0, /obj/item/storage/box/spec/rocketeer, MARINE_CAN_BUY_ESSENTIALS, VENDOR_ITEM_MANDATORY),
+
+		list("ACCESSORIES (CHOOSE 1)", 0, null, null, null),
+		list("Drop Pouch", 0, /obj/item/clothing/accessory/storage/droppouch, MARINE_CAN_BUY_ACCESSORY, VENDOR_ITEM_RECOMMENDED),
+		list("Small Pouch", 0, /obj/item/clothing/accessory/storage/smallpouch, MARINE_CAN_BUY_ACCESSORY, VENDOR_ITEM_REGULAR),
+		list("Holster", 0, /obj/item/clothing/accessory/storage/holster, MARINE_CAN_BUY_ACCESSORY, VENDOR_ITEM_REGULAR),
+
+		list("EXTRA ROCKETEER AMMUNITION", 0, null, null, null),
+		list("84mm Anti-Armor Rocket", 40, /obj/item/ammo_magazine/rocket/ap, null, VENDOR_ITEM_REGULAR),
+		list("84mm High-Explosive Rocket", 40, /obj/item/ammo_magazine/rocket, null, VENDOR_ITEM_REGULAR),
+		list("84mm White-Phosphorus Rocket", 40, /obj/item/ammo_magazine/rocket/wp, null, VENDOR_ITEM_REGULAR),
+	))
+
+/obj/structure/machinery/cm_vending/clothing/specialistsadar
+	name = "\improper Specialist Equipment Rack"
+	desc = "An automated rack hooked up to a colossal storage of standard-issue equipment for USCM specialist."
+	icon_state = "spec_gear"
+	req_access = list(JOB_SQUAD_SPECIALIST)
+	vendor_role = list(ACCESS_MARINE_SPECPREP)
+
+/obj/structure/machinery/cm_vending/clothing/specialist/rmc/get_listed_products(mob/user)
+	return GLOB.cm_vending_gear_specsadar
