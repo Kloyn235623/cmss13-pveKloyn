@@ -343,5 +343,5 @@ GLOBAL_LIST_INIT(cm_vending_gear_specsadar, list(
 	req_access = list(JOB_SQUAD_SPECIALIST)
 	vendor_role = list(ACCESS_MARINE_SPECPREP)
 
-/obj/structure/machinery/cm_vending/clothing/specialist/rmc/get_listed_products(mob/user)
+/obj/structure/machinery/cm_vending/clothing/specialistsadar/get_listed_products(mob/user)
 	return GLOB.cm_vending_gear_specsadar
