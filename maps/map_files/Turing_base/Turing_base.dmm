@@ -13,6 +13,7 @@
 "aC" = (/obj/structure/machinery/landinglight/ds2,/turf/open/asphalt/cement/cement12,/area/space)
 "aF" = (/obj/vehicle/powerloader{layer = 5},/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/mech_bay_recharge_floor,/area/space)
 "aH" = (/obj/structure/machinery/landinglight/ds2/spoke{pixel_x = -12},/turf/open/asphalt/cement/cement1,/area/space)
+"aK" = (/obj/structure/machinery/door/poddoor/hybrisa/ultra_reinforced_door,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "aM" = (/obj/structure/machinery/space_heater/radiator/red,/turf/open/floor/prison/blue,/area/space)
 "aT" = (/obj/structure/closet/secure_closet/engineering_personal{req_one_access = list(102,104,106,200); pixel_x = -8; pixel_y = 0},/turf/open/floor/prison/darkbrown2/northwest,/area/space)
 "aU" = (/obj/structure/flora/tree/tyrargo{pixel_x = -3; pixel_y = -11; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
@@ -23,11 +24,12 @@
 "bi" = (/turf/open/asphalt/cement/cement9,/area/space)
 "bo" = (/obj/structure/bed/chair{dir = 16; pixel_x = 6; pixel_y = 7},/turf/open/floor/almayer/blackfull/west,/area/space)
 "bq" = (/obj/structure/toilet{dir = 1},/obj/structure/barricade/metal{dir = 8; pixel_x = -1},/obj/structure/barricade/metal{dir = 4; pixel_x = 1},/obj/structure/barricade/metal{dir = 8; pixel_y = 8; pixel_x = -1},/obj/structure/barricade/metal{dir = 4; pixel_y = 8; pixel_x = 1},/obj/structure/curtain/blue,/obj/effect/decal/cleanable/vomit,/turf/open/floor/plating/plating_catwalk/aicore/white,/area/space)
-"br" = (/obj/structure/machinery/vending/generic,/turf/open/floor/prison/blue/west,/area/space)
+"br" = (/obj/structure/machinery/vending/generic,/obj/structure/machinery/light/blue{dir = 8},/turf/open/floor/prison/blue/west,/area/space)
 "bt" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/obj/structure/machinery/light/blue,/turf/open/floor/prison/blue_plate,/area/space)
 "bu" = (/obj/item/trash/twe_mre,/turf/open/floor/prison/blue_plate,/area/space)
 "bx" = (/obj/structure/machinery/big_computers/messaging_server/white,/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/whitegreen/northwest,/area/space)
 "by" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "6,1"},/turf/open/floor/plating,/area/space)
+"bD" = (/obj/structure/platform/wood/west,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "bE" = (/obj/structure/cargo_container/seegson/left,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/space)
 "bJ" = (/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "bK" = (/obj/effect/decal/hybrisa/colorable_rug{color = "#3d3d3d"; pixel_x = 2; pixel_y = 27; name = "rubber mat"},/turf/open/floor/prison/bright_clean/southwest,/area/space)
@@ -52,7 +54,8 @@
 "cM" = (/turf/closed/shuttle/twe_dropship{icon_state = "7,11"},/area/space)
 "cQ" = (/turf/open/floor/hybrisa/carpet/rug_colorable/black/northeast,/area/space)
 "cR" = (/obj/effect/decal/cleanable/dirt,/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 4},/obj/structure/surface/table/almayer{color = "#848484"},/obj/item/prop/helmetgarb/compass{pixel_y = 4; pixel_x = 5},/turf/open/floor/prison/bright_clean/southwest,/area/space)
-"dc" = (/obj/effect/decal/strata_decals/mud_corner{dir = 8},/obj/item/lightstick/red/variant/planted,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
+"cS" = (/obj/structure/window/framed/hybrisa/marshalls/reinforced,/obj/structure/machinery/door/poddoor/shutters/almayer{dir = 4; id = "ROlobby2"; name = "\improper  Line "},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"dc" = (/obj/effect/decal/strata_decals/mud_corner{dir = 5},/obj/structure/barricade/hesco{dir = 8},/obj/effect/decal/strata_decals/mud_corner{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "de" = (/turf/open/asphalt/cement/cement3,/area/space)
 "df" = (/obj/structure/closet/hydrant,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "dg" = (/obj/effect/decal/strata_decals/mud_corner{dir = 4},/obj/structure/flora/tree/dead/tree_1,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
@@ -73,9 +76,11 @@
 "ee" = (/obj/structure/flora/tree/tyrargo,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "eh" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/blue_plate,/area/space)
 "en" = (/turf/closed/wall/hybrisa/colony/reinforced/hull,/area/space)
+"eo" = (/obj/effect/decal/hybrisa/road/road_edge,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "er" = (/obj/structure/flora/tree/dead/tree_5{pixel_x = -1; pixel_y = 0},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "et" = (/obj/structure/gun_rack/nsg/unloaded,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "eu" = (/obj/structure/machinery/power/apc/no_power/north,/obj/structure/flora/pottedplant{icon_state = "pottedplant_25"; pixel_x = 6; pixel_y = 15},/turf/open/floor/prison/blue/north,/area/space)
+"ew" = (/obj/structure/barricade/handrail/strata{dir = 4},/obj/item/device/flashlight/lamp/tripod/grey{pixel_x = 5; pixel_y = -1},/turf/open/floor/kutjevo/fake_wood,/area/space)
 "eA" = (/obj/structure/flora/tree/tyrargo{pixel_x = 5; pixel_y = -13; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "eE" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/ammo_box/magazine/vp70/extended{pixel_x = 5; pixel_y = 12},/obj/item/storage/box/guncase/heavy/motiondetectors/rmc{pixel_x = 2},/obj/item/ammo_box/rounds/smartgun/holo_target{pixel_x = 1; pixel_y = 4},/obj/item/ammo_box/magazine/vp78/rmc{pixel_x = 4; pixel_y = 8},/turf/open/floor/prison/bright_clean,/area/space)
 "eF" = (/obj/structure/flora/wood/stick2,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
@@ -94,8 +99,11 @@
 "fk" = (/obj/structure/machinery/cm_vending/sorted/marine_food/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "fo" = (/turf/closed/shuttle/twe_dropship{icon_state = "2,2"},/area/space)
 "fs" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/chair{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"fy" = (/obj/structure/desertdam/decals/road_stop{dir = 1; icon_state = "stop_decal5"},/obj/structure/desertdam/decals/road_edge{icon_state = "road_edge_decal3"; pixel_y = 3; pixel_x = -1},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "fz" = (/obj/effect/decal/cleanable/blood/oil,/turf/open/asphalt/cement/cement3,/area/space)
 "fE" = (/obj/effect/decal/cleanable/dirt,/obj/structure/surface/rack,/obj/item/ammo_box/magazine/nade_box/rmc/cn20{pixel_x = 8; pixel_y = 7},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"fF" = (/obj/structure/surface/table/woodentable/poor,/obj/item/ashtray/bronze,/obj/effect/decal/cleanable/dirt,/turf/open/floor/kutjevo/fake_wood,/area/space)
+"fH" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal4"},/obj/effect/decal/hybrisa/road/lines2,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "fI" = (/obj/structure/cargo_container/hybrisa/containersextended/whitewyleft,/turf/open/floor/prison/blue_plate,/area/space)
 "fQ" = (/obj/structure/machinery/recharge_station,/turf/open/floor/plating/kutjevo,/area/space)
 "fS" = (/obj/structure/prop/hybrisa/misc/cabinet{dir = 8; pixel_x = 5; pixel_y = 18; layer = 3.1},/obj/item/reagent_container/food/drinks/coffee{pixel_x = 7; pixel_y = 30; layer = 3.2},/obj/effect/decal/cleanable/hybrisa/trash{icon_state = "trash_8"; pixel_y = -5},/turf/open/floor/prison/blue/north,/area/space)
@@ -106,8 +114,9 @@
 "fZ" = (/obj/structure/bed/chair{dir = 4; pixel_x = 7; pixel_y = 10},/obj/structure/sign/poster/wylogo{pixel_y = 32},/obj/structure/sign/poster/safety{pixel_x = 12; pixel_y = 30},/turf/open/floor/almayer/blackfull/west{pixel_x = 0; pixel_y = 0},/area/space)
 "gb" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/space)
 "gf" = (/obj/structure/flora/pottedplant{icon_state = "pottedplant_17"; pixel_y = 10; pixel_x = -4},/obj/structure/surface/table/woodentable/fancy,/turf/open/floor/strata/fake_wood,/area/space)
+"gh" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal9"},/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "gj" = (/obj/structure/machinery/big_computers/messaging_server,/obj/structure/machinery/light/blue,/turf/open/floor/prison/blue/southwest,/area/space)
-"gk" = (/obj/structure/surface/table/reinforced/black,/obj/item/paper_bin{pixel_x = -3; pixel_y = 7},/obj/item/tool/pen/blue{pixel_x = 7; pixel_y = 3},/turf/open/floor/prison/blue_plate/north,/area/space)
+"gk" = (/obj/structure/surface/table/reinforced/black,/obj/item/paper_bin{pixel_x = -3; pixel_y = 7},/obj/structure/phone_base/colony_net/rotary{pixel_x = 10; pixel_y = 2},/turf/open/floor/prison/blue_plate/north,/area/space)
 "gl" = (/obj/structure/cable/orange{icon_state = "5-9"; pixel_y = -19; level = 2},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "gn" = (/obj/effect/decal/strata_decals/mud_corner{dir = 4},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "gt" = (/obj/structure/surface/table/almayer,/obj/item/reagent_container/food/drinks/coffeecup/uscm{pixel_x = 6; name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."},/obj/item/tool/crowbar/tactical{pixel_x = -2; pixel_y = 5},/obj/effect/decal/cleanable/hybrisa/dirt_2,/turf/open/floor/almayer/orange/west,/area/space)
@@ -139,7 +148,7 @@
 "hE" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/prop/almayer/CICmap{density = 0; dir = 8; icon_state = "shuttle"; layer = 4; name = "Tactical Map Display"; pixel_x = 4; pixel_y = 6},/turf/open/floor/prison/blue_plate,/area/space)
 "hJ" = (/obj/structure/machinery/big_computers/computerblack/computer4,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "hK" = (/obj/structure/machinery/landinglight/ds2/delaytwo{dir = 4},/turf/open/asphalt/cement/cement1,/area/space)
-"hM" = (/obj/structure/machinery/light/blue{dir = 8},/turf/open/floor/prison/blue/west,/area/space)
+"hM" = (/obj/structure/phone_base/colony_net{phone_category = "Redemption Outpost"; phone_id = "Operations Control"; pixel_y = 1; pixel_x = -19; dir = 4},/turf/open/floor/prison/blue/west,/area/space)
 "hN" = (/obj/structure/largecrate/supply/supplies/flares,/turf/open/floor/prison/blue_plate,/area/space)
 "hP" = (/turf/open/floor/prison/darkbrown2/east,/area/space)
 "hU" = (/obj/effect/decal/strata_decals/mud_corner{dir = 9},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
@@ -154,13 +163,17 @@
 "iE" = (/obj/structure/cargo_container/trijent/right,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/space)
 "iG" = (/obj/item/stack/sheet/wood{pixel_x = 31; pixel_y = 17},/obj/item/stool,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/space)
 "iI" = (/obj/structure/dropship_equipment/medevac_system,/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/plating,/area/space)
+"iK" = (/obj/structure/surface/table/woodentable/poor,/obj/item/ashtray/bronze{icon_state = "ashtray_full_bl"; pixel_x = -1; pixel_y = 9},/obj/effect/decal/cleanable/dirt,/turf/open/floor/kutjevo/fake_wood,/area/space)
+"iL" = (/obj/structure/prop/hybrisa/misc/machinery/screens/frame,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "iM" = (/obj/structure/machinery/cm_vending/gear/medic_chemical/rmc,/turf/open/floor/prison/whitegreen/north,/area/space)
 "iQ" = (/obj/structure/flora/tree/dead/tree_2{pixel_x = -3; pixel_y = -25},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "iR" = (/obj/effect/decal/warning_stripes{icon_state = "E"},/obj/effect/decal/warning_stripes{icon_state = "W"; layer = 3.3},/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"iZ" = (/obj/effect/decal/strata_decals/mud_corner{dir = 8},/obj/effect/decal/strata_decals/mud_corner{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "ja" = (/obj/effect/decal/strata_decals/mud_corner{dir = 4},/obj/structure/prop/tyrargo/watchtower,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "jb" = (/obj/structure/machinery/cm_vending/sorted/medical/blood,/turf/open/floor/prison/whitegreen/north,/area/space)
 "jd" = (/obj/structure/flora/tree/dead/tree_5,/obj/effect/decal/strata_decals/mud_corner{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "je" = (/obj/effect/decal/cleanable/blood/oil,/turf/open/asphalt/cement,/area/space)
+"ji" = (/obj/structure/desertdam/decals/road_stop{dir = 1; icon_state = "stop_decal5"},/obj/structure/desertdam/decals/road_edge{icon_state = "road_edge_decal3"; pixel_y = 3; pixel_x = -1},/obj/structure/desertdam/decals/road_edge{icon_state = "road_edge_decal3"; pixel_y = 3; pixel_x = 4},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "jm" = (/obj/effect/decal/warning_stripes{icon_state = "N"; pixel_y = 2; pixel_x = -1},/turf/open/floor/plating/kutjevo,/area/space)
 "jn" = (/obj/structure/machinery/disposal/delivery,/obj/structure/machinery/light{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "jr" = (/obj/structure/flora/pottedplant{icon_state = "pottedplant_10"; pixel_x = -1; pixel_y = 1},/obj/structure/machinery/light/double,/turf/open/floor/prison,/area/space)
@@ -180,10 +193,14 @@
 "jZ" = (/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/rmc,/obj/structure/machinery/light/double/blue{light_color = "#dae2ff"},/turf/open/floor/prison/bright_clean,/area/space)
 "kd" = (/obj/structure/barricade/handrail/medical{dir = 4},/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/whitegreencorner/north,/area/space)
 "ke" = (/obj/item/trash/twe_mre{pixel_x = -8; pixel_y = -55},/turf/open/floor/prison/blue_plate/north,/area/space)
+"kf" = (/obj/effect/decal/strata_decals/mud_corner{dir = 4},/obj/effect/decal/strata_decals/mud_corner{dir = 1},/obj/item/lightstick/red/variant/planted,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "ki" = (/obj/structure/machinery/space_heater/radiator/red{pixel_x = 0; pixel_y = 23},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "kj" = (/obj/structure/dropship_equipment/weapon/laser_beam_gun,/obj/structure/machinery/light/double{dir = 4; pixel_x = 1; pixel_y = 14},/turf/open/floor/plating,/area/space)
 "kk" = (/obj/effect/decal/cleanable/dirt,/obj/structure/reagent_dispensers/water_cooler/stacks{density = 0; pixel_y = 16; pixel_x = -29; layer = 4},/obj/item/trash/cigbutt,/obj/structure/machinery/light/blue{dir = 1},/turf/open/floor/prison/blue_plate/north,/area/space)
 "kl" = (/obj/structure/cargo_container/hybrisa/containersextended/tanleft,/turf/open/floor/prison/blue_plate,/area/space)
+"km" = (/obj/effect/decal/hybrisa/dirt,/obj/effect/decal/hybrisa/tiretrack{dir = 4; pixel_x = -2; pixel_y = 5},/obj/effect/decal/hybrisa/tiretrack{dir = 4; pixel_x = -2; pixel_y = 5},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
+"kq" = (/obj/structure/platform_decoration/wood/east{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/kutjevo/fake_wood,/area/space)
+"ks" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal4"},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "kv" = (/obj/effect/decal/strata_decals/mud_corner,/obj/structure/barricade/hesco{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "kx" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "8,3"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/space)
 "ky" = (/obj/structure/closet/secure_closet/marine_personal/rmc/gunner{pixel_x = -8},/obj/structure/closet/secure_closet/marine_personal/rmc/rifleman{pixel_x = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
@@ -205,6 +222,7 @@
 "lz" = (/obj/structure/cargo_container/hybrisa/containersextended/tanleft,/turf/open/asphalt/cement,/area/space)
 "lG" = (/obj/structure/machinery/light/blue{dir = 8; pixel_y = -4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/space)
 "lH" = (/turf/closed/shuttle/twe_dropship/transparent{icon_state = "3,13"},/area/space)
+"lJ" = (/obj/effect/decal/strata_decals/mud_corner,/obj/effect/decal/strata_decals/mud_corner,/obj/structure/barricade/hesco{dir = 1},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "lM" = (/obj/effect/decal/warning_stripes{icon_state = "E"},/obj/effect/decal/warning_stripes{icon_state = "W"; layer = 3.3},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "lO" = (/turf/open/auto_turf/snow/brown_base/layer3{pixel_x = 0; pixel_y = 0},/area/space)
 "lR" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/power/apc/no_power/north,/turf/open/floor/prison/blue_plate,/area/space)
@@ -250,6 +268,7 @@
 "oz" = (/obj/effect/decal/cleanable/blood/oil,/obj/structure/machinery/landinglight/ds2/delaythree,/turf/open/asphalt/cement/cement12,/area/space)
 "oH" = (/obj/structure/machinery/computer/crew/alt{dir = 1; pixel_y = -24},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "oJ" = (/obj/structure/surface/rack{color = "#98a3ab"},/obj/item/weapon/knife/marine/kabar{pixel_x = 5; pixel_y = -3},/obj/item/clothing/mask/gas/pmc/royal_marine{pixel_x = -5; pixel_y = 4},/turf/open/asphalt/cement,/area/space)
+"oL" = (/obj/effect/decal/strata_decals/mud_corner{dir = 8},/obj/effect/decal/strata_decals/mud_corner{dir = 8},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "oO" = (/obj/structure/machinery/light/blue{dir = 4},/obj/effect/decal/cleanable/dirt,/obj/structure/flora/pottedplant{icon_state = "pottedplant_10"; pixel_x = -1; pixel_y = 1},/turf/open/floor/prison/blue_plate,/area/space)
 "oQ" = (/obj/effect/decal/cleanable/hybrisa/dirt,/obj/effect/decal/cleanable/hybrisa/dirt,/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/prison,/area/space)
 "oW" = (/obj/structure/machinery/medical_pod/sleeper{pixel_y = 6},/turf/open/floor/prison/whitegreen/east,/area/space)
@@ -260,26 +279,31 @@
 "pf" = (/obj/structure/largecrate/random/barrel/brown{pixel_y = 4; pixel_x = 7},/turf/open/floor/prison,/area/space)
 "pl" = (/obj/structure/machinery/power/apc/no_power/west,/obj/structure/machinery/vending/cigarette/wy,/turf/open/floor/prison/blue/west,/area/space)
 "pp" = (/obj/effect/decal/warning_stripes{icon_state = "E"},/turf/open/floor/prison/bright_clean/southwest,/area/space)
-"px" = (/obj/effect/decal/strata_decals/mud_corner{dir = 5},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
+"px" = (/obj/effect/decal/hybrisa/tiretrack{dir = 4; pixel_x = -2; pixel_y = 5},/obj/effect/decal/hybrisa/tiretrack{dir = 4; pixel_x = -2; pixel_y = 5},/obj/effect/decal/cleanable/generic,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "pD" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/computer/communications/simple{dir = 8; pixel_y = 1; pixel_x = 0},/turf/open/floor/prison/blue_plate/north,/area/space)
 "pM" = (/obj/structure/sign/poster/corporate{layer = 2.9; pixel_y = 32},/obj/structure/sign/poster/hunk{pixel_x = 4; pixel_y = 32},/turf/open/floor/prison/whitegreen/north,/area/space)
+"pO" = (/obj/structure/bed/chair/office/dark{dir = 1},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "pP" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/ammo_box/magazine/m39/squash{pixel_y = 17; pixel_x = 3},/obj/item/ammo_box/magazine/shotgun/buckshot{pixel_x = -4; pixel_y = 8},/obj/item/ammo_box/magazine/shotgun/buckshot{pixel_x = 4; pixel_y = -1},/turf/open/floor/prison/bright_clean,/area/space)
 "pR" = (/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "pS" = (/obj/structure/flora/wood/stick4,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
+"pT" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal12"},/obj/effect/decal/grass_overlay/grass1/dark{dir = 1},/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "pV" = (/obj/item/trash/hotdog,/turf/open/floor/prison/bright_clean/southwest,/area/space)
-"pX" = (/obj/structure/sign/poster/nspa{pixel_y = 31; pixel_x = -4},/turf/open/floor/prison/blue/northwest,/area/space)
+"pX" = (/turf/open/floor/prison/blue/northwest,/area/space)
+"pZ" = (/obj/effect/decal/hybrisa/road/road_stop{dir = 8; icon_state = "stop_decal5"},/obj/effect/decal/hybrisa/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "qa" = (/obj/structure/reagent_dispensers/water_cooler/stacks{density = 0; pixel_y = 16; pixel_x = -29; layer = 4},/obj/structure/machinery/light{dir = 1},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "qb" = (/obj/structure/surface/table/reinforced/prison{color = "#6b675e"},/obj/structure/machinery/prop/almayer/computer/PC{dir = 8; pixel_x = -1; pixel_y = 6},/obj/item/tool/pen/blue{pixel_y = -8; pixel_x = 5},/turf/open/floor/prison/blue,/area/space)
 "qd" = (/obj/effect/decal/strata_decals/mud_corner{dir = 8},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "qk" = (/obj/structure/machinery/light/double{dir = 1},/obj/structure/machinery/disposal/delivery,/turf/open/floor/strata/multi_tiles/west,/area/space)
 "qn" = (/obj/effect/decal/warning_stripes{icon_state = "E"; pixel_x = 2},/obj/effect/decal/cleanable/hybrisa/dirt,/obj/item/prop/colony/canister{pixel_y = 7},/turf/open/floor/prison,/area/space)
 "qo" = (/obj/structure/machinery/floodlight/landing/floor,/turf/open/floor/plating,/area/space)
+"qp" = (/obj/structure/machinery/door/poddoor/railing{dir = 2; id = "BarrierNorth"},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "qt" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "2,1"},/turf/open/floor/plating,/area/space)
 "qw" = (/turf/closed/shuttle/twe_dropship/transparent{icon_state = "4,14"},/area/space)
 "qy" = (/obj/item/tool/warning_cone{pixel_x = -4; pixel_y = 8},/turf/open/floor/plating,/area/space)
 "qB" = (/obj/effect/decal/strata_decals/mud_corner{dir = 9},/obj/effect/decal/strata_decals/mud_corner,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "qC" = (/obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,/turf/open/floor/prison/blue_plate,/area/space)
 "qI" = (/obj/structure/dropship_equipment/paradrop_system,/turf/open/floor/plating,/area/space)
+"qJ" = (/obj/effect/decal/hybrisa/road/road_edge,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt/greenglow{color = "#140400"; name = "dirt"},/obj/effect/decal/cleanable/generic,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "qL" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{dir = 1},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "qM" = (/obj/structure/largecrate/random/secure,/turf/open/floor/prison/blue_plate,/area/space)
 "qP" = (/turf/open/floor/prison/whitegreencorner/east,/area/space)
@@ -289,10 +313,14 @@
 "ra" = (/obj/effect/decal/warning_stripes{icon_state = "SE-out"; pixel_x = 1; pixel_y = 0},/turf/open/floor/plating/kutjevo,/area/space)
 "ri" = (/obj/effect/decal/strata_decals/mud_corner{dir = 1},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "ru" = (/obj/structure/surface/table/reinforced/prison{color = "#6b675e"},/obj/structure/machinery/faxmachine,/obj/item/paper,/turf/open/floor/prison/blue,/area/space)
+"rx" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal4"},/obj/effect/decal/hybrisa/road/lines2,/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "rz" = (/obj/structure/bed/hybrisa/bunkbed1{dir = 4},/obj/structure/machinery/light,/turf/open/floor/strata/fake_wood,/area/space)
 "rB" = (/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "rC" = (/turf/open/floor/prison/whitegreen/west,/area/space)
+"rH" = (/obj/effect/decal/cleanable/dirt,/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
+"rI" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal12"},/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "rJ" = (/obj/structure/machinery/big_computers/computerblack/computer4,/turf/open/floor/prison/blue/northwest,/area/space)
+"rK" = (/obj/structure/machinery/door/airlock/hybrisa/generic/autoname{dir = 1},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "rL" = (/obj/structure/barricade/sandbags/wired{icon_state = "sandbag_0"; color = "#a98c7c"; layer = 3.9; pixel_y = 12; pixel_x = -7},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "rM" = (/obj/item/trash/upp_mre{pixel_x = -2; pixel_y = 22},/obj/item/trash/cigbutt{pixel_x = 9; pixel_y = 2},/obj/item/trash/cigbutt{pixel_x = 16; pixel_y = -5},/obj/item/trash/cigbutt/bcigbutt,/turf/open/floor/strata/fake_wood,/area/space)
 "rQ" = (/obj/item/lightstick/red/variant/planted,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
@@ -300,6 +328,7 @@
 "rV" = (/obj/item/reagent_container/food/condiment/sugar,/obj/item/reagent_container/food/condiment/enzyme,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/structure/closet{desc = "It's a fancy storage unit for long-life foodstuffs."; name = "long-life foodstuff storage"; pixel_x = 0; pixel_y = 0},/obj/item/storage/box/powderedmilk,/obj/item/reagent_container/food/condiment/juice/egg,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "rZ" = (/obj/structure/surface/table/reinforced/black,/obj/item/ammo_box/magazine/vp78/rmc{pixel_y = 6},/obj/item/ammo_box/magazine/vp78/rmc{pixel_y = 15},/obj/item/ammo_box/magazine/m39/squash{pixel_x = -6; pixel_y = -2},/obj/item/ammo_box/magazine/shotgun/buckshot{pixel_y = 7; pixel_x = -6},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "sb" = (/obj/structure/filingcabinet{pixel_x = 9; pixel_y = 16},/turf/open/floor/prison/blue_plate/north,/area/space)
+"se" = (/obj/structure/platform/wood/west,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "sg" = (/obj/item/ammo_box/magazine/nsg23/large{pixel_x = 0; pixel_y = -5},/obj/structure/surface/rack,/obj/structure/machinery/light/double{dir = 4},/obj/item/ammo_box/magazine/nsg23/large{pixel_x = 0; pixel_y = 4},/turf/open/floor/prison/bright_clean,/area/space)
 "sh" = (/obj/structure/surface/rack,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/turf/open/floor/prison/darkbrown2/west,/area/space)
 "si" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/sterile_white,/area/space)
@@ -313,6 +342,7 @@
 "sw" = (/obj/item/trash/twe_mre,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "sy" = (/obj/effect/decal/strata_decals/mud_corner{dir = 6},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "sz" = (/turf/open/asphalt/cement,/area/space)
+"sA" = (/obj/item/stool{pixel_x = -2; pixel_y = 12},/turf/open/floor/kutjevo/fake_wood,/area/space)
 "sB" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/computer/hybrisa{pixel_x = 11; pixel_y = 7},/turf/open/floor/prison/blue/north,/area/space)
 "sC" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "4,15"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/space)
 "sE" = (/obj/structure/window/framed/hybrisa/colony/reinforced,/obj/structure/machinery/door/poddoor/hybrisa/open_shutters,/turf/open/space/basic,/area/space)
@@ -339,11 +369,14 @@
 "ud" = (/obj/item/trash/twe_mre{pixel_x = 10; pixel_y = -9},/turf/open/floor/prison/blue_plate/north,/area/space)
 "ug" = (/obj/structure/flora/tree/dead/tree_4,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "uh" = (/obj/structure/surface/table/reinforced/prison{color = "#8e98a0"},/obj/item/tool/pen/fountain{pixel_x = 4},/obj/item/book/manual/surgery{pixel_y = 4; pixel_x = -5},/obj/item/clothing/head/surgery/blue{pixel_x = 4; pixel_y = 11},/turf/open/floor/prison/whitegreen/west,/area/space)
+"ui" = (/obj/structure/platform/wood/west{dir = 2},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "um" = (/obj/structure/ship_ammo/rocket/thermobaric,/obj/structure/machinery/light/double,/turf/open/floor/plating,/area/space)
 "us" = (/obj/structure/flora/tree/tyrargo{pixel_x = -5; pixel_y = -8; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "ux" = (/obj/item/trash/cigbutt{pixel_x = -10; pixel_y = 14},/turf/open/floor/prison,/area/space)
+"uy" = (/obj/item/explosive/mine/pmc/active{dir = 4},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "uz" = (/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar{roundstart_template = /datum/map_template/shuttle/gibraltar; name = "Port Hangar Bay"},/turf/open/floor/plating,/area/space)
 "uB" = (/obj/structure/closet/secure_closet/marine_personal/rmc/rifleman{pixel_x = 8},/obj/structure/closet/secure_closet/marine_personal/rmc/rifleman{pixel_x = -8; pixel_y = 0},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"uC" = (/obj/item/explosive/mine/pmc/active{dir = 4},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "uD" = (/turf/closed/shuttle/twe_dropship{icon_state = "8,6"},/area/space)
 "uF" = (/obj/structure/largecrate/random/secure,/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/plating/kutjevo,/area/space)
 "uG" = (/obj/structure/closet/secure_closet/rmc_smartgunner,/obj/item/weapon/gun/smartgun/rmc/unloaded{pixel_x = 4; pixel_y = -2},/obj/item/smartgun_battery{pixel_x = -5; pixel_y = 9},/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
@@ -352,7 +385,7 @@
 "uP" = (/obj/structure/machinery/medical_pod/bodyscanner{pixel_y = 6},/obj/structure/machinery/light/double,/turf/open/floor/prison/whitegreen/southeast,/area/space)
 "uR" = (/obj/structure/flora/tree/dead/tree_3,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "uU" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/door/poddoor/shutters/almayer{dir = 4; id = "squadarmory"; name = "\improper Gear Lockers"},/turf/open/floor/prison/bright_clean/southwest,/area/space)
-"uY" = (/obj/effect/decal/strata_decals/mud_corner{dir = 1},/obj/structure/fence/dark,/obj/effect/decal/strata_decals/mud_corner{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
+"uY" = (/obj/effect/decal/hybrisa/road/road_stop{dir = 8; icon_state = "stop_decal5"},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "vd" = (/obj/structure/cargo_container/seegson/right,/turf/open/floor/prison/blue_plate,/area/space)
 "ve" = (/obj/effect/decal/strata_decals/mud_corner{dir = 8},/obj/structure/barricade/hesco{dir = 4},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "vf" = (/obj/structure/closet/secure_closet/marine_personal/rmc/troop_commander{pixel_x = -8; pixel_y = 0},/obj/structure/closet/secure_closet/marine_personal/rmc/troop_leader{pixel_x = 8; pixel_y = 0},/turf/open/floor/almayer/plate,/area/space)
@@ -361,6 +394,7 @@
 "vr" = (/obj/effect/decal/warning_stripes{icon_state = "S"; layer = 3.3; pixel_y = -1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "vs" = (/turf/open/floor/prison/whitegreen/east,/area/space)
 "vv" = (/obj/structure/machinery/cm_vending/sorted/tech/electronics_storage,/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"vw" = (/obj/effect/decal/hybrisa/road/road_stop{dir = 8; icon_state = "stop_decal5"},/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "vz" = (/obj/effect/decal/strata_decals/grime/grime4{icon_state = "grime3"; pixel_x = -10; pixel_y = -2},/turf/open/floor/prison,/area/space)
 "vJ" = (/obj/effect/decal/strata_decals/mud_corner{dir = 1},/turf/open/auto_turf/snow/brown_base/layer1,/area/space)
 "vL" = (/obj/structure/machinery/light/double{dir = 8},/obj/structure/machinery/power/apc/no_power/north,/turf/open/floor/prison/bright_clean/southwest,/area/space)
@@ -373,7 +407,7 @@
 "wk" = (/obj/structure/sign/banners/twe_flag{pixel_y = 60; pixel_x = -12},/obj/item/clothing/head/cmcap/royal_marine/iasf/commander_cap{pixel_x = -4; pixel_y = -9},/turf/open/floor/prison/blue_plate/north,/area/space)
 "wl" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "4,10"},/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,/area/space)
 "wo" = (/obj/effect/decal/cleanable/hybrisa/dirt_2,/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/almayer/no_build,/area/space)
-"wq" = (/obj/effect/decal/strata_decals/mud_corner{dir = 1},/obj/effect/decal/strata_decals/mud_corner{dir = 4},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
+"wq" = (/turf/closed/wall/wood,/area/space)
 "wu" = (/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = 2; pixel_y = 6},/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/space)
 "wv" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "2,13"; density = 0},/turf/open/floor/plating,/area/space)
 "ww" = (/obj/structure/bed/hybrisa/bunkbed1{dir = 4},/obj/structure/machinery/light{dir = 1},/turf/open/floor/strata/fake_wood,/area/space)
@@ -396,6 +430,7 @@
 "xr" = (/obj/structure/prop/hybrisa/misc/machinery/screens/redalert,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "xv" = (/obj/structure/machinery/computer/communications{dir = 4; pixel_y = 5},/obj/structure/surface/table/reinforced/prison{color = "#6b675e"},/turf/open/floor/prison/blue,/area/space)
 "xx" = (/turf/open/floor/prison/bluecorner/north,/area/space)
+"xz" = (/obj/effect/decal/hybrisa/road/road_stop{dir = 8; icon_state = "stop_decal5"},/obj/effect/decal/hybrisa/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "xC" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "xI" = (/obj/structure/machinery/vending/snack,/obj/structure/machinery/light/double,/turf/open/floor/prison,/area/space)
 "xM" = (/obj/structure/closet/secure_closet/marine_personal/rmc/medic{pixel_x = -8},/obj/structure/closet/secure_closet/marine_personal/rmc/rifleman{pixel_x = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
@@ -411,6 +446,8 @@
 "yj" = (/obj/structure/cargo_container/watatsumi/left,/turf/open/floor/prison/blue_plate,/area/space)
 "yn" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/hybrisa/coffee_machine,/obj/structure/machinery/light{dir = 4},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "yq" = (/obj/structure/cargo_container/lockmart/right,/turf/open/asphalt/cement,/area/space)
+"ys" = (/obj/structure/desertdam/decals/road_stop{dir = 1; icon_state = "stop_decal5"},/obj/structure/desertdam/decals/road_stop{icon_state = "stop_decal2"; pixel_y = -12},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
+"yu" = (/obj/structure/barricade/handrail/strata{dir = 8},/obj/item/stool{pixel_x = -2; pixel_y = 12},/turf/open/floor/kutjevo/fake_wood,/area/space)
 "yw" = (/obj/effect/decal/warning_stripes{icon_state = "S"; pixel_x = -1},/obj/effect/decal/cleanable/hybrisa/dirt_2,/turf/open/floor/plating,/area/space)
 "yx" = (/obj/structure/closet/toolcloset,/turf/open/floor/prison,/area/space)
 "yA" = (/obj/effect/decal/strata_decals/mud_corner,/turf/open/auto_turf/snow/brown_base/layer1,/area/space)
@@ -429,21 +466,27 @@
 "zm" = (/obj/structure/largecrate/random/mini/med{pixel_x = -6; pixel_y = 12},/turf/open/floor/prison/blue_plate,/area/space)
 "zn" = (/turf/open/asphalt/cement/cement15,/area/space)
 "zq" = (/obj/structure/surface/rack{color = "#98a3ab"},/obj/item/tool/weldingtool/simple{pixel_x = -3; pixel_y = 8},/obj/item/tool/weldpack{pixel_x = 7; pixel_y = 0},/turf/open/floor/prison,/area/space)
-"zt" = (/obj/item/lightstick/red/variant/planted,/obj/effect/decal/strata_decals/mud_corner{dir = 8},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
+"zt" = (/obj/effect/decal/strata_decals/mud_corner{dir = 8},/obj/structure/desertdam/decals/road_stop{dir = 4; icon_state = "stop_decal5"; pixel_x = 4},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "zx" = (/obj/structure/window/framed/hybrisa/colony/reinforced,/obj/structure/machinery/door/poddoor/hybrisa/open_shutters,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "zz" = (/turf/open/floor/prison/blue/north,/area/space)
+"zK" = (/obj/effect/decal/strata_decals/mud_corner{dir = 8},/obj/effect/decal/strata_decals/mud_corner{dir = 10},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "zM" = (/obj/structure/machinery/landinglight/ds2/delaythree{dir = 1},/turf/open/asphalt/cement/cement4,/area/space)
 "zP" = (/obj/structure/surface/rack{color = "#424a50"},/obj/structure/machinery/light,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "zQ" = (/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/plating,/area/space)
+"zT" = (/obj/effect/decal/cleanable/dirt,/obj/structure/phone_base/colony_net{pixel_y = 29; phone_category = "Redemption Outpost"; phone_id = "Checkpoint"},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"zZ" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal4"},/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Aa" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/hybrisa/trash{icon_state = "trash_2"; pixel_x = -8; pixel_y = 12},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"Ac" = (/obj/effect/decal/hybrisa/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Af" = (/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Ag" = (/obj/structure/surface/table/reinforced/prison{color = "#8e98a0"},/obj/structure/machinery/recharger{pixel_y = 3},/obj/structure/machinery/light/double,/turf/open/floor/prison/whitegreen/southwest,/area/space)
 "Ah" = (/obj/effect/decal/cleanable/dirt,/obj/structure/surface/table/almayer{color = "#848484"},/obj/item/prop/helmetgarb/spent_buckshot,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Am" = (/obj/structure/machinery/landinglight/ds2/delaythree{dir = 4},/turf/open/asphalt/cement/cement1,/area/space)
 "Ap" = (/obj/structure/machinery/big_computers/computerblack/computer5,/turf/open/floor/prison/blue/north,/area/space)
 "Aq" = (/obj/structure/surface/table/reinforced/black,/obj/item/stack/sheet/plasteel{amount = 40; pixel_x = 7; pixel_y = 6},/obj/item/stack/sheet/metal/large_stack,/obj/item/stack/barbed_wire/full_stack,/obj/structure/closet/crate/construction{pixel_y = 8},/obj/effect/decal/cleanable/dirt,/obj/item/ammo_box/magazine/nade_box/rmc/incen{pixel_x = 24; pixel_y = -2},/turf/open/floor/prison/bright_clean,/area/space)
+"Ar" = (/obj/item/stool,/obj/effect/decal/cleanable/dirt,/turf/open/floor/kutjevo/fake_wood,/area/space)
 "At" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/prop/almayer/computer/PC{dir = 8; pixel_x = -1; pixel_y = 6},/turf/open/floor/prison/blue,/area/space)
 "Au" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/obj/effect/decal/cleanable/dirt{layer = 2.52},/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/blue_plate,/area/space)
+"AA" = (/obj/effect/decal/strata_decals/mud_corner{dir = 4},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "AC" = (/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = -7; pixel_y = 6},/turf/open/floor/hybrisa/carpet/rug_colorable/black/southeast,/area/space)
 "AG" = (/obj/structure/bed/chair,/turf/open/floor/hybrisa/carpet/rug_colorable/black/northeast,/area/space)
 "AI" = (/obj/structure/largecrate/supply/generator,/turf/open/floor/prison/blue_plate,/area/space)
@@ -451,6 +494,7 @@
 "AL" = (/obj/item/ashtray/bronze{icon_state = "ashtray_full_bl"; pixel_x = -17; pixel_y = -19},/obj/structure/machinery/door_control{pixel_y = 23; needs_power = 0; id = 8; pixel_x = -8},/turf/open/floor/prison/blue_plate,/area/space)
 "AN" = (/obj/structure/largecrate/supply/weapons/flamers,/turf/open/floor/prison/blue_plate,/area/space)
 "AR" = (/obj/structure/flora/tree/dead/tree_6,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
+"AW" = (/obj/effect/decal/hybrisa/road/lines2,/obj/effect/decal/hybrisa/tiretrack{dir = 4; pixel_x = -2; pixel_y = 5},/obj/effect/decal/hybrisa/tiretrack{dir = 4; pixel_x = -2; pixel_y = 5},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "AY" = (/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,/area/space)
 "Bd" = (/obj/structure/barricade/handrail/wire{dir = 8; layer = 3.01},/obj/structure/machinery/space_heater/radiator/red{pixel_x = 0; pixel_y = 21},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Be" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/bluecorner,/area/space)
@@ -469,6 +513,7 @@
 "BN" = (/turf/open/asphalt/cement/cement12,/area/space)
 "BS" = (/obj/structure/machinery/landinglight/ds2/delayone{dir = 8},/obj/structure/machinery/landinglight/ds2/spoke{pixel_x = -12},/turf/open/asphalt/cement/cement3,/area/space)
 "BU" = (/obj/effect/decal/cleanable/dirt,/obj/item/trash/cigbutt,/turf/open/floor/prison/blue_plate,/area/space)
+"Ca" = (/obj/structure/platform_decoration/wood/north,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Cm" = (/obj/structure/machinery/big_computers/computerblack/computer2{pixel_x = 10; pixel_y = 0},/turf/open/floor/prison/darkbrown2/north,/area/space)
 "Cq" = (/obj/item/lightstick/red/variant/planted,/obj/effect/decal/strata_decals/mud_corner{dir = 6},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Cr" = (/obj/effect/decal/cleanable/dirt,/turf/open/hybrisa/street/sidewalk/southwest,/area/space)
@@ -481,7 +526,7 @@
 "CH" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "1,0"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/space)
 "CK" = (/obj/structure/flora/tree/tyrargo{pixel_x = -46; pixel_y = -1; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "CL" = (/obj/structure/machinery/landinglight/ds2/delaytwo{dir = 8},/turf/open/asphalt/cement/cement3,/area/space)
-"CN" = (/obj/effect/decal/strata_decals/mud_corner{dir = 4},/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
+"CN" = (/obj/structure/platform/wood/west{dir = 4},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "CQ" = (/obj/structure/machinery/door/poddoor{explo_proof = 1; needs_power = 0; unacidable = 1; name = "\improper Escape Tunnel Lockdown"; emp_proof = 1; dir = 4; pixel_x = 32; density = 0},/turf/open/asphalt/cement/cement4,/area/space)
 "CR" = (/obj/structure/largecrate/random/barrel,/turf/open/floor/prison/blue_plate,/area/space)
 "CS" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light/blue,/obj/structure/closet/firecloset,/turf/open/floor/prison/blue_plate,/area/space)
@@ -489,14 +534,17 @@
 "CU" = (/obj/effect/decal/strata_decals/mud_corner{dir = 8},/obj/structure/flora/tree/tyrargo{layer = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "CZ" = (/obj/structure/cargo_container/wy2/left,/turf/open/floor/prison/blue_plate,/area/space)
 "Db" = (/obj/structure/bed/chair/vehicle{pixel_x = -8},/turf/open/shuttle/dropship/light_grey_top_left,/area/space)
+"Dc" = (/obj/item/explosive/mine/pmc/active{dir = 8},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "Dg" = (/obj/structure/machinery/microwave{density = 0; pixel_y = 9},/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/light{dir = 4},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Dk" = (/obj/structure/machinery/door/poddoor/almayer/closed{id = "Hangar"; name = "\improper Lockdown"; vehicle_resistant = 1; dir = 8},/turf/open/floor/plating,/area/space)
-"Dm" = (/obj/structure/prop/hybrisa/misc/machinery/screens/redalert{light_color = "#FF0000"; light_on = 1; light_power = 3; light_range = 5; pixel_y = 32},/obj/effect/decal/warning_stripes{icon_state = "NE-out"; pixel_y = 2},/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/blue/north,/area/space)
+"Dm" = (/obj/effect/decal/warning_stripes{icon_state = "NE-out"; pixel_y = 2},/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/blue/north,/area/space)
 "Do" = (/obj/structure/surface/table/reinforced/prison{color = "#6b675e"},/obj/item/prop/almayer/comp_open,/turf/open/floor/prison/blue/east,/area/space)
 "Dp" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Dr" = (/obj/structure/sign/nosmoking_1{layer = 2.8; pixel_x = 30},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
+"Dw" = (/obj/effect/decal/strata_decals/mud_corner{dir = 1},/obj/item/lightstick/red/variant/planted,/obj/effect/decal/strata_decals/mud_corner{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Dy" = (/obj/effect/decal/cleanable/blood/gibs/robot,/turf/open/floor/prison,/area/space)
 "Dz" = (/obj/structure/machinery/door/poddoor/almayer/closed{id = "souter_east"; name = "\improper Lockdown"; vehicle_resistant = 1; dir = 8},/turf/open/floor/strata/multi_tiles/west,/area/space)
+"DA" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal3"},/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "DB" = (/obj/structure/machinery/autodoc_console{dir = 1; pixel_y = 6},/turf/open/floor/prison/sterile_white,/area/space)
 "DD" = (/obj/structure/coatrack{pixel_x = 3; pixel_y = 11},/obj/structure/machinery/light,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "DF" = (/obj/structure/bed/roller/hospital_empty/bigrollerempty{icon_state = "bigrollerempty_up"},/turf/open/floor/prison/sterile_white,/area/space)
@@ -507,6 +555,7 @@
 "DV" = (/obj/effect/decal/strata_decals/mud_corner,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "DW" = (/obj/structure/flora/tree/tyrargo{layer = 8; pixel_x = -16; pixel_y = 12},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "DX" = (/obj/structure/largecrate/random/case/small,/obj/structure/largecrate/random/mini/ammo{pixel_x = -9; pixel_y = 9},/turf/open/floor/prison/blue_plate,/area/space)
+"Ea" = (/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Ec" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/obj/structure/closet/secure_closet/marine_personal/rmc/smartgunner{pixel_x = 8},/obj/structure/closet/secure_closet/marine_personal/rmc/marksman{pixel_x = -8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Eg" = (/obj/structure/surface/table/reinforced/prison{color = "#8e98a0"},/obj/item/roller,/turf/open/floor/prison/whitegreencorner/west,/area/space)
 "Ek" = (/obj/structure/machinery/floodlight/landing/floor,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/space)
@@ -520,6 +569,7 @@
 "EA" = (/obj/effect/decal/cleanable/dirt,/obj/vehicle/powerloader{layer = 5},/obj/structure/machinery/light/double,/turf/open/floor/mech_bay_recharge_floor,/area/space)
 "EB" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/strata/fake_wood,/area/space)
 "EF" = (/obj/structure/machinery/light/blue,/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/blue_plate,/area/space)
+"EJ" = (/obj/structure/barricade/handrail/strata{dir = 8},/turf/open/floor/kutjevo/fake_wood,/area/space)
 "EK" = (/obj/effect/decal/cleanable/dirt,/turf/open/hybrisa/street/sidewalk/northeast,/area/space)
 "EQ" = (/obj/structure/machinery/big_computers/messaging_server,/turf/open/floor/prison/blue_plate,/area/space)
 "EU" = (/obj/structure/flora/tree/tyrargo{pixel_x = -5; pixel_y = -8; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
@@ -537,25 +587,32 @@
 "Fw" = (/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{dir = 8},/turf/open/floor/almayer/blackfull/west,/area/space)
 "Fy" = (/obj/structure/flora/tree/dead/tree_3,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "FG" = (/obj/structure/dropship_equipment/weapon/minirocket_pod,/turf/open/floor/plating,/area/space)
+"FI" = (/obj/effect/decal/hybrisa/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "FK" = (/obj/structure/cargo_container/lockmart/mid,/turf/open/asphalt/cement,/area/space)
+"FL" = (/obj/structure/barricade/handrail/strata{dir = 8},/obj/item/device/flashlight/lamp/tripod/grey{pixel_x = -5; pixel_y = 0},/turf/open/floor/kutjevo/fake_wood,/area/space)
+"FM" = (/obj/structure/surface/table/almayer{color = "#848484"},/obj/item/reagent_container/food/drinks/coffeecup/uscm{pixel_x = 6; name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."; pixel_y = -1},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "FS" = (/obj/structure/closet/secure_closet/rmc_section_leader{pixel_x = -7; pixel_y = -1},/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "FV" = (/turf/closed/shuttle/twe_dropship{icon_state = "1,4"},/area/space)
 "FX" = (/obj/effect/decal/cleanable/hybrisa/dirt,/obj/structure/largecrate/random/barrel/black{pixel_x = 3; pixel_y = -12; layer = 6},/turf/open/floor/prison,/area/space)
 "Gb" = (/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/start/bridge/rmc,/obj/effect/landmark/start/marine/leader/rmc,/obj/effect/landmark/late_join/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"Ge" = (/obj/structure/platform_decoration/wood/north{dir = 2},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Gk" = (/obj/structure/flora/tree/dead/tree_2{pixel_y = 4; pixel_x = -25},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Gm" = (/obj/structure/cargo_container/hybrisa/containersextended/redleft,/turf/open/asphalt/cement,/area/space)
 "Gn" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/space)
 "Gp" = (/obj/structure/toilet{dir = 1},/obj/structure/barricade/metal{dir = 8; pixel_x = -1},/obj/structure/barricade/metal{dir = 4; pixel_x = 1},/obj/structure/barricade/metal{dir = 8; pixel_y = 8; pixel_x = -1},/obj/structure/barricade/metal{dir = 4; pixel_y = 8; pixel_x = 1},/obj/structure/curtain/blue,/turf/open/floor/plating/plating_catwalk/aicore/white,/area/space)
-"Gq" = (/obj/effect/decal/strata_decals/mud_corner{dir = 5},/obj/structure/barricade/hesco{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
+"Gq" = (/obj/structure/stairs/perspective{icon_state = "p_stair_sn_full_cap"; color = "#8B7B5B"},/obj/structure/platform/wood/west,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Gs" = (/turf/open/floor/almayer/blackfull/west,/area/space)
 "Gu" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/prop/almayer/computer/PC{dir = 8; pixel_x = -1; pixel_y = 6},/obj/item/reagent_container/food/drinks/coffeecup/uscm{pixel_x = 6; pixel_y = -3; name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."},/obj/structure/machinery/light/blue,/turf/open/floor/prison/blue/southeast,/area/space)
 "GA" = (/obj/structure/machinery/optable,/obj/structure/machinery/light/double,/turf/open/floor/prison/whitegreen,/area/space)
 "GI" = (/obj/structure/cargo_container/wy2/right,/turf/open/floor/prison/blue_plate,/area/space)
 "GJ" = (/obj/structure/surface/table/reinforced/prison{color = "#8e98a0"},/obj/structure/machinery/computer/med_data/laptop{dir = 4},/turf/open/floor/prison/whitegreen/west,/area/space)
 "GM" = (/obj/structure/closet/secure_closet/marine_personal/rmc/engi{pixel_x = -8},/obj/structure/closet/secure_closet/marine_personal/rmc/rifleman{pixel_x = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"GQ" = (/obj/structure/fence/dark,/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "GR" = (/turf/open/floor/prison/whitegreen,/area/space)
 "GU" = (/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = -8; pixel_y = 0},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"Hb" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal3"},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Hc" = (/obj/structure/machinery/cm_vending/sorted/medical,/turf/open/floor/prison/whitegreen/north,/area/space)
+"Hd" = (/obj/structure/barricade/handrail/strata{dir = 4},/obj/item/stool{pixel_x = -2; pixel_y = 17},/obj/effect/decal/cleanable/dirt,/turf/open/floor/kutjevo/fake_wood,/area/space)
 "Hg" = (/obj/structure/prop/hybrisa/signs/high_voltage/small{pixel_y = 32},/obj/structure/machinery/big_computers/computerblack/computer4,/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/darkbrown2/northeast,/area/space)
 "Hk" = (/obj/structure/noticeboard{pixel_y = 32},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Hr" = (/obj/structure/machinery/shower{dir = 4; layer = 3.2},/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 1; pixel_y = 10},/turf/open/floor/plating/plating_catwalk/strata,/area/space)
@@ -573,15 +630,21 @@
 "HP" = (/obj/structure/surface/table/reinforced/prison,/obj/structure/machinery/computer/shuttle/dropship/flight/lz2,/turf/open/floor/plating,/area/space)
 "If" = (/obj/item/device/cassette_tape/aesthetic{pixel_x = -1; pixel_y = 0},/obj/item/ashtray/bronze{icon_state = "ashtray_full_bl"; pixel_x = -1; pixel_y = 9},/turf/open/floor/strata/fake_wood,/area/space)
 "Ih" = (/obj/structure/largecrate/random/secure,/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"In" = (/obj/structure/surface/table/almayer{color = "#848484"},/obj/item/ashtray/plastic{pixel_y = -2; pixel_x = 3},/obj/structure/machinery/door/poddoor/shutters/almayer{dir = 1; id = "ROlobby2"; name = "\improper  Line "},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"Ir" = (/obj/structure/surface/table/almayer{color = "#848484"},/obj/structure/machinery/door/poddoor/shutters/almayer{dir = 1; id = "ROlobby2"; name = "\improper  Line "},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Is" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{density = 0},/turf/open/floor/plating,/area/space)
 "Iu" = (/obj/effect/decal/cleanable/dirt,/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/drinks/cans/food/upp/soup{pixel_x = 6; pixel_y = 0},/obj/item/reagent_container/food/drinks/cans/food/upp/soup{pixel_x = -4; pixel_y = -1},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Iy" = (/obj/structure/flora/tree/dead/tree_1,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "IC" = (/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/drinks/coffeecup/wy{pixel_x = -7; pixel_y = 4},/obj/item/reagent_container/food/drinks/coffeecup/wy{layer = 4; pixel_x = 8; pixel_y = 12},/obj/item/reagent_container/food/drinks/coffeecup/uscm{pixel_x = 6; name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."; pixel_y = -1},/turf/open/floor/prison/blue_plate,/area/space)
+"ID" = (/obj/structure/platform_decoration/wood/east{dir = 8},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "IE" = (/obj/structure/machinery/light/double{dir = 8},/obj/effect/decal/strata_decals/catwalk/prison,/turf/open/floor/plating/kutjevo,/area/space)
+"IF" = (/obj/effect/decal/strata_decals/mud_corner{dir = 6},/obj/structure/platform/wood/west{dir = 1},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "II" = (/obj/structure/barricade/handrail/medical{dir = 4},/turf/open/floor/prison/sterile_white,/area/space)
 "IJ" = (/obj/structure/flora/tree/tyrargo{pixel_x = -22; pixel_y = -15},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "IK" = (/obj/effect/decal/strata_decals/mud_corner{dir = 4},/turf/open/auto_turf/snow/brown_base/layer1,/area/space)
 "IM" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/largecrate/random/case/small,/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"IP" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal3"},/obj/effect/decal/grass_overlay/grass1/dark{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
+"IQ" = (/obj/structure/surface/table/almayer{color = "#848484"},/obj/structure/machinery/door_control{id = "ROlobby2"; name = "Line Shutters"; pixel_x = 5; pixel_y = 10; req_one_access_txt = "1;21"},/obj/item/ashtray/plastic{pixel_y = -2; pixel_x = 3},/obj/structure/machinery/door_control/brbutton/alt{pixel_y = 10; pixel_x = -7; id = "BarrierNorth"; name = "Barrier - North"},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "IR" = (/obj/effect/decal/strata_decals/mud_corner{dir = 4},/obj/structure/flora/tree/tyrargo{layer = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "IX" = (/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/almayer/blackfull/west,/area/space)
 "Ja" = (/obj/structure/surface/table/almayer{color = "#848484"},/obj/item/prop/scrap{pixel_x = -6; pixel_y = 12},/obj/item/prop/helmetgarb/prescription_bottle{pixel_x = 10; pixel_y = 3},/turf/open/floor/prison/bright_clean/southwest,/area/space)
@@ -592,10 +655,12 @@
 "Jl" = (/obj/structure/cargo_container/hybrisa/containersextended/redright,/turf/open/asphalt/cement,/area/space)
 "Jn" = (/obj/item/stool{pixel_x = 9; pixel_y = 0},/obj/item/trash/twe_mre{pixel_x = 9; pixel_y = 11},/obj/item/stack/sheet/wood{pixel_x = -12; pixel_y = 5},/obj/item/storage/fancy/cigarettes/trading_card{layer = 4; pixel_x = -17; pixel_y = 16},/turf/open/asphalt/cement/cement12,/area/space)
 "Jo" = (/obj/effect/decal/strata_decals/mud_corner{dir = 6},/obj/effect/decal/strata_decals/mud_corner{dir = 9},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
+"Jp" = (/obj/effect/decal/strata_decals/mud_corner{dir = 5},/obj/structure/prop/hybrisa/misc/trash,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "Ju" = (/obj/effect/decal/cleanable/hybrisa/dirt,/obj/structure/largecrate/random/barrel/black{pixel_x = -8; pixel_y = 35; layer = 4},/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/prison,/area/space)
 "Jv" = (/obj/structure/sign/poster/blacklight{pixel_x = 5; pixel_y = 5},/obj/structure/sign/poster/nspa{pixel_x = 0; pixel_y = 2},/obj/structure/sign/poster/wylogo{pixel_x = -6; pixel_y = 7},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "JC" = (/obj/effect/decal/cleanable/hybrisa/dirt,/obj/structure/largecrate/random/case/double,/turf/open/floor/prison,/area/space)
 "JE" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/prison/blue_plate,/area/space)
+"JH" = (/obj/effect/decal/strata_decals/mud_corner,/obj/structure/barricade/hesco{dir = 1},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "JM" = (/obj/structure/machinery/recharge_station,/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/prison/darkbrown2/southwest,/area/space)
 "JN" = (/obj/structure/machinery/cm_vending/gear/mortar_stuff,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "JO" = (/obj/structure/cargo_container/watatsumi/mid,/turf/open/floor/prison/blue_plate,/area/space)
@@ -616,14 +681,17 @@
 "KP" = (/turf/closed/shuttle/twe_dropship{icon_state = "0,7"},/area/space)
 "KS" = (/obj/effect/decal/warning_stripes{icon_state = "S"; layer = 3.3; pixel_y = -1},/obj/structure/machinery/disposal/delivery,/turf/open/floor/prison/darkbrown2/east,/area/space)
 "KT" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "6,0"},/turf/open/floor/plating,/area/space)
-"KU" = (/obj/structure/largecrate/random/barrel/black{pixel_x = -39; pixel_y = -5},/obj/structure/machinery/power/terminal{dir = 1; pixel_x = 0; pixel_y = 5},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"KU" = (/obj/structure/largecrate/random/barrel/black{pixel_x = -39; pixel_y = -5},/obj/structure/machinery/power/terminal{dir = 1; pixel_x = 0; pixel_y = 5},/obj/structure/phone_base/colony_net{phone_category = "Redemption Outpost"; phone_color = "red"; phone_id = "Flight Control"; pixel_y = -27; dir = 1},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "KV" = (/obj/structure/flora/tree/dead/tree_6,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "KW" = (/obj/structure/flora/wood/stick4,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
+"KZ" = (/obj/structure/flora/tree/tyrargo{layer = 8},/obj/structure/platform_decoration/wood/east{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "La" = (/obj/structure/flora/tree/tyrargo{pixel_x = -11; pixel_y = -15; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Lb" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Ld" = (/obj/structure/surface/table/almayer{color = "#EBD9B7"},/obj/item/clothing/gloves/marine/veteran/insulated{pixel_y = 4},/obj/item/clothing/glasses/welding{layer = 3.6; pixel_x = -4; pixel_y = 10},/turf/open/floor/prison/darkbrown2/west,/area/space)
+"Lf" = (/obj/effect/decal/strata_decals/mud_corner{dir = 1},/obj/effect/decal/strata_decals/mud_corner{dir = 10},/obj/structure/platform_decoration/wood/east,/turf/open/auto_turf/snow/brown_base/layer1,/area/space)
 "Lg" = (/obj/structure/machinery/power/apc/no_power/north,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Lh" = (/obj/structure/machinery/landinglight/ds2/delayone{dir = 4},/turf/open/asphalt/cement/cement1,/area/space)
+"Lq" = (/obj/effect/decal/hybrisa/road/lines2,/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Lv" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/cm_vending/sorted/marine_food/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Lw" = (/obj/structure/sign/banners/twe_worn{pixel_y = 32},/obj/structure/sign/catclock{pixel_x = -9; pixel_y = 32},/obj/structure/machinery/computer/cameras/wooden_tv{desc = "An old TV hooked up to a video cassette recorder, you can even use it to time shift WOW."; name = "Television set"; network = null; pixel_x = -3; pixel_y = 6; layer = 4},/obj/structure/surface/table/woodentable/fancy,/turf/open/floor/strata/fake_wood,/area/space)
 "Lx" = (/obj/effect/decal/cleanable/hybrisa/dirt,/obj/structure/machinery/cm_vending/sorted/tech/comp_storage{pixel_x = 1; pixel_y = 6},/turf/open/floor/prison,/area/space)
@@ -669,7 +737,9 @@
 "Nk" = (/obj/effect/decal/cleanable/hybrisa/dirt_2,/obj/structure/closet/secure_closet/atmos_personal,/turf/open/floor/plating/kutjevo,/area/space)
 "Nl" = (/obj/structure/bed/hybrisa/bunkbed3{dir = 8},/turf/open/floor/strata/fake_wood,/area/space)
 "Nm" = (/obj/effect/decal/strata_decals/mud_corner{dir = 9},/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
+"Nr" = (/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "Nu" = (/obj/structure/machinery/door/airlock/hybrisa/generic/autoname,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"Nv" = (/obj/structure/platform_decoration/wood/east{dir = 2},/obj/effect/decal/cleanable/dirt,/turf/open/floor/kutjevo/fake_wood,/area/space)
 "NA" = (/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "ND" = (/obj/structure/barricade/hesco{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "NE" = (/obj/structure/machinery/light/double{dir = 8},/obj/structure/machinery/vending/ingredients,/turf/open/floor/prison/bright_clean/southwest,/area/space)
@@ -693,9 +763,11 @@
 "OH" = (/obj/structure/machinery/vending/cigarette/wy,/turf/open/floor/strata/fake_wood,/area/space)
 "ON" = (/turf/closed/shuttle/twe_dropship{icon_state = "8,4"},/area/space)
 "OV" = (/obj/structure/machinery/body_scanconsole{pixel_y = 6; dir = 8},/turf/open/floor/prison/whitegreen,/area/space)
+"OW" = (/obj/effect/decal/grass_overlay/grass1/dark{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt/greenglow{color = "#140400"; name = "dirt"},/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "OX" = (/obj/structure/bed/roller/hospital_empty/bigrollerempty{icon_state = "bigrollerempty_up"},/turf/open/floor/prison/whitegreen,/area/space)
-"Pd" = (/obj/effect/decal/cleanable/blood{pixel_x = -9; pixel_y = 25},/obj/structure/prop/tyrargo/boards/boards_1{pixel_x = 13; pixel_y = 0},/obj/structure/prop/tyrargo/boards/boards_2{pixel_x = 16; pixel_y = -1},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
+"Pd" = (/obj/structure/prop/tyrargo/boards/boards_1{pixel_x = 13; pixel_y = 0},/obj/structure/prop/tyrargo/boards/boards_2{pixel_x = 16; pixel_y = -1},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Pe" = (/obj/item/tool/kitchen/tray{pixel_x = -3; pixel_y = 3},/obj/item/trash/plate{pixel_x = 3; pixel_y = 3},/obj/item/trash/plate{pixel_x = 3; pixel_y = 5},/obj/item/trash/plate{pixel_x = 3; pixel_y = 7},/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/condiment/hotsauce/sriracha{pixel_x = 10; pixel_y = 18},/obj/item/reagent_container/food/condiment/hotsauce/tabasco{pixel_x = 1; pixel_y = 21},/obj/item/reagent_container/food/drinks/coffeecup{pixel_x = -10; pixel_y = 0},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"Pj" = (/obj/structure/stairs/perspective{color = "#8B7B5B"; dir = 4; icon_state = "p_stair_sn_full_cap"; layer = 2.5},/obj/structure/platform/wood/east,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Pk" = (/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{name = "\improper Lockdown"; dir = 1; explo_proof = 1; needs_power = 0; unacidable = 1; id = "bunker_exit_tunnel"},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Pl" = (/obj/structure/machinery/door/airlock/hybrisa/generic_solid,/turf/open/floor/strata/fake_wood,/area/space)
 "Pm" = (/obj/structure/bed/roller,/turf/open/floor/prison/whitegreen,/area/space)
@@ -711,7 +783,7 @@
 "PL" = (/obj/structure/prop/hybrisa/misc/machinery/screens/multimonitormedium_off,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "PN" = (/obj/structure/machinery/door/poddoor{explo_proof = 1; needs_power = 0; unacidable = 1; name = "\improper Escape Tunnel Lockdown"; emp_proof = 1; dir = 4; pixel_x = 32; density = 0},/turf/open/asphalt/cement,/area/space)
 "PQ" = (/obj/effect/decal/warning_stripes{icon_state = "E"; layer = 3.33},/turf/open/floor/plating/kutjevo,/area/space)
-"PS" = (/obj/structure/prop/hybrisa/misc/machinery/screens/redalert{light_color = "#FF0000"; light_on = 1; light_power = 3; light_range = 5; pixel_y = 32},/obj/effect/decal/warning_stripes{icon_state = "NW-out"; pixel_y = 2},/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/blue/north,/area/space)
+"PS" = (/obj/effect/decal/warning_stripes{icon_state = "NW-out"; pixel_y = 2},/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/blue/north,/area/space)
 "PU" = (/obj/effect/decal/strata_decals/mud_corner,/obj/effect/decal/strata_decals/mud_corner{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "PW" = (/obj/structure/largecrate/random/barrel/red{pixel_x = -10; pixel_y = 0},/turf/open/floor/plating/kutjevo,/area/space)
 "PX" = (/obj/structure/machinery/landinglight/ds2/delaythree{dir = 8},/turf/open/asphalt/cement/cement3,/area/space)
@@ -721,8 +793,11 @@
 "Qd" = (/obj/structure/machinery/door/airlock/hybrisa/generic/autoname,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Qf" = (/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/item/rappel_harness/extract/rmc,/obj/structure/closet/crate/green,/turf/open/floor/plating,/area/space)
 "Qh" = (/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/drinks/coffeecup/uscm{pixel_x = 6; name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."; pixel_y = -1},/turf/open/floor/prison/blue_plate,/area/space)
+"Qj" = (/obj/structure/platform_decoration/wood/east,/turf/open/auto_turf/snow/brown_base/layer3,/area/space)
 "Qm" = (/obj/structure/machinery/light/double{dir = 4},/obj/structure/machinery/vending/generic,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Qn" = (/obj/effect/decal/cleanable/dirt,/obj/item/trash/cigbutt,/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"Qq" = (/obj/effect/decal/hybrisa/road/lines2,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
+"Qr" = (/obj/structure/desertdam/decals/road_stop{icon_state = "stop_decal2"; pixel_y = -12},/obj/structure/desertdam/decals/road_stop{dir = 1; icon_state = "stop_decal5"},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Qs" = (/obj/structure/machinery/vending/cola,/turf/open/floor/prison/blue_plate,/area/space)
 "Qx" = (/obj/structure/bed/hybrisa/hospital/hospitaldivider,/obj/structure/machinery/light/double,/turf/open/floor/prison/whitegreen,/area/space)
 "QA" = (/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/start/marine/engineer/rmc,/obj/effect/landmark/start/marine/medic/rmc,/obj/effect/landmark/late_join/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/space)
@@ -744,6 +819,7 @@
 "Rz" = (/obj/item/paper/crumpled{pixel_x = 6; pixel_y = 24},/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/space)
 "RB" = (/obj/structure/machinery/landinglight/ds2{dir = 1},/turf/open/asphalt/cement/cement4,/area/space)
 "RE" = (/obj/effect/decal/warning_stripes{icon_state = "cargo_arrow2"; dir = 8},/turf/open/floor/prison,/area/space)
+"RH" = (/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{name = "\improper Lockdown"; dir = 1; explo_proof = 1; needs_power = 0; unacidable = 1; id = "bunker_exit_tunnel"},/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{name = "\improper Lockdown"; dir = 1; explo_proof = 1; needs_power = 0; unacidable = 1; id = "bunker_exit_tunnel"},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "RI" = (/turf/closed/shuttle/twe_dropship{icon_state = "7,6"},/area/space)
 "RJ" = (/turf/open/floor/almayer/orange/northwest,/area/space)
 "RO" = (/obj/structure/flora/tree/tyrargo{layer = 8; pixel_x = -16; pixel_y = 12},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
@@ -766,13 +842,16 @@
 "SG" = (/obj/structure/sign/poster/wylogo{pixel_x = -6; pixel_y = 7},/obj/structure/sign/poster/nspa,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "SH" = (/obj/structure/bed/chair{dir = 4},/turf/open/floor/strata/fake_wood,/area/space)
 "SL" = (/obj/structure/bed/sofa/hybrisa/sofa/black{icon_state = "couch_hori1_black"; pixel_y = 12},/obj/structure/machinery/light{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"SS" = (/obj/effect/decal/hybrisa/road/road_edge,/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "SU" = (/obj/effect/decal/cleanable/blood/oil,/obj/structure/machinery/landinglight/ds2{dir = 1},/turf/open/asphalt/cement/cement4,/area/space)
 "SV" = (/obj/structure/reagent_dispensers/water_cooler{pixel_x = 11; pixel_y = 3},/turf/open/floor/almayer/blackfull/west,/area/space)
 "Te" = (/turf/open/floor/almayer/orange/north,/area/space)
 "Tf" = (/obj/item/trash/popcorn,/obj/effect/decal/hybrisa/dirt_2,/turf/open/floor/strata/fake_wood,/area/space)
 "Tg" = (/obj/item/clothing/gloves/latex,/turf/open/floor/prison/sterile_white,/area/space)
 "Th" = (/obj/structure/ship_ammo/rocket/napalm,/turf/open/floor/plating,/area/space)
+"Ti" = (/obj/structure/barricade/handrail/strata{dir = 1},/turf/open/floor/kutjevo/fake_wood,/area/space)
 "Tl" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/vending/dinnerware,/turf/open/floor/prison/bright_clean/southwest,/area/space)
+"Tm" = (/obj/structure/platform/wood/west{dir = 1},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Tn" = (/obj/item/trash/cigbutt{pixel_x = 1; pixel_y = 8},/obj/item/trash/cigbutt{pixel_x = 1; pixel_y = 8},/obj/structure/prop/hybrisa/fakeplatforms/platform5/deco{dir = 1; pixel_x = -3},/turf/open/hybrisa/street/sidewalk/east,/area/space)
 "To" = (/obj/structure/cargo_container/wy2/mid,/turf/open/floor/prison/blue_plate,/area/space)
 "Tq" = (/obj/effect/decal/cleanable/dirt,/obj/structure/largecrate/random/case/double,/obj/structure/machinery/light/double,/turf/open/floor/prison/bright_clean/southwest,/area/space)
@@ -788,7 +867,7 @@
 "TR" = (/obj/effect/decal/strata_decals/mud_corner{dir = 4},/obj/effect/decal/strata_decals/mud_corner,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "TS" = (/obj/effect/decal/strata_decals/mud_corner,/obj/effect/decal/strata_decals/mud_corner{dir = 4},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "TT" = (/obj/structure/machinery/disposal/delivery,/turf/open/floor/almayer/blackfull/west,/area/space)
-"TV" = (/obj/effect/decal/strata_decals/mud_corner{dir = 8},/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
+"TV" = (/obj/structure/flora/wood/stick1,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "TX" = (/obj/structure/machinery/floodlight/landing,/turf/open/asphalt/cement,/area/space)
 "TY" = (/obj/effect/decal/cleanable/hybrisa/dirt_2,/turf/open/floor/almayer/orange/north,/area/space)
 "Uf" = (/obj/structure/bed/hybrisa/hospital/hospitaldivider,/turf/open/floor/prison/sterile_white,/area/space)
@@ -800,14 +879,19 @@
 "Ur" = (/obj/effect/decal/strata_decals/catwalk/prison,/turf/open/floor/plating/kutjevo,/area/space)
 "Ut" = (/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/hybrisa/metal/grated/north,/area/space)
 "Ux" = (/obj/item/trash/hybrisa/cuppa_joes/lid,/obj/effect/decal/hybrisa/dirt_2,/turf/open/floor/strata/fake_wood,/area/space)
+"UA" = (/obj/structure/barricade/handrail/strata{dir = 4},/turf/open/floor/kutjevo/fake_wood,/area/space)
+"UB" = (/obj/structure/phone_base/colony_net{phone_category = "Redemption Outpost"; phone_color = "red"; phone_id = "Flight Control"; pixel_y = -5; dir = 2; pixel_x = 0},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "UG" = (/obj/structure/machinery/door_control{id = "souter_east"; name = "Hangar Inner Podlock"; pixel_x = -8; pixel_y = -1},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
+"UH" = (/obj/effect/decal/cleanable/dirt/greenglow{color = "#140400"; name = "dirt"},/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "UL" = (/obj/effect/decal/hybrisa/dirt_2,/turf/open/floor/strata/fake_wood,/area/space)
+"UO" = (/obj/effect/decal/grass_overlay/grass1/dark{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "UP" = (/obj/structure/surface/table/reinforced/prison{color = "#8e98a0"},/obj/item/storage/surgical_tray,/turf/open/floor/prison/whitegreen,/area/space)
 "UQ" = (/obj/structure/roof/hybrisa/billboardsandsigns/billboardsmedium/billboard3{dir = 6; lazy_nodes = 0; layer = 3},/turf/open/hybrisa/street/sidewalk/northwest,/area/space)
 "US" = (/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic_solid{dir = 2},/obj/structure/machinery/door/poddoor/shutters/almayer{dir = 4; id = "squadarmory"; name = "\improper Gear Lockers"},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "UT" = (/obj/effect/decal/cleanable/dirt,/obj/item/paper/crumpled{pixel_x = 6; pixel_y = 18},/turf/open/floor/prison/blue_plate,/area/space)
 "UU" = (/obj/effect/decal/cleanable/dirt,/obj/structure/largecrate/random/barrel,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "UZ" = (/obj/structure/largecrate/supply/supplies/wy_emergency_food,/turf/open/floor/prison/blue_plate,/area/space)
+"Vh" = (/obj/item/lightstick/red/variant/planted,/obj/effect/decal/strata_decals/mud_corner{dir = 8},/obj/structure/desertdam/decals/road_stop{dir = 4; icon_state = "stop_decal5"; pixel_x = 4},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Vj" = (/obj/structure/dropship_equipment/weapon/rocket_pod,/turf/open/floor/plating,/area/space)
 "Vl" = (/obj/structure/surface/rack{color = "#98a3ab"},/obj/item/storage/box/packet/m15/rubber,/obj/item/storage/box/packet/m15/rubber,/obj/item/storage/box/packet/m15/rubber,/obj/item/storage/box/packet/m15/rubber,/obj/item/storage/box/packet/m15/rubber,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "Vr" = (/obj/structure/largecrate/supply/explosives/mortar_he{pixel_x = -20; pixel_y = 14},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
@@ -817,6 +901,7 @@
 "Vx" = (/obj/structure/closet,/obj/structure/machinery/light,/turf/open/floor/strata/fake_wood,/area/space)
 "Vy" = (/obj/structure/bed/chair/office/light{dir = 1; pixel_y = 6; buckling_y = 6; pixel_x = -9},/turf/open/floor/prison/blue_plate,/area/space)
 "VD" = (/obj/structure/flora/wood/stick2,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
+"VI" = (/obj/effect/decal/strata_decals/mud_corner{dir = 8},/obj/structure/desertdam/decals/road_stop{dir = 4; icon_state = "stop_decal5"; pixel_x = 4},/obj/item/lightstick/red/variant/planted,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "VK" = (/obj/effect/decal/cleanable/hybrisa/dirt,/obj/structure/machinery/power/apc/no_power/north,/obj/structure/reagent_dispensers/fueltank,/turf/open/floor/prison,/area/space)
 "VM" = (/obj/structure/dropship_equipment/weapon/heavygun,/obj/structure/machinery/light/double,/turf/open/floor/plating,/area/space)
 "VU" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/faxmachine{pixel_x = 0; pixel_y = 1},/obj/structure/machinery/light/blue{dir = 4; pixel_y = 17},/turf/open/floor/prison/blue_plate/north,/area/space)
@@ -826,6 +911,7 @@
 "Wl" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue/west,/area/space)
 "Wn" = (/obj/structure/bed/roller/hospital_empty/bigrollerempty3{dir = 1; icon_state = "bigrollerempty3_up"},/turf/open/floor/prison/sterile_white,/area/space)
 "Wp" = (/turf/closed/shuttle/twe_dropship{icon_state = "6,2"},/area/space)
+"Wu" = (/obj/effect/decal/grass_overlay/grass1/dark{dir = 1},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "Wy" = (/obj/item/lightstick/red/variant/planted,/obj/effect/decal/strata_decals/mud_corner,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "WA" = (/obj/structure/machinery/autolathe,/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "WB" = (/obj/structure/bed/chair{dir = 8},/turf/open/floor/prison/blue_plate,/area/space)
@@ -836,8 +922,11 @@
 "WT" = (/obj/structure/flora/tree/tyrargo{pixel_x = -3; pixel_y = -19; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "WV" = (/turf/open/floor/prison/sterile_white,/area/space)
 "WX" = (/obj/effect/decal/cleanable/hybrisa/dirt_2,/turf/open/floor/almayer/no_build,/area/space)
+"WY" = (/obj/item/explosive/mine/pmc/active{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Xg" = (/obj/structure/reagent_dispensers/water_cooler/stacks{density = 0; pixel_x = -8; pixel_y = 15},/turf/open/floor/prison/bright_clean/southwest,/area/space)
 "Xi" = (/obj/structure/flora/tree/dead/tree_6{pixel_x = -18; pixel_y = 11},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
+"Xm" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal9"},/obj/effect/decal/hybrisa/road/lines2,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
+"Xt" = (/obj/effect/decal/strata_decals/mud_corner{dir = 4},/obj/structure/prop/tyrargo/traffic_signal/traffic_signal_1,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Xu" = (/obj/effect/decal/hybrisa/tiretrack,/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/prison,/area/space)
 "Xv" = (/turf/closed/shuttle/twe_dropship/transparent{icon_state = "5,12"},/area/space)
 "Xz" = (/obj/structure/machinery/light{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/space)
@@ -862,13 +951,14 @@
 "YM" = (/obj/structure/machinery/door/airlock/hybrisa/medical,/turf/open/floor/prison/sterile_white,/area/space)
 "YS" = (/obj/structure/largecrate/random/barrel,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/space)
 "YT" = (/turf/open/floor/prison/blue,/area/space)
+"YU" = (/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
 "YZ" = (/obj/structure/machinery/atm,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "Zb" = (/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/rmc,/turf/open/floor/prison/bright_clean,/area/space)
 "Zc" = (/obj/effect/decal/strata_decals/mud_corner,/obj/structure/target,/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Zf" = (/obj/structure/bed/chair/office/light,/turf/open/floor/prison/blue,/area/space)
 "Zg" = (/obj/structure/surface/table/reinforced/prison{color = "#8e98a0"},/obj/item/storage/belt/medical/rmc{pixel_x = -3; pixel_y = -4},/obj/item/storage/belt/medical/rmc{pixel_x = 0; pixel_y = 11},/obj/structure/machinery/light/double,/turf/open/floor/prison/whitegreen/southwest,/area/space)
 "Zi" = (/obj/effect/decal/warning_stripes{icon_state = "E"; pixel_x = 2},/obj/effect/decal/cleanable/hybrisa/dirt,/obj/item/tool/warning_cone{pixel_y = 2},/turf/open/floor/prison,/area/space)
-"Zk" = (/obj/structure/barricade/hesco{dir = 8},/turf/open/auto_turf/snow/brown_base/layer0,/area/space)
+"Zk" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal3"},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/space)
 "Zn" = (/obj/structure/bed/chair{buckling_y = 5; dir = 1; pixel_y = 0; pixel_x = -16},/obj/effect/decal/cleanable/hybrisa/trash{icon_state = "trash_9"; pixel_x = -8; pixel_y = 12},/turf/open/floor/strata/fake_wood,/area/space)
 "Zs" = (/obj/structure/flora/tree/tyrargo{layer = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/space)
 "Zu" = (/obj/structure/machinery/disposal/delivery,/turf/open/floor/prison/blue_plate/north,/area/space)
@@ -884,44 +974,49 @@
 "ZZ" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/space)
 
 (1,1,1) = {"
-ananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananan
-ananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananananan
 ananananananananananananananananananananananananananananananananananananenenananananenenananananananananananananananananananananananananananananananananananananananananan
-ananananananananananananananananananananananananananananananananananananenenPkPkPkPkenenanananKnNAKnKnKnananananananananKnKnNAKnKnNAananananananKnKnananananananananananan
-ananananananananananananKnNAKnKnNAKnKnanananananKnKnNANAananKnKnanananananeHpRpRpRpRCqanananKnKnNANAKnKnKnananananananKnKnKnNAvONAKnKnKnanananKnKnKnKnanananananananananan
-ananananKnKnKnananananKnKnKnNAKnKnKnKnKnanananKnKnNANAKnanKnKnKnKnKnNAKnKnJepRpRpRpRgnKnZsKnKnKnNANAKnKnKnKnKnanananKnKnKnKnKnNAKnNAKnKnKnanKnKnKnKnKnKnanKnKnanananKnanan
-anananKneeKnNAKnKnanKnNANAoYKnNAFyNANAKneeananKnKnKnKnVwKnKnKnKnKnKnNAeeNAJepRpRpRpRgnKnKnKnKnNANANAKnTCKnKnKnKnanKnKnKnNANANAKnNANAKnKnKnKnKnKnKnKnKnKnKnKnKnKnanKnKnanan
-ananKnKnKnNANAKnKnKneeNAKnKnKnNANANANAKnKnKnKnKnXiNAKnKnKnKneeNAKngWKnKnNAJepRpRpRpRgnKnKnKnKnFyKnKnKnKnKnKnKnKnKnKnKnKnKnKnvOKnKnKnKnTCNAKnKnKnKnKnZsKnKnKnKnKnKnKnKnanan
-anananKnKnNAKnKnNAKnNANAKnNANANANAeeKnNAKnKnKnKnKnKnKnNAKnKnKnNANAKnKnKnNAdNpRpRpRpRCTZsKnKnNAKnKnKnKnKnZsNAKnKnKnKnKnNAKnKnKnNAKnfVNAKnKnNANAARNAKnNANAKnNAKnKnKnKnKnanan
-ananananeeKnKneeKnEZMsxrPLEZJvRVEZEZEZEZohEZEZKnKnKnKnKnugKnKnKnNAKnKnKnNAJepRpRpRpRgnKnKnNANAKnKnNANAKnKnKnKnKnKnKnNAKnKnKnKnKnKnKnKnfVNANAKnKnKnNANANANAKnKnZsKnKnKnanan
-anananananKnKnKnKnEZrJAptpsBgzWbQWkkhtZuZMsbEZKneeKnKnKnKnKnKnKnNAoYKnKnvOqdpRpRpRpRgnKnNAKnKnKnNAKnTCKnKnKnKnZsNAKnNAKnKnKnZsKnKnKnKnKnKnKnKnKnKnKnKnKnRgKnKnNANAKnKnanan
-anananananKnKnKneeEZhMVyxSsSxxPzkeudwkOrcmVUEZKnNAKnKnNAKnNAKnKnKnNANAKnKnztpRpRpRpRCTKnNAKnKnNANANANAKnKnKnKnKnKnKnKnNAKnZsKnKnKnKnKnKnNANAKnVwKnKnKnKnKnKnKnKnNAKnKnanan
-ananananEZEZEZEZdfEZbrRzgbxSpDgbgbxSMrALxSbbzjKnKnNAoYNANANAKnKnKnARKnKnKnJepRpRpRpRgnZsKnNANANANAKnKnNAKnNANAKnfVKnKnKnKnKnKnZsKnKnKnZsNANAKnNANANANANANAKnKnKnNAKnKnanan
-ananananEZMSMSEQehEZplxSgbbcgkxSTtxSVtwABUICzjKnKnNANANAKnNAKneeKnKnKnKnZsJepRpRpRpRgnKnKnKnKnZsKnKnKnNArQvOKnKnKnKnKnuRKnKnKnNAKnZsKnKnKnKnKnKnKnKnKnZsKnKnKnKnNAKnKnanan
-ananananEZxSehAuehqCWlgbgbgbBeUTgbNhgbxSgbZOzjKnNANANAKnNANAeeKnKnKnKnKnKnJepRpRpRpRgnKnKnKnKnKnKnKnNAKnKnKnKnKnKnKnKnKnKnNAKnKnKnKnKnKnKnKnKnKnKnrQKnKnKnKnKnKnNAKnananan
-ananananEZEFNfNfEFEZgjMzAtMzGugbBUTLCSTLgbgbEZKneeKneeKnKnKnKnKnNAeeKnKnKndNpRpRpRpRCTKnKnKnKnfVKnNAKnKnKnKnKnKnNArQKnKnKnZsKnKnKnrQKnKnfVKnZsKnKnKnfVKnKnNAKnKnKnanananan
-ananananEZEZHCEZEZDHSGEZxrEZEZFwGsEZEZEZFwGsEZKnKnKnKnKneeNAKnNAKnKnNAKnKnfhpRpRpRpRgnKnKnZsKnKnNAKnKnKnKnKnKnKnKnKnKnKnKnKnKnNAKnKnKnrQKnKnKnKnrQKnKnKnNANAKnKnananananan
-ananananEZgQxSgQyKxSehgQauJZEZXTxSoOEZQsZHtOEZKnKnNANAKnNANAeFKnKnKnNAKnKnJepRpRpRpRgnKnKnKnZsKnKnZsKnrQKnKnKnZsNAKnpSKnKnKnKnKnZsKnKnKnKnKnKnKnKnKnKnFyKnKnKnKnKnKnananan
-ananananEZehehehHuehehNfxSgbxSxSxSgbxSgbTtWBEZKnKnKnNAFyNANAKnKneeNANANAKnJepRpRpRpRgnZsKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnNAKnKnKnKnKnKnVwKnKnKnKnKnKnKnKnKnKnKnKnanan
-ananananEZehehyUHuxSNfNfxSgbaexSgbxSaegbwuDTzjKnKnoYNANANANAKnKnNANANAKVKnnppRpRpRpRgnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnZsfVKnKnKnKnKnKnKnKnKnKnKnNANAKnKnKnZsKnKnKnKnanan
-ananananEZehehhEHuehxSxSehJZEZxSgbxSEZcysjQhzjKnKnKnNANANAeeKnKnKnKnKnKnVDJepRpRpRpRgnKnKnpSKnKnKnKnfVNAKnKnVwKnKnKnKnKnKnNAKnKnKnKnZsKnKnKnKnKnNAKnKnNANAKnKnfVNAKnKnanan
-ananananEZehehLCHuehxSehehehxSxSgbxSxSgbCyagzjKnKnKnoYNANAZseeKnKneeKnKnNATVpRpRpRpRCNKnDNDNDNZsKnKnKnKnNAKnKnKnKnKnKnKnRgKnKnKnZsKnKnKnNANANAKnfVZsKnKnNAKnKnKnKnKnKnanan
-ananananEZehehehHuxSxSehxSxSaexSgbgbaegbgbbuEZKnKnKnKnNANANAKnKneeZsKnKnNATVpRpRpRpRCNveeSWDpRGqNAKnNAKnNAKnKnKnKnZsKnKnKnNAKnKnKnZsKnKnNAKnKnKnKnKnKnNANANANAKnNANAananan
-ananananEZodehbtbRxSUiBDwYSaEZlGgbtOEZFheXLVEZKnNAKnKnNANANAKnKnKnKnKnNAAfZJpRpRpRpRpxuYdZglNNZkwqffffffffffffffffffffffririffffffffffffvJffffffffffririffffffririanananan
-ananananEZEZEZEZEZEZEZEZEZEZEZEoEZEoEZEZEZEZEZKnNANAeeKnKnNAeeKnKnNANAKnfVfhmHtgtgtgpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRananan
-ananananKnNAKnKnNANANAKnNAKnKndeszlxXPwEsYtCNANAoYeFKnKneeNAKnKnNANAKnNAKnJepRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRananan
-anananananKnKnNAKnKneeKnKnrQKndeszlxMRUQEKTnNANANAKnNAKnKnNAKnKnKneeNAKVKndcpRpRpRpRsyjTkvjTjTjTnwjTjTjTjTjTjTjTmZpRpRpRsyjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTKnanan
-ananananKnKnIyKnKnKnNAKnNAXVeedeszlxbQkXNREpNANANAKnoYNAKneeNANAKnKnNAKnKnJepRpRpRpRjaKnNDKnKnKnKnKnKnKnKnrQKnKnJepRpRpRgnKnKnKnKnKnKnKnKnZsKnKnKnrQKnKnKnKnKnKnKnKnKnanan
-anananananKnKnKnNANANAeeNAKnKndeszlxCrPCMMxbNAKnoYKnKnKnKnKnKnKnVDKnKnKnKnJepRpRpRpRgnKnEZEZEZzxzxzxsEEZEZEZKnKnJepRpRpRgnKnKnrQKnKnKnKnKnKnKnKnKnKnKnIyKnKnKnKnKnKnananan
-ananananananKnKnNANANANANANAKndeszlxRgoYNANAKnKnNANAEZEZEZEZEZEZKnKnKnKnKnnppRpRpRpRgnKnEZHEtxtxaTOwRUCmHgEZKnKnCUpRpRpRIRKnKnKnKnKnVwKnKnKnKnKnKnKnKnKnKnKnKnKnKnanananan
-anananananKnNAKnNAKVNANAKneeKndeszlxNAKWKnEZEZEZEZEZEZwIhJLywIEZEZEZEZEZKnJepRpRpRpRgnKnEZNKKUSibJSiSiswhPEZKnKnJepRpRpRgnKnKnEZEZEZEZEZEZEZEZEZEZEZmEEZEZEZEZEZKnanananan
+ananananananananananananananananananananananananananananananananananananenenaKaKaKaKenenananananananananananananananananananananananananananananananananananananananananan
+ananananananananananananananananananananananananananananananananananananKnKnpRpRpRpRKnKnananananananananananananananananananananananananananananananananananananananananan
+anananananananananananananananananananananananananananananananananananKnKnKnpRpRpRpRKnanananananananananananananananananananananananananananananananananananananananananan
+ananananananananananananananananananananananananananananananananananananananpRpRpRpRananananananananananananananananananananananananananananananananananananananananananan
+ananananananananananananananananananananananananananananananananananananananpRpRpRpRananananananananananananananananananananananananananananananananananananananananananan
+ananananananananananananananananananananananananananananananananananananananpRpRpRpRananananananananananananananananananananananananananananananananananananananananananan
+ananananananananananananananananananananananananananananananananananananenenpRpRpRpRenenananananananananananananananananananananananananananananananananananananananananan
+ananananananananananananananananananananananananananananananananananananenenRHPkPkPkenenanananKnNAEZEZKnananananananananKnKnNAKnKnNAananananananKnKnananananananananananan
+ananananananananananananKnNAKnKnNAKnKnanananananKnKnNANAanananananananananeHpRpRpRpRCqanananKnuyNAEZEZKnKnananananananKnKnKnNAvONAKnKnKnanananKnKnKnKnanananananananananan
+ananananKnKnKnananananKnKnKnNAKnKnKnKnKnanananKnKnNANAKnanKnAfWYKnKnNrKnKnJepRpRpRpRgnKnZsAfKnKnuCNrKnKnKnKnKnanananKnKnKnKnKnNAKnNAKnKnKnanKnKnKnKnKnKnanKnKnanananKnanan
+anananKneeKnNAKnKnanKnNANAoYKnNAFyNANAKneeananKnKnKnKnVwKnKnAfKnWYKnNreeNAJepRpRpRpRgnKnKnAfuyNANANrKnTCKnKnKnKnanKnKnKnNANANAKnNANAKnKnKnKnKnKnKnKnKnKnKnKnKnKnanKnKnanan
+ananKnKnKnNANAKnKnKneeNAKnKnKnNANANANAKnKnKnKnKnXiNAKnKnKnKnAfDcKngWAfKnNAJepRpRpRpRgnKnKnAfrQuCKnAfKnKnKnKnKnKnKnKnKnKnKnKnvOKnKnKnKnTCNAKnKnKnKnKnZsKnKnKnKnKnKnKnKnanan
+anananKnKnNAKnKnNAKnNANAKnNANANANAeeKnNAKnKnKnKnKnKnKnNAKnKnAfNADcKnAfKnNAfhpRpRpRpRXtZsKnEZEZKnuyEZEZKnZsNAKnKnKnKnKnNAKnKnKnNAKnfVNAKnKnNANAARNAKnNANAKnNAKnKnKnKnKnanan
+ananananeeKnKneeKnEZMsxrPLEZJvRVEZEZEZEZohEZEZKnKnKnKnKnugKnEZghzZksEZEaEaZJpRpRpRpRAAAfAfEZEZAfAfEZEZKnKnKnKnKnKnKnNAKnKnKnKnKnKnKnKnfVNANAKnKnKnNANANANAKnKnZsKnKnKnanan
+anananananKnKnKnKnEZrJAptpsBgzWbQWkkhtZuZMsbEZKneeKnKnKnKnKnrHqJYUAcxzFIpRVIpRpRpRpRkfffriffffffNAAfNAKnKnKnKnZsNAKnNAKnKnKnZsKnKnKnKnKnKnKnKnKnKnKnKnKnRgKnKnNANAKnKnanan
+anananananKnKnKneeEZhMVyxSsSxxPzkeudwkOrcmVUEZKnNAKnKnNAKnNAEaSSLqLqvwpRpRztpRpRpRpRpRpRpRpRpRpRcsGQNAZsKnKnKnKnKnKnKnNAKnZsKnKnKnKnKnKnNANAKnVwKnKnKnKnKnKnKnKnNAKnKnanan
+ananananEZEZEZEZdfEZbrRzgbxSpDgbgbxSMrALxSbbzjKnKnNAoYNANANAEZrIHbDApRpRpRztpRpRpRpRpRpRpRpRpRpRcsAfKnNAKnNANAKnfVKnKnKnKnKnKnZsKnKnKnZsNANAKnNANANANANANAKnKnKnNAKnKnanan
+ananananEZMSMSEQehEZplxSgbbcgkxSTtxSVtwABUICzjKnKnNANANAKnNAEZXmrxfHAWkmpxztpRpRpRpRTREZEZIrInEZEZEZKnNArQvOKnKnKnKnKnuRKnKnKnNAKnZsKnKnKnKnKnKnKnKnKnZsKnKnKnKnNAKnKnanan
+ananananEZxSehAuehqCWlgbgbgbBeUTgbNhgbxSgbZOzjKnNANANAKnNANAUHeopRFIpZpRpRztpRpRpRpRgncSIQpOjFzTLgEZNAKnKnKnKnKnKnKnKnKnKnNAKnKnKnKnKnKnKnKnKnKnKnrQKnKnKnKnKnKnNAKnananan
+ananananEZEFNfNfEFEZgjMzAtMzGugbBUTLCSTLgbgbEZKneeKneeKnKnKnEaeoQqQquYYUYUVhqpqpqpqpamcSFMbJjFjFbJEZKnKnKnKnKnKnNArQKnKnKnZsKnKnKnrQKnKnfVKnZsKnKnKnfVKnKnNAKnKnKnanananan
+ananananEZEZHCEZEZDHSGEZxrEZEZFwGsEZEZEZFwGsEZKnKnKnKnKneeNAWupTIPZkEZUOOWZJysfyjiQrAAEZkQbJjFjFbJEZKnKnKnKnKnKnKnGeuiuiuiuiCaNAKnKnKnrQKnKnKnKnrQKnKnKnNANAKnKnananananan
+ananananEZgQxSgQyKxSehgQauJZEZXTxSoOEZQsZHtOEZKnKnNANAKnNANAeFKnKnKnNAKnKnfhpRpRpRpRXtEZEZEZEZEZrKEZKnrQKnKnKnZsNACNwqTiTiwqseKnZsKnKnKnKnKnKnKnKnKnKnFyKnKnKnKnKnKnananan
+ananananEZehehehHuehehNfxSgbxSxSxSgbxSgbTtWBEZKnKnKnNAFyNANAKnKnKnNANANAKnJepRpRpRpRgnKnKnKnKnKnpRKnZsKnKnKnKnKnKnCNEJArsAUAseNAKnKnKnKnKnKnVwKnKnKnKnKnKnKnKnKnKnKnKnanan
+ananananEZehehyUHuxSNfNfxSgbaexSgbxSaegbwuDTzjKnKnoYNANANANAKnKnNANANAKVKnnppRpRpRpRgnKnKnKnKnKnKnpRKnKnKnKnKnKnKnCNyuiKfFHdseKnKnKnKnKnKnKnKnKnKnNANAKnKnKnZsKnKnKnKnanan
+ananananEZehehhEHuehxSxSehJZEZxSgbxSEZcysjQhzjKnKnKnNANANAeeKnKnKnKnKnKnVDJepRpRpRpRgnKnNApSKnKnfVKnfVNAKnKnVwKnpSCNFLkqNvewseKnKnKnKnKnKnKnKnKnNAKnKnNANAKnKnfVNAKnKnanan
+ananananEZehehLCHuehxSehehehxSxSgbxSxSgbCyagzjKnKnKnoYNANAZseeKnKneeKnKnNAJepRpRpRpRgnNANAKnKnKnpRfVKnKnNANAKnKnKnCNwqGqPjwqbDKnKnKnKnKnNANANAKnfVZsKnKnNAKnKnKnKnKnKnanan
+ananananEZehehehHuxSxSehxSxSaexSgbgbaegbgbbuEZKnKnKnKnNANANAKnKneeZsKnKnNAJepRpRpRpRgnNAKnNAKnKnpRpRNAKnNAKnNAKnKnKZTmLfIDIFQjKnKnKnKnKnNAKnKnKnKnKnKnNANANANAKnNANAananan
+ananananEZodehbtbRxSUiBDwYSaEZlGgbtOEZFheXLVEZKnNAKnKnNANANAKnKnKnKnKnNAKnoLpRpRpRpRLWririffffffpRpRffffffffffffffffDwpRpRJpffffffffffffvJffffffffffririffffffririanananan
+ananananEZEZEZEZEZEZEZEZEZEZEZEoEZEoEZEZEZEZEZKnNANAeeKnKnNAeeKnKnNANAKnfViZmHtgtgtgpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRananan
+ananananKnNAKnKnNANANAKnNAKnKndeszlxXPwEsYtCNANAoYeFKnKneeNAKnKnNAKnDNDNDNnppRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRananan
+anananananKnKnNAKnKneeKnKnrQKndeszlxMRUQEKTnNANANAKnNAKnKnNAKnKnKnveeSWDpRdcpRpRpRpRsyjTkvjTjTjTnwjTjTjTjTjTjTjTmZpRpRpRsyjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTjTKnanan
+ananananKnKnIyKnKnKnNAKnNAXVeedeszlxbQkXNREpNANANAKnoYNAKneeNANAKnvedZglNNpRpRpRpRpRjaKnNDKnKnKnKnKnKnKnKnrQKnKnJepRpRpRgnKnKnKnKnKnKnKnKnZsKnKnKnrQKnKnKnKnKnKnKnKnKnanan
+anananananKnKnKnNANANAeeNAKnKndeszlxCrPCMMxbNAKnoYKnKnKnKnKnKnKnVDKnJHJHlJzKpRpRpRpRgnKnEZEZEZzxzxzxsEEZEZEZKnKnJepRpRpRgnKnKnrQKnKnKnKnKnKnKnKnKnKnKnIyKnKnKnKnKnKnananan
+ananananananKnKnNANANANANANAKndeszlxRgoYNANAKnKnNANAEZEZEZEZEZEZKnKnKnKnKnJepRpRpRpRgnKnEZHEtxtxaTOwRUCmHgEZKnKnCUpRpRpRIRKnKnKnKnKnVwKnKnKnKnKnKnKnKnKnKnKnKnKnKnanananan
+anananananKnNAKnNAKVNANAKneeKndeszlxNAKWKnEZEZUBEZEZiLwIhJLywIiLEZEZEZEZKnCUpRpRpRpRgnKnEZNKKUSibJSiSiswhPEZKnKnJepRpRpRgnKnKnEZEZEZEZEZEZEZEZEZEZEZmEEZEZEZEZEZKnanananan
 ananananKnKnKnKnKnKnKnEUKnNAeedeszlxKnNAKnEZqkpXvnzzDmQGMWQGQGPSeufSlqEZKnJepRpRpRpRgnKnEZshbJbJkZuLvrAaKSEZZsKnJepRpRpRgnKnKnEZNGeJQAGbBdjVHkqaLgkihkxMkyFaEcEZKnKnananan
 ananananKnKnNAKnKnNANAKnKnKnKndeszlxeeNAKnEZhgspxNuxxNijijQJxNxNxNvzDoEZKnJepRpRpRpRgnKnEZwQbJbJbJxXRylMRyEZKnKnJepRpRpRgnZsKnEZcfjFjFjFjFjFbJpVbJbJjFbJbJbJcFEZKnKnKnanan
 anananananKnKnKnNAKnKnKnKneeKndeszlxKnoYKnEZlXOBYTRrxvZfOyMzqbruaMwPHFEZfVJepRpRpRpRgnKnEZaqKLbJgIppRyiRRyEZKnKnJepRpRpRgnKnKnEZWefsFoSsjFbJjFbJjFjFBsyItEbJhzEZKnKnKnanan
 ananananananKnKnNABEKnKnKnmgeedeszlxiQKnKnEZEZCBrTygygygygygygygdfEZEZEZKndNpRpRpRpRCTKnEZLdbJbJjFimRyiRRyEZKnZsJepRpRpRgnKnZsEZAhjFjFcRjFbJbJjFbJmXwbJabJGUkQEZKnKnKnanan
 anananananKnKnKnKnKnNAeafVZsROdeszlxKnKnKnEZwgJdJdcxcxcxcxcxJdJdJdltwgEZKnJepRpRpRpRgnKnEZJMQaQamPMqPoQaKNEZffffcBpRpRpRgnKnKnEZcfjFjFjFjFjFjFbJjFQnjFjFjFbJalEZKnKnKnanan
 ananananKnKnNAIJKnKnKnNAKnKnKndeszlxKnXiKnEZJdJdEkGnlTHvsCWglTlTEkcxlkEZKnJepRpRpRpRgnKnzjbJbJYbbJbJbJbJbJmVpRpRpRpRpRpRgnNAKnEZdyKcOsOsXEtdbJDDbJoHwbGMaAuBvfEZKnKnananan
-anananKnKnKnKnKnKnKnKneAWTaUKndeszlxKnKnKnEZWNcxlTKBgBMcqwMilTFGGnJdyhEZKnJepRpRpRpRgnKnzjbJbJbJjFUUbJbJeNEZpRpRpRpRpRpRamNAKnEZEZEZEZEZEZrBjFBlYZEZEZEZTQEZEZEZKnKnananan
+anananKnKnKnKnKnKnKnKneAWTaUKndeszlxpSKnKnEZWNcxlTKBgBMcqwMilTFGGnJdyhEZKnJepRpRpRpRgnKnzjbJbJbJjFUUbJbJeNEZpRpRpRpRpRpRamNAKnEZEZEZEZEZEZrBjFBlYZEZEZEZTQEZEZEZKnKnananan
 ananKnKnKnKnKnKnKnKnKnKnKnKnKndeszszjDjDCQlTLMLMlTgBwvlHMXRRYnGnGncxcxEZKnJepRpRpRpRgnKnzjbJbJbJkZbJbJbJbJmVpRpRpRpRpRpRgnKnNAEZHrqYbJfYEZXzalEZXzjtLvfkbJXgQcEZKnKnananan
 ananKnKnfVKnKnARKnKnKnKnKnKnKndeszszszszPNlTLMLMgBywsXJPowXvkJGnGncxJdEZKnnCpRpRpRpRgnKnEZMtjFjFYbbJjFjFjFEZjTjTmrpRpRpRgnKnKnEZHrbJjFfYEZRmjFEZjFjFbJbJbJbJbJEZKnKnananan
 anananKnKnKnBEKnKnKnKnIyKnNAKndeszszBNBNBHlTLMLMlTODRlDbPJgvcMlTlTrakLEZKnJepRpRpRpRgnKnEZTqIMjFIhpajFafEAEZKnKnJepRpRpRgnKnKnEZdIjFbJdIQdjFjFEZcfbJyPAGAGcQfUEZKnanananan
@@ -934,7 +1029,7 @@ ananananKnKnNAKnNAKnKnKnKnARKndeszszszszszDzLMAKGnyMnqfoowWpZVkxGnJdRdEZfVJepRpR
 anananKnKnNAKnNANAKnfVKnKnKnNAdeszszBNBNBNDzLMAKlTGnlTqtlTbylTGnlTJdRdEZKnnCpRpRpRpRgnKnEZfIMUgbxSgbgbgbgbEypRpRpRpRpRpRgnvONAEZEZEZEZEZEZrBbJEZEZEZinEZEZEZEZEZKnKnananan
 anananKnKnNANANABENAKnCKNAfVKndeszlxKnKnNAUGxWPqlTIsCHwxlTKTHsKIlTRdyhEZKnjdpRpRpRpRgnKnEZgbxSgbxSgbgbgbgbEypRpRpRpRpRpRgnKnKnEZSLMfMfErEZyCcFEZPILwgfdmNlyTwwEZKnKnKnanan
 ananKnKnNANAKnKnKnKnKnNAKnKnKndeszlxNANANAEZJdcxqolTGnGnlTGnGnlTqoRdJdEZKnJepRpRpRpRgnKnEZFesWiEqMZZZZgbgbEypRpRpRpRpRpRchffffEZbJjFjFbJEZbJbJEZUxULTfTPTPEBULEZKnKnKnanan
-anananKnKnKnKnfVKnKnfVKnRgNAKndeszlxNAmgNAEZJdcxJdJdJdcxcxRdRdJdcqJdRdEZKnJepRpRpRpRgnKnEZCRDXxSgbgbxSgbgbEypRpRpRpRpRpRpRpRpRQdbJbJjFjFQdjFjFMATPTPEBEBczTPdsEZKnKnKnanan
+anananKnKnKnKnfVKnKnfVKnRgNATVdeszlxNAmgNAEZJdcxJdJdJdcxcxRdRdJdcqJdRdEZKnJepRpRpRpRgnKnEZCRDXxSgbgbxSgbgbEypRpRpRpRpRpRpRpRpRQdbJbJjFjFQdjFjFMATPTPEBEBczTPdsEZKnKnKnanan
 ananananKnKnffffriffriKnKnIJKndeszlxKnNAfVEZJdJdRdJdcxJdRJTeTYTYTeQNTYEZKnJepRpRpRpRgnKnEZfXbagbxSgbZZgbMmEZjTjTmrpRpRpRpRpRpREZbKbJjFCEEZbJbJPlTPEBEBULTPTPOHEZKnKnKnanan
 anananananfVmZpRsqpRrLgnfVNARgdeszlxfVKnKnEZSEJdJdcxJdJdgtWXWCWXwowoWXEZKnJepRpRpRpRgnKnEZRSxSxSZZgbgbxSxSEZKnKnJepRpRpRpRpRpRQdMCjFbJjFNubJbJEZEBEBTPTPTPTPeMEZKnKnKnanan
 ananananananNmEYeKPdhuXSKnNANAdeszlxKnfVKnEZuFPWNWzgNkfQkVSrwTSrdASraFEZKnJepRpRpRpRgnKnEZwJlUZZxSANbEYHvdEZKnKnJepRpRpRTRjTjTEZbJjFbJoyEZjFbJxCSHrMtMYlTPTPTPEZKnKnananan
