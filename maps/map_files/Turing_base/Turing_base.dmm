@@ -187,6 +187,7 @@
 "iM" = (/obj/structure/machinery/cm_vending/gear/medic_chemical/rmc,/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
 "iQ" = (/obj/structure/flora/tree/dead/tree_2{pixel_x = -3; pixel_y = -25},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
 "iR" = (/obj/effect/decal/warning_stripes{icon_state = "E"},/obj/effect/decal/warning_stripes{icon_state = "W"; layer = 3.3},/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
+"iS" = (/obj/structure/largecrate/random/mini/med{pixel_x = -6; pixel_y = 12; layer = 7},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/east)
 "ja" = (/obj/structure/prop/tyrargo/watchtower,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "jb" = (/obj/structure/machinery/cm_vending/sorted/medical/blood,/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
 "je" = (/obj/effect/decal/cleanable/blood/oil,/turf/open/asphalt/cement,/area/turing/streets/west)
@@ -255,7 +256,7 @@
 "mi" = (/obj/structure/machinery/cm_vending/clothing/medic/rmc,/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
 "mt" = (/turf/closed/shuttle/twe_dropship{icon_state = "7,4"},/area/turing/base/hangar)
 "mx" = (/obj/structure/sink{dir = 4; pixel_x = 11},/obj/structure/mirror{pixel_x = 26},/obj/item/reagent_container/glass/bucket/janibucket{pixel_x = -9; pixel_y = -4},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
-"my" = (/obj/structure/closet/secure_closet/marine_personal/rmc/rifleman{pixel_x = 8},/obj/structure/closet/secure_closet/marine_personal/rmc/gunner{pixel_x = -8},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/barracks)
+"my" = (/obj/structure/closet/secure_closet/marine_personal/rmc/rifleman{pixel_x = 8},/obj/structure/closet/secure_closet/marine_personal/rmc/gunner{pixel_x = -8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "mz" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/chair{buckling_y = 5; dir = 1; pixel_y = 1; pixel_x = 2},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "mB" = (/obj/structure/largecrate/supply/medicine,/turf/open/floor/prison/floor_marked,/area/turing/base/engineering)
 "mD" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/reagent_container/food/drinks/coffeecup/uscm{pixel_x = 16; name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."},/obj/item/storage/fancy/cigarettes/blackpack{pixel_x = 4; pixel_y = 3},/obj/item/prop/magazine/book/littleredbook,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
@@ -459,6 +460,7 @@
 "wT" = (/obj/vehicle/powerloader{layer = 5},/turf/open/floor/mech_bay_recharge_floor,/area/turing/base/hangar)
 "wY" = (/obj/structure/bed/chair{can_buckle = 0; dir = 4},/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = 1; pixel_y = 3},/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = 2; pixel_y = 6},/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison,/area/turing/command)
 "xb" = (/turf/open/hybrisa/street/sidewalk/southeast,/area/turing/streets/west)
+"xg" = (/obj/structure/machinery/light/double,/turf/open/floor/prison/darkbrown2/southeast,/area/turing/base/engineering)
 "xm" = (/obj/structure/cargo_container/hybrisa/containersextended/tanright,/turf/open/asphalt/cement,/area/turing/streets/west)
 "xn" = (/turf/closed/wall/wood,/area/turing/base/lake_house)
 "xo" = (/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/drinks/coffeecup/uscm{pixel_x = 9; name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."; pixel_y = 1},/turf/open/floor/almayer/blackfull/west,/area/turing/base/garage)
@@ -499,7 +501,7 @@
 "zg" = (/obj/structure/closet/toolcloset,/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
 "zh" = (/obj/structure/largecrate/supply/floodlights,/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
 "zj" = (/obj/structure/window/framed/hybrisa/marshalls/reinforced,/obj/structure/machinery/door/poddoor/hybrisa/open_shutters{dir = 4},/turf/open/space/basic,/area/turing/base/engineering)
-"zm" = (/obj/structure/largecrate/random/mini/med{pixel_x = -6; pixel_y = 12},/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
+"zm" = (/obj/structure/largecrate/random/mini/med{pixel_x = -6; pixel_y = 12; layer = 7},/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
 "zn" = (/turf/open/asphalt/cement/cement15,/area/turing/streets/west)
 "zq" = (/obj/structure/surface/rack{color = "#98a3ab"},/obj/item/tool/weldingtool/simple{pixel_x = -3; pixel_y = 8},/obj/item/tool/weldpack{pixel_x = 7; pixel_y = 0},/turf/open/floor/prison,/area/turing/base/garage)
 "zt" = (/obj/structure/desertdam/decals/road_stop{dir = 4; icon_state = "stop_decal5"; pixel_x = 4},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
@@ -866,6 +868,7 @@
 "QV" = (/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{name = "\improper Lockdown"; dir = 1; explo_proof = 1; needs_power = 0; unacidable = 1; id = "bunker_exit_tunnel"},/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{name = "\improper Lockdown"; dir = 1; explo_proof = 1; needs_power = 0; unacidable = 1; id = "bunker_exit_tunnel"},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "QW" = (/obj/structure/noticeboard{pixel_y = 32},/obj/structure/noticeboard{pixel_y = 33; icon_state = "notices_4"; desc = null; name = "sticky notes"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate/north,/area/turing/command)
 "QZ" = (/obj/structure/machinery/landinglight/ds2/spoke{pixel_x = -12},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
+"Rb" = (/obj/structure/machinery/light/double,/turf/open/floor/prison/darkbrown2/southwest,/area/turing/base/engineering)
 "Rc" = (/obj/structure/machinery/medical_pod/bodyscanner{pixel_y = 6},/turf/open/floor/prison/whitegreen/southeast,/area/turing/base/medical)
 "Rd" = (/obj/effect/decal/cleanable/hybrisa/dirt_2,/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
 "Re" = (/obj/structure/machinery/door/airlock/hybrisa/generic_solid{dir = 1},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
@@ -957,7 +960,7 @@
 "UT" = (/obj/effect/decal/cleanable/dirt,/obj/item/paper/crumpled{pixel_x = 6; pixel_y = 18},/turf/open/floor/prison/blue_plate,/area/turing/command)
 "UU" = (/obj/effect/decal/cleanable/dirt,/obj/structure/largecrate/random/barrel,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "UZ" = (/obj/structure/largecrate/supply/supplies/wy_emergency_food,/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
-"Vg" = (/obj/structure/machinery/space_heater,/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
+"Vg" = (/obj/structure/machinery/space_heater,/obj/structure/machinery/power/apc/power/north,/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
 "Vj" = (/obj/structure/dropship_equipment/weapon/rocket_pod,/turf/open/floor/plating,/area/turing/base/hangar)
 "Vl" = (/obj/structure/surface/rack{color = "#98a3ab"},/obj/item/storage/box/packet/m15/rubber,/obj/item/storage/box/packet/m15/rubber,/obj/item/storage/box/packet/m15/rubber,/obj/item/storage/box/packet/m15/rubber,/obj/item/storage/box/packet/m15/rubber,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/east)
 "Vm" = (/obj/structure/bed/chair/wood/wings{dir = 1},/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
@@ -1091,7 +1094,7 @@ AVAVAVAVPPPPPPPPPPPPPPPPPPPPPPVNPPVNPPPPPPPPPPTNEbEbeeTNTNEbeeTNTNEbEbTNLGTNmHtg
 AVAVAVAVTNEbTNTNEbEbEbTNEbTNTNdeszlxXPwEsYtCEbEboYeFTNTNeeEbTNTNEbvbDNDNDNTNpRpRpRpRVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVofefefe
 AVAVAVAVAVTNTNEbTNTNeeTNTNMHTNdeszlxMRUQEKTnEbEbEbTNEbTNTNEbTNTNTNvepRpRWDbTpRpRpRpRKnKnNDKnKnKnrQKnKnKnKnKnKnKnmbVoVoVombKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnfefe
 AVAVAVAVTNTNekTNTNTNEbTNEbXVeedeszlxbQkXNREpEbEbEbTNoYEbTNeeEbEbTNveuYglGgpRpRpRpRpRjaKnNDKnKnKnKnKnKnKnKnrQKnKnKnVoVoVoKnKnKnKnKnKnKnKnKnZsKnKnKnrQKnKnKnKnNAfVKnKnKnKnKnKnKnKnfefe
-AVAVAVAVAVTNTNTNEbEbEbeeEbTNTNdeszlxCrPCMMxbEbTNoYTNTNTNTNTNTNTNVDTNOzOzOzTNpRpRpRpRKnKnnswbnszxzxzxsEnsnsnsKnKnKnVoVoVoKnKnKnrQKnKnKnKnKnKnKnKnKnKnKnIyKnKnKnKnKnNAKnNAKnKnKnfefefe
+AVAVAVAVAVTNTNTNEbEbEbeeEbTNTNdeszlxCrPCMMxbEbTNoYTNTNTNTNTNTNTNVDTNOzOzOzTNpRpRpRpRKnKnnsnsnszxzxzxsEwbnsnsKnKnKnVoVoVoKnKnKnrQKnKnKnKnKnKnKnKnKnKnKnIyKnKnKnKnKnNAKnNAKnKnKnfefefe
 AVAVAVAVAVAVTNTNEbEbEbEbEbEbTNdeszlxRgoYEbEbTNTNEbEbEZEZEZEZEZEZTNTNTNTNTNTNpRpRpRpRKnKnnsHEtxtxaTOwRUCmHgnsKnKnZsVoVoVoZsKnKnKnKnKnGjKnKnKnfVKnZsKnKnKnKnKnKnKnKnZsKnKnKnKnfefefefe
 AVAVAVAVAVTNjgwEsYoMwEsYtCeeTNdeszlxEbKWTNEZEZwNEZEZTVwIhJLywITVEZEZEZEZTNvbpRpRpRpRKnKnnsNKKUSiWtSiSiswhPnsKnKnKnVoVoVoKnKnKnKnZsKnKnVLVLVLVLVLVLVLVLoxVLVLVLKnKnKnKnKnKnKnKnfefefe
 AVAVAVAVTNTNWTFaaUaUaUaUMwEbeedeszlxTNEbTNEZqkpXvnzzDmQGMWQGQGPSeufSlqEZTNTNpRpRpRpRKnKnnsshWtWtkZuLvrAaKSnsZsKnKnVoVoVoKnKnKnKnKnKnKnVLNGeJQAGbBdjVHkxMkyVLVLVLVLVLbxupVLVLKnfefefe
@@ -1108,18 +1111,18 @@ AVAVAVAVTNMvPCPCwwPCPCPCPCxbTNdeszlxTNTNTNEZnvJdVQODyNAYwlAYyNVQVQPQjHEZTNTNpRpR
 AVAVAVEUTNTNTNTNTNTNTNEbEbTNTNdeszlxTNTNTNEZUrFkVQZWRlsMbfnIsOjGVQPQZFEZTNLNpRpRpRpRKnKnnsOjHmoWlRoWHmoWhNnsKnKnKnVoVoVoKnKnKnKnZsKnKnVLReVLVLVLVLcfcFVLbJbJCDnmbJCDAGVLKnKnKnKnfefe
 AVAVAVAVAVAVAVTNTNBELGTNTNARTNdeszlxerTNEbEZUrcxVQKPRljyTJQCsOPDVQPQZFEZLGTNpRpRpRpRKnKnnsYSgbgbgbgbKqKqhPnsKnROKnVoVoVoNANAKnKnKnKnKnVLbJbJHzmxVLjFjFQdbJbJmzjFYbbJtEVLKnKnKnKnfefe
 AVAVAVAVAVAVTNBETNTNTNTNTNTNVwdeszlxMHTNEbEZIEcxVQdTFVobxQoXmtuDqyPQdDEZTNTNpRpRpRpRrQKnnsHKUZgbgygbCZToGInsKnrQKnVoVoVoIyNAKnKnKnKnKnVLjFjFjFBzVLjFjFVLcfjFjFbJbJmaynVLKnKnKnKnfefe
-AVAVAVAVAVTNTNTNEbTNTNTNTNTNMHdeszszjDjDjDDzLMAKVQMpFVkCjvkCRIONVQPZjmEZTNTNpRpRpRpRKnKnnsNKKqzmgygbgbgbJEnsKnKnKnVoVoVoKnKnKnKnKnKnKnVLnNYbjFbJVLjFjFVLbJjFjFEqjFjFmSVLKnKnKnfefefe
+AVAVAVAVAVTNTNTNEbTNTNTNTNTNMHdeszszjDjDjDDzLMAKVQMpFVkCjvkCRIONVQPZjmEZTNTNpRpRpRpRKnKnnsRSKqzmgygbgbgbJEnsKnKnKnVoVoVoKnKnKnKnKnKnKnVLnNYbjFbJVLjFjFVLbJjFjFEqjFjFmSVLKnKnKnfefefe
 AVAVAVAVTNTNEbTNEbTNTNTNTNARTNdeszszszszszDzLMAKGnyMnqfoowWpZVkxGnJdRdEZLGTNpRpRpRpRKnKnnsyjJOheZZgbBcgbeaEyVoVoVoVoVoVorQNAKnKnNAKnKnVLbqGpGpGpVLaEalVLjnPerVTlIuUnDgVLKnKnfefefefe
 AVAVAVTNTNEbTNEbEbTNLGTNTNTNEbdeszszBNBNBNDzLMAKVQGnVQqtVQbyVQGnVQJdRdEZTNLGpRpRpRpRKnKnnsfIMUgbKqgbgbgbeaEyVoVoVoVoVoVoKnvONAKnKnZsKnVLVLVLVLVLVLrBbJVLVLVLinVLVLVLVLVLKnKnNAfefefe
 AVAVAVTNTNEbEbEbBEEbTNCKEbLGTNdeszlxTNTNEbUGxWPqVQIsCHwxVQKTHsKIVQRdyhEZTNVwpRpRpRpRusKnnseArZWOLogbgbgbeaEyVoVoVoVoVoVoKnKnKnKnKnKnKnVLSLMfMfErVLyCcFVLPILwgfdmBshkZgVLKnKnKnKnfefe
-AVAVTNTNEbEbTNTNTNTNTNEbTNTNTNdeszlxEbEbEbEZJdcxqoVQGnGnVQGnGnVQqoRdJdEZTNTNpRpRpRpRKnKnnsFesWiENoZZZZgbeaEyVoVoVoVoVoVoKnKnKnKnKnKnKnVLbJjFjFbJVLbJbJVLUxULTfTPRHivKkVLKnKnKnKnfefe
+AVAVTNTNEbEbTNTNTNTNTNEbTNTNTNdeszlxEbEbEbEZJdcxqoVQGnGnVQGnGnVQqoRdJdEZTNTNpRpRpRpRKnKnnsFesWiENoZZZZgbeaEyVoVoVoVoVoiSKnKnKnKnKnKnKnVLbJjFjFbJVLbJbJVLUxULTfTPRHivKkVLKnKnKnKnfefe
 AVAVAVTNTNTNTNLGTNTNLGTNRgEbHedeszlxEbmgEbEZJdcxJdJdJdcxcxRdRdJdcqJdRdEZTNTNpRpRpRpRKnKnnsCRDXjPLogbKqgbeaEyVoVoVoVoVoVoVoVoVoVoVoVoVoQdbJbJjFjFQdjFjFMATPTPEBEBczTPdsVLKnKnKnKnfefe
 AVAVAVAVTNTNTNTNEbTNEbTNTNIJTNdeszlxTNEbLGEZJdJdRdJdcxJdRJTeTYTYTeQNTYEZTNTNpRpRpRpRKnKnnsfXbaWOWOJakiJaMmnsKnKnKnVoVoVoVoVoVoVoVoVoVoVLbKbJjFCEVLnwbJPlTPEBEBULTPTPOHVLKnKnKnKnfefe
 AVAVAVAVAVLGTNpRsqpRrLTNLGEbRgdeszlxLGTNTNEZSEJdJdcxJdJdgtWXWCWXwowoWXEZTNTNpRpRpRpRKnKnnsRSrZrZmEWOWOrZhPnsKnKnKnVoVoVoVoVoVoVoVoVoVoQdMCjFbJjFNubJbJVLEBEBTPTPTPTPeMVLKnKnKnKnfefe
 AVAVAVAVAVAVEbEYeKPdhuEbTNEbEbdeszlxTNLGTNEZuFPWNWzgNkfQkVSrwTSrdASraFEZTNskpRpRpRpRmbKnnswJlUmEyTANbEYHvdnsKnKnKnVoVoVoKnKnKnKnKnKnKnVLbJjFbJoyVLjFbJxCSHrMtMYlMVMVMVVLKnKnKnfefefe
 AVAVAVAVAVEbpRlgcgPsVrpRTNEbTNdeszlxEbTNEbEZEZEZEZEZEZEZEZEZEZEZEZEZEZEZTNLGpRpRpRpRrQKnnskldzrZmEtbTvAIqMnsKnrQKnVoVoVoKnKnKnKnKnKnKnVLlYjFbJQOVLLKalVLVxsmIfZnihMVqaVLKnKnfefefefe
 AVAVAVTNTNTNEbLGTNLGLGEbEbTNARdeszlxskRgEbTNTNTNTNTNTNEbEbTNEbTNTNTNEbTNTNTNpRpRpRpRKnKnnsnsXITRrZmBTwqgnsnsKnNAKnVoVoVoKnKnKnKnKnKnKnVLVLVLVLVLVLrBbJVLVLVLVLVLVLVLVLVLKnKnKnfefefe
-AVAVAVLGTNTNTNTNLGPyjDjDjDjDjDszszszjDjDjDjDjDbiTNTNTNTNEbTNEbTNLGTNTNEbTNTNpRpRpRpRKnKnKnnsnsXITRTwqgnsnsKnKnKnKnVoVoVoKnKnKnKnKnKnKnVLvLWSvvsninLbDpinuGetetetJNFbqTVLVLKnKnKnfefe
+AVAVAVLGTNTNTNTNLGPyjDjDjDjDjDszszszjDjDjDjDjDbiTNTNTNTNEbTNEbTNLGTNTNEbTNTNpRpRpRpRKnKnKnnsnsRbTRTwxgnsnsKnKnKnKnVoVoVoKnKnKnKnKnKnKnVLvLWSvvsninLbDpinuGetetetJNFbqTVLVLKnKnKnfefe
 AVAVAVTNEbTNTNEbTNdeTXaCgMhhwMaCozhhwMaCgMhhTXlxLGARTNEZEZEZSyEZEZEZEZEZEZEZpRpRpRpRKnKnKnNAnsnshHUKnsnsKnKnKnKnNAVoVoVoKnKnKnKnKnKnKnVLbJjFjFjFVLbJjFycYbYbjFjFbJjFbJKOVLVLKnKnfefe
 AVAVAVTNTNTNdnMNTNdeQLlTlTlTlTlTlTlTlTlTlTHPBSlxEbEbTNEZiIdPtDqWqISkVQBqzQEZpRpRpRpRKngWKnKnKnnsnsnsnsKnKnfVKnKnKnVoVoVoKnROKnKnKnKnKnVLWAjFjFjFjFbJjFuUbJbJjLFvlajFbJbJEvVLKnKnfefe
 AVAVAVAVTNTNEbTNMHdeFclTlTlTlTlTlTlTlTlTlTlTzblxRgTNLGEZnJVQRQVQQfSkFGBqFGEZpRpRpRpRfVKnKnKnfVKnNANAKnZsNAKnKnKnKnVoVoVoKnKnrQKnKnKnKnVLlwrijFjFqLjFbJUSjFjFjFAqfEbJbJbJEiVLKnKnfefe
