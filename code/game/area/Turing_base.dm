@@ -56,7 +56,6 @@
 	name = "Command Center"
 	icon_state = "bridge"
 	minimap_color = MINIMAP_AREA_COMMAND
-	soundscape_playlist = SCAPE_PL_CIC
 
 /area/turing/base/hangar
 	name = "Vehicle Hangar"
@@ -69,4 +68,4 @@
 /area/turing/command/checkpoint
 	name = "Checkpoint Building"
 	icon_state = "security"
-	minimap_color = MINIMAP_AREA_SEC
+
