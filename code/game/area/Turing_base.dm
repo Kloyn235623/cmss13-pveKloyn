@@ -1,63 +1,72 @@
-/area/outside/east_street
-// code/_DEFINES/zones/kloyn_pve_zones.dm
+//====================================================================================================
+// TURING BASE
+/area/turing
+	name = "Turing Base"
+	icon_state = "base"
+	can_build_special = TRUE
+	minimap_color = MINIMAP_AREA_COLONY
+	powernet_name = "turing"
 
-/area/outside/west_street
-    name = "\improper West Street"
-    icon_state = "outside"
-    dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
-    requires_power = FALSE
-    area_flags = NOTELEPORT | NOJUNCTIONSCAN
+//======================================================================================PARENTS
+/area/turing/base
+	name = "Turing Base"
+	ceiling = CEILING_REINFORCED_METAL
+	sound_environment = SOUND_ENVIRONMENT_ROOM
+	soundscape_playlist = SCAPE_PL_CIC
 
-/area/outside/east_street
-    name = "\improper East Street"
-    icon_state = "outside"
-    dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
-    requires_power = FALSE
-    area_flags = NOTELEPORT | NOJUNCTIONSCAN
+/* STREETS */
+/area/turing/streets
+	name = "Turing Streets"
+	icon_state = "outside"
+	requires_power = FALSE
+	soundscape_playlist = SCAPE_PL_WIND
 
-/area/marine/barracks
-    name = "\improper Marine Barracks"
-    icon_state = "barracks"
-    cleanliness_modifier = 0.8
+/area/turing/streets/west
+	name = "\improper West Street"
+	icon_state = "north"
 
-/area/medical/main
-    name = "\improper Medical Bay"
-    icon_state = "medbay"
-    alarm_threshold_pressure = 50
-    alarm_threshold_toxins = 5
+/area/turing/streets/east
+	name = "\improper East Street"
+	icon_state = "east"
 
-/area/civilian/lake_house
-    name = "\improper Lake House"
-    icon_state = "civ_service"
-    dynamic_lighting = DYNAMIC_LIGHTING_FORCED
-    has_gravity = TRUE
-    cleanliness_modifier = 1.2
+/* RESIDENTIAL */
+/area/turing/base/barracks
+	name = "Marine Barracks"
+	icon_state = "barracks"
 
-/area/engineering/solar_control
-    name = "\improper Engineering Bay"
-    icon_state = "engie"
-    atmos_processing = TRUE
-    ambient_temp_min = 293
-    ambient_temp_max = 303
+/area/turing/base/lake_house
+	name = "Lake House"
+	icon_state = "civ_service"
 
-/area/hangar/bay
-    name = "\improper Vehicle Hangar"
-    icon_state = "hangar"
-    gravity = 0
-    atmospheric_static_pressure = ONE_ATMOSPHERE
-    no_air_tight = TRUE
+/* MEDICAL */
+/area/turing/base/medical
+	name = "Medical Bay"
+	icon_state = "medbay"
+	minimap_color = MINIMAP_AREA_MEDBAY
 
-/area/garage/workshop
-    name = "\improper Garage Workshop"
-    icon_state = "storage"
-    power_equip = TRUE
+/* ENGINEERING */
+/area/turing/base/engineering
+	name = "Engineering Bay"
+	icon_state = "engie"
+	minimap_color = MINIMAP_AREA_ENGI
+	soundscape_playlist = SCAPE_PL_ENG
 
-/area/command/checkpoint
-    name = "\improper Checkpoint Building"
-    icon_state = "security"
-    high_security = TRUE
+/area/turing/base/hangar
+	name = "Vehicle Hangar"
+	icon_state = "hangar"
 
-/area/command/bridge
-    name = "\improper Command Center"
-    icon_state = "bridge"
-    emergency_always_on = TRUE
+/area/turing/base/garage
+	name = "Garage Workshop"
+	icon_state = "storage"
+
+/* COMMAND */
+/area/turing/command
+	name = "Command Center"
+	icon_state = "bridge"
+	minimap_color = MINIMAP_AREA_COMMAND
+	soundscape_playlist = SCAPE_PL_CIC
+
+/area/turing/command/checkpoint
+	name = "Checkpoint Building"
+	icon_state = "security"
+	minimap_color = MINIMAP_AREA_SEC
