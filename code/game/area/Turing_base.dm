@@ -53,7 +53,7 @@
 
 
 /area/turing/command
-	name = "Command Center"
+	name = "\improper Command Center"
 	icon_state = "bridge"
 	minimap_color = MINIMAP_AREA_COMMAND
 
@@ -66,6 +66,6 @@
 	icon_state = "storage"
 
 /area/turing/command/checkpoint
-	name = "Checkpoint Building"
+	name = "\improper Checkpoint Building"
 	icon_state = "security"
 

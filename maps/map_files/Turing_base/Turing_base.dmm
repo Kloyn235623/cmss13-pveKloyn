@@ -11,7 +11,7 @@
 "av" = (/obj/structure/desertdam/decals/road_stop{dir = 4; icon_state = "stop_decal5"; pixel_x = 4},/obj/item/lightstick/red/variant/planted,/obj/structure/machinery/light/double{dir = 1},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "aA" = (/obj/structure/closet/secure_closet/marine_personal/rmc/medic{pixel_x = -8},/obj/structure/closet/secure_closet/marine_personal/rmc/engi{pixel_x = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "aC" = (/obj/structure/machinery/landinglight/ds2,/turf/open/asphalt/cement/cement12,/area/turing/streets/west)
-"aE" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light{dir = 8},/obj/effect/landmark/observer_start,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"aE" = (/obj/effect/decal/cleanable/dirt,/obj/effect/landmark/observer_start,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "aF" = (/obj/vehicle/powerloader{layer = 5},/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/mech_bay_recharge_floor,/area/turing/base/hangar)
 "aH" = (/obj/structure/machinery/landinglight/ds2/spoke{pixel_x = -12},/turf/open/asphalt/cement/cement1,/area/turing/streets/west)
 "aJ" = (/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/east)
@@ -35,11 +35,13 @@
 "by" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "6,1"},/turf/open/floor/plating,/area/turing/base/hangar)
 "bD" = (/obj/effect/decal/warning_stripes{icon_state = "N"; pixel_y = 2; pixel_x = -1},/obj/effect/decal/warning_stripes{icon_state = "E"},/turf/open/hybrisa/street/sidewalkfull,/area/turing/streets/west)
 "bE" = (/obj/structure/cargo_container/seegson/left,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
+"bG" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/weapon/gun/smg/p90/twe,/obj/item/storage/belt/gun/m39/rmc,/obj/item/storage/belt/gun/m39/rmc,/obj/item/ammo_box/magazine/p90,/obj/item/ammo_box/magazine/vp70/extended{pixel_x = 2; pixel_y = 3},/obj/item/storage/box/guncase/heavy/fuel/pmc{pixel_x = 2; pixel_y = 19},/turf/open/floor/prison/red/southeast,/area/turing/base/barracks)
 "bJ" = (/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "bK" = (/obj/effect/decal/hybrisa/colorable_rug{color = "#3d3d3d"; pixel_x = 2; pixel_y = 27; name = "rubber mat"},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "bQ" = (/obj/structure/prop/hybrisa/fakeplatforms/platform5/deco{dir = 8; pixel_x = 3},/turf/open/hybrisa/street/sidewalk/west,/area/turing/streets/west)
 "bR" = (/obj/structure/stairs/perspective{color = "#6e6e6e"; dir = 8; icon_state = "p_stair_ew_full_cap"; layer = 3.5},/obj/structure/platform_decoration{dir = 4},/turf/open/floor/prison/blue_plate,/area/turing/command)
 "bT" = (/obj/structure/barricade/hesco{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
+"bV" = (/obj/structure/flora/wood/stick2,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "bW" = (/obj/structure/machinery/iv_drip,/turf/open/floor/prison/sterile_white,/area/turing/base/medical)
 "ca" = (/obj/structure/platform_decoration/metal/almayer/west,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "cf" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
@@ -59,13 +61,14 @@
 "cQ" = (/obj/structure/bed/chair,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "cR" = (/obj/effect/decal/cleanable/dirt,/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 4},/obj/structure/surface/table/almayer{color = "#848484"},/obj/item/prop/helmetgarb/compass{pixel_y = 4; pixel_x = 5},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "cV" = (/obj/structure/desertdam/decals/road_stop{dir = 1; icon_state = "stop_decal5"},/obj/structure/desertdam/decals/road_edge{icon_state = "road_edge_decal3"; pixel_y = 3; pixel_x = -1},/obj/structure/desertdam/decals/road_edge{icon_state = "road_edge_decal3"; pixel_y = 3; pixel_x = 4},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
+"dd" = (/obj/structure/bed/chair/comfy/bench/north,/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
 "de" = (/turf/open/asphalt/cement/cement3,/area/turing/streets/west)
 "df" = (/obj/structure/closet/hydrant,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/command)
 "dm" = (/obj/structure/closet/cabinet,/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
 "dn" = (/obj/structure/flora/tree/tyrargo{pixel_x = -23; pixel_y = 15; layer = 5.74},/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
 "do" = (/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/command)
 "ds" = (/obj/structure/machinery/vending/snack,/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
-"dy" = (/obj/structure/bed,/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/late_join/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"dy" = (/obj/structure/bed,/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/late_join,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "dz" = (/obj/structure/cargo_container/hybrisa/containersextended/tanright,/turf/open/floor/prison/floor_marked,/area/turing/base/engineering)
 "dA" = (/obj/vehicle/powerloader{layer = 5},/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/mech_bay_recharge_floor,/area/turing/base/hangar)
 "dC" = (/obj/item/stool{pixel_x = -7; pixel_y = -3},/turf/open/asphalt/cement,/area/turing/streets/west)
@@ -84,21 +87,22 @@
 "eh" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/blue_plate,/area/turing/command)
 "ek" = (/obj/structure/flora/tree/dead/tree_1,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
 "en" = (/turf/closed/wall/hybrisa/colony/reinforced/hull,/area/turing/streets/west)
+"ep" = (/obj/structure/prop/colorable_rock/colorable,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "er" = (/obj/structure/flora/tree/dead/tree_5{pixel_x = -1; pixel_y = 0},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
-"et" = (/obj/structure/gun_rack/nsg/unloaded,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"et" = (/obj/structure/gun_rack/nsg/unloaded,/turf/open/floor/prison/red/north,/area/turing/base/barracks)
 "eu" = (/obj/structure/machinery/power/apc/no_power/north,/obj/structure/flora/pottedplant{icon_state = "pottedplant_25"; pixel_x = 6; pixel_y = 15},/turf/open/floor/prison/blue/north,/area/turing/base/hangar)
 "ev" = (/obj/item/stool,/obj/effect/decal/cleanable/dirt,/turf/open/floor/kutjevo/fake_wood,/area/turing/streets/east)
 "eA" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/darkbrown2/west,/area/turing/base/engineering)
 "eE" = (/obj/structure/largecrate/random,/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
 "eF" = (/obj/structure/flora/wood/stick2,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
 "eH" = (/obj/structure/barricade/handrail{dir = 1; layer = 5; pixel_y = 8; pixel_x = 0},/obj/structure/machinery/power/port_gen{pixel_x = 96; pixel_y = -29; layer = 1},/turf/open/floor/prison/floor_plate,/area/turing/streets/east)
-"eJ" = (/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 4},/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/start/marine/engineer/rmcmortar,/obj/effect/landmark/start/marine/specialist/rmc,/obj/effect/landmark/late_join/rmc,/obj/effect/landmark/late_join/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"eJ" = (/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 4},/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/effect/landmark/start/marine/engineer/rmcmortar,/obj/effect/landmark/start/marine/specialist/rmc,/obj/effect/landmark/late_join,/obj/structure/curtain/blue,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "eK" = (/obj/item/prop{desc = "A manual, crew-operated mortar system intended to rain down 80mm goodness on anything it's aimed at. Uses an advanced targeting computer. This one has fired so many rounds the barrel is warped, leaving it non-functional"; icon = 'icons/obj/structures/mortar.dmi'; icon_state = "c_mortar_m402"; name = "M402 mortar (non-functional)"; dir = 1; pixel_y = 18; pixel_x = -14; anchored = 1; layer = 6},/obj/structure/prop/tyrargo/boards/boards_2,/turf/open/auto_turf/strata_grass/layer0_mud_alt,/area/turing/streets/west)
 "eL" = (/obj/effect/decal/warning_stripes{icon_state = "W"; layer = 3.3},/obj/effect/decal/warning_stripes{icon_state = "S"; layer = 3.3; pixel_x = -1},/turf/open/hybrisa/street/sidewalkfull,/area/turing/streets/west)
 "eM" = (/obj/structure/machinery/vending/coffee,/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
 "eN" = (/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "eP" = (/obj/structure/cargo_container/hybrisa/containersextended/emptymedicalright{pixel_x = 0; pixel_y = 4; layer = 6},/turf/open/asphalt/cement,/area/turing/streets/west)
-"eS" = (/obj/structure/bed/stool,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"eS" = (/obj/structure/bed/stool,/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
 "eX" = (/obj/structure/machinery/vending/generic,/turf/open/floor/prison/blue_plate,/area/turing/command)
 "fd" = (/obj/structure/prop/tyrargo/large_tents/small,/obj/structure/largecrate/random/case{pixel_x = 6; pixel_y = -1},/obj/structure/largecrate/random/mini/ammo{pixel_x = 2; pixel_y = 5},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "fe" = (/turf/closed/wall/hybrisa/rock,/area/turing/streets/east)
@@ -108,8 +112,8 @@
 "fs" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/chair{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "fx" = (/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/medical)
 "fz" = (/obj/effect/decal/cleanable/blood/oil,/turf/open/asphalt/cement/cement3,/area/turing/streets/west)
-"fD" = (/obj/structure/machinery/light/double,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/east)
-"fE" = (/obj/effect/decal/cleanable/dirt,/obj/structure/surface/rack,/obj/item/ammo_box/magazine/nade_box/rmc/cn20{pixel_x = 8; pixel_y = 7},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"fD" = (/turf/open/floor/prison/redcorner,/area/turing/base/barracks)
+"fE" = (/obj/effect/decal/cleanable/dirt,/obj/structure/surface/rack,/obj/item/ammo_box/magazine/nade_box/rmc/cn20{pixel_x = 8; pixel_y = 7},/obj/item/ammo_box/magazine/nade_box/rmc/incen{pixel_x = -3; pixel_y = -1},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "fH" = (/obj/structure/closet/secure_closet/marine_personal/rmc/troop_commander{pixel_x = -8; pixel_y = 0},/obj/structure/closet/secure_closet/marine_personal/rmc/troop_leader{pixel_x = 8; pixel_y = 0},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "fI" = (/obj/structure/cargo_container/hybrisa/containersextended/whitewyleft,/turf/open/floor/prison/darkbrown2/west,/area/turing/base/engineering)
 "fJ" = (/obj/structure/platform_decoration/wood/east,/turf/open/auto_turf/snow/brown_base/layer1,/area/turing/streets/east)
@@ -117,10 +121,11 @@
 "fP" = (/obj/effect/decal/hybrisa/road/lines2,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "fQ" = (/obj/structure/machinery/recharge_station,/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
 "fS" = (/obj/structure/prop/hybrisa/misc/cabinet{dir = 8; pixel_x = 5; pixel_y = 18; layer = 3.1},/obj/item/reagent_container/food/drinks/coffee{pixel_x = 7; pixel_y = 30; layer = 3.2},/obj/effect/decal/cleanable/hybrisa/trash{icon_state = "trash_8"; pixel_y = -5},/turf/open/floor/prison/blue/north,/area/turing/base/hangar)
+"fT" = (/obj/structure/machinery/light{dir = 8},/obj/structure/bed/chair/comfy/bench/south/west,/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
 "fU" = (/obj/structure/machinery/light{dir = 4},/obj/structure/bed/chair,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "fV" = (/turf/open/auto_turf/snow/brown_base/layer1,/area/turing/streets/east)
 "fX" = (/obj/structure/largecrate/random/case/double,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/darkbrown2/west,/area/turing/base/engineering)
-"fY" = (/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 1; pixel_y = 10},/obj/structure/machinery/shower{dir = 8; layer = 3.2},/turf/open/floor/plating/plating_catwalk/strata,/area/turing/base/barracks)
+"fY" = (/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 1; pixel_y = 10},/obj/structure/machinery/shower{dir = 8; layer = 3.2},/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
 "fZ" = (/obj/structure/bed/chair{dir = 4; pixel_x = 7; pixel_y = 10},/obj/structure/sign/poster/wylogo{pixel_y = 32},/obj/structure/sign/poster/safety{pixel_x = 12; pixel_y = 30},/turf/open/floor/almayer/blackfull/west{pixel_x = 0; pixel_y = 0},/area/turing/base/garage)
 "ga" = (/obj/structure/window/framed/wood,/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
 "gb" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
@@ -139,7 +144,7 @@
 "gB" = (/obj/effect/decal/cleanable/hybrisa/dirt_2,/turf/open/floor/plating,/area/turing/base/hangar)
 "gC" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal9"},/obj/effect/decal/hybrisa/road/lines2,/obj/structure/machinery/light/double{dir = 8; pixel_x = 1; pixel_y = 14},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "gD" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/warning_stripes{icon_state = "S"; layer = 3.3; pixel_x = -1},/turf/open/hybrisa/street/sidewalkfull,/area/turing/streets/west)
-"gI" = (/obj/structure/largecrate/random/barrel/medical,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
+"gI" = (/obj/structure/machinery/light/double,/turf/open/floor/prison/darkbrown2/southwest,/area/turing/base/engineering)
 "gK" = (/obj/structure/surface/table/almayer{color = "#848484"},/obj/structure/machinery/door_control{id = "ROlobby2"; name = "Line Shutters"; pixel_x = 5; pixel_y = 10; req_one_access_txt = "1;21"},/obj/item/ashtray/plastic{pixel_y = -2; pixel_x = 3},/obj/structure/machinery/door_control/brbutton/alt{pixel_y = 10; pixel_x = -7; id = "BarrierNorth"; name = "Barrier - North"},/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/bright_clean/southwest,/area/turing/command/checkpoint)
 "gM" = (/obj/structure/machinery/landinglight/ds2/delaythree,/turf/open/asphalt/cement/cement12,/area/turing/streets/west)
 "gN" = (/obj/structure/barricade/sandbags/full,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/east)
@@ -176,7 +181,7 @@
 "im" = (/obj/effect/decal/warning_stripes{icon_state = "E"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "in" = (/obj/effect/decal/cleanable/dirt,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/barracks)
 "io" = (/obj/structure/closet/coffin/woodencrate/old{pixel_x = -4; pixel_y = 16; layer = 1},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
-"it" = (/obj/item/trash/cigbutt/bcigbutt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"it" = (/obj/item/trash/cigbutt/bcigbutt,/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light{dir = 4},/obj/structure/bed/chair/comfy/bench/south/west,/obj/item/clothing/head/headband/intel{pixel_x = -1; pixel_y = 6},/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
 "iu" = (/obj/effect/decal/hybrisa/road/road_stop{dir = 8; icon_state = "stop_decal5"},/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "iv" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/hybrisa/carpet/carpetdarkerblue,/area/turing/base/barracks)
 "ix" = (/obj/structure/flora/tree/tyrargo{pixel_x = -5; pixel_y = -8; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer1,/area/turing/streets/east)
@@ -187,12 +192,13 @@
 "iM" = (/obj/structure/machinery/cm_vending/gear/medic_chemical/rmc,/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
 "iQ" = (/obj/structure/flora/tree/dead/tree_2{pixel_x = -3; pixel_y = -25},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
 "iR" = (/obj/effect/decal/warning_stripes{icon_state = "E"},/obj/effect/decal/warning_stripes{icon_state = "W"; layer = 3.3},/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
+"iX" = (/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/rmc,/turf/open/floor/prison/red,/area/turing/base/barracks)
 "ja" = (/obj/structure/prop/tyrargo/watchtower,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "jb" = (/obj/structure/machinery/cm_vending/sorted/medical/blood,/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
 "je" = (/obj/effect/decal/cleanable/blood/oil,/turf/open/asphalt/cement,/area/turing/streets/west)
 "jg" = (/obj/structure/prop/hybrisa/misc/trash,/turf/open/hybrisa/street/sidewalk/northwest,/area/turing/streets/west)
 "jm" = (/obj/effect/decal/warning_stripes{icon_state = "N"; pixel_y = 2; pixel_x = -1},/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
-"jn" = (/obj/structure/machinery/disposal/delivery,/obj/structure/machinery/light{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"jn" = (/obj/structure/machinery/disposal/delivery,/obj/structure/machinery/light{dir = 8},/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
 "jr" = (/obj/structure/flora/pottedplant{icon_state = "pottedplant_10"; pixel_x = -1; pixel_y = 1},/obj/structure/machinery/light/double,/turf/open/floor/prison,/area/turing/base/garage)
 "js" = (/obj/item/roller/surgical{pixel_x = 6; pixel_y = 11},/obj/item/roller{pixel_x = 11; pixel_y = 2},/obj/structure/surface/table/reinforced/prison{color = "#8e98a0"},/turf/open/floor/prison/whitegreen/west,/area/turing/base/medical)
 "jt" = (/obj/effect/decal/cleanable/dirt,/obj/structure/prop/structure_lattice{density = 0; desc = "This jukebox only takes quarters and you seem to be out of them at the moment."; icon = 'icons/obj/structures/props/misc.dmi'; icon_state = "jukebox"; name = "Rockin Robin 2300 Jukebox"; pixel_x = 0; pixel_y = 14},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
@@ -209,16 +215,15 @@
 "jU" = (/obj/structure/platform/wood/west,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "jV" = (/obj/structure/prop/structure_lattice{density = 0; desc = "On closer inspection, everything on these shelves are made of plastic."; icon_state = "book-3"; name = "book case"; pixel_y = 4; pixel_x = -1},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "jY" = (/obj/structure/largecrate/random/barrel/black,/obj/item/stack/sheet/wood{pixel_x = -1; pixel_y = 7},/obj/item/clothing/head/helmet/marine/veteran/royal_marine/pilot/alt{layer = 5; pixel_x = 9; pixel_y = 16},/turf/open/floor/plating,/area/turing/base/hangar)
-"jZ" = (/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/rmc,/obj/structure/machinery/light/double/blue{light_color = "#dae2ff"},/turf/open/floor/prison/bright_clean,/area/turing/base/barracks)
+"jZ" = (/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/rmc,/obj/structure/machinery/light/double/blue{light_color = "#dae2ff"},/turf/open/floor/prison/red,/area/turing/base/barracks)
 "kd" = (/obj/structure/barricade/handrail/medical{dir = 4},/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/whitegreencorner/north,/area/turing/base/medical)
 "ke" = (/obj/item/trash/twe_mre{pixel_x = -8; pixel_y = -55},/turf/open/floor/prison/blue_plate/north,/area/turing/command)
 "ki" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/cell_stripe,/area/turing/base/engineering)
 "kj" = (/obj/structure/dropship_equipment/weapon/laser_beam_gun,/obj/structure/machinery/light/double{dir = 4; pixel_x = 1; pixel_y = 14},/turf/open/floor/plating,/area/turing/base/hangar)
 "kk" = (/obj/effect/decal/cleanable/dirt,/obj/structure/reagent_dispensers/water_cooler/stacks{density = 0; pixel_y = 16; pixel_x = -29; layer = 4},/obj/item/trash/cigbutt,/obj/structure/machinery/light/blue{dir = 1},/turf/open/floor/prison/blue_plate/north,/area/turing/command)
 "kl" = (/obj/structure/cargo_container/hybrisa/containersextended/tanleft,/turf/open/floor/prison/darkbrown2/southwest,/area/turing/base/engineering)
-"kn" = (/obj/structure/machinery/light/double,/turf/open/floor/prison/darkbrown2/southeast,/area/turing/base/engineering)
 "kx" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "8,3"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/turing/base/hangar)
-"ky" = (/obj/structure/machinery/power/apc/no_power/north,/obj/structure/machinery/space_heater/radiator/red{pixel_x = 0; pixel_y = 23},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"ky" = (/obj/structure/machinery/space_heater/radiator/red{pixel_x = 0; pixel_y = 23},/obj/structure/machinery/power/apc/power/north,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "kA" = (/obj/structure/machinery/door/airlock/hybrisa/generic/autoname{dir = 1},/turf/open/floor/prison/bright_clean/southwest,/area/turing/command/checkpoint)
 "kC" = (/obj/structure/prop/almayer/cannon_cable_connector{pixel_y = -3; name = "crew compartment attach point"},/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,/area/turing/base/hangar)
 "kE" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/sterile_white,/area/turing/base/medical)
@@ -232,6 +237,7 @@
 "kX" = (/obj/structure/prop/hybrisa/fakeplatforms/platform5{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/hybrisa/street/sidewalk/southwest,/area/turing/streets/west)
 "kZ" = (/obj/structure/largecrate/random/case/double{pixel_x = -1; pixel_y = 0},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "la" = (/obj/structure/surface/rack,/obj/item/ammo_box/magazine/nade_box/rmc{pixel_x = 5; pixel_y = 5},/obj/item/ammo_box/magazine/nade_box/rmc{pixel_x = -4; pixel_y = -3},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"lb" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
 "lg" = (/obj/item/mortar_shell/phosphorus{pixel_x = 3; pixel_y = 19},/turf/open/auto_turf/strata_grass/layer0_mud_alt,/area/turing/streets/west)
 "lk" = (/obj/structure/largecrate/random/barrel/brown{layer = 2.9},/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
 "lq" = (/obj/structure/filingcabinet{density = 0; pixel_x = -8; pixel_y = 20},/obj/structure/filingcabinet{density = 0; pixel_x = 8; pixel_y = 20},/obj/structure/bed/chair/office/light{dir = 8},/turf/open/floor/prison/blue/northeast,/area/turing/base/hangar)
@@ -250,8 +256,7 @@
 "lX" = (/obj/structure/machinery/big_computers/messaging_server/black,/obj/structure/machinery/light/double,/turf/open/floor/strata/multi_tiles/west,/area/turing/base/hangar)
 "lY" = (/obj/structure/machinery/light{dir = 8},/obj/structure/machinery/vending/coffee,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "lZ" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal3"},/obj/effect/decal/grass_overlay/grass1/dark{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
-"ma" = (/obj/structure/surface/table/reinforced/black,/obj/item/tool/kitchen/rollingpin{pixel_y = 4; pixel_x = -6},/obj/item/tool/kitchen/knife{pixel_x = 9},/obj/item/tool/kitchen/can_opener,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
-"mb" = (/obj/structure/machinery/colony_floodlight,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
+"ma" = (/obj/structure/surface/table/reinforced/black,/obj/item/tool/kitchen/rollingpin{pixel_y = 4; pixel_x = -6},/obj/item/tool/kitchen/knife{pixel_x = 9},/obj/item/tool/kitchen/can_opener,/turf/open/floor/kutjevo/tan/multi_tiles/west,/area/turing/base/barracks)
 "mg" = (/obj/structure/flora/tree/tyrargo{pixel_x = -46; pixel_y = -1; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
 "mi" = (/obj/structure/machinery/cm_vending/clothing/medic/rmc,/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
 "mt" = (/turf/closed/shuttle/twe_dropship{icon_state = "7,4"},/area/turing/base/hangar)
@@ -259,22 +264,26 @@
 "my" = (/obj/structure/closet/secure_closet/marine_personal/rmc/rifleman{pixel_x = 8},/obj/structure/closet/secure_closet/marine_personal/rmc/gunner{pixel_x = -8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "mz" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/chair{buckling_y = 5; dir = 1; pixel_y = 1; pixel_x = 2},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "mB" = (/obj/structure/largecrate/supply/medicine,/turf/open/floor/prison/floor_marked,/area/turing/base/engineering)
+"mC" = (/obj/effect/decal/cleanable/dirt,/obj/structure/surface/table/reinforced/black,/turf/open/floor/kutjevo/tan/multi_tiles/west,/area/turing/base/barracks)
 "mD" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/reagent_container/food/drinks/coffeecup/uscm{pixel_x = 16; name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."},/obj/item/storage/fancy/cigarettes/blackpack{pixel_x = 4; pixel_y = 3},/obj/item/prop/magazine/book/littleredbook,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "mE" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/floor_marked,/area/turing/base/engineering)
 "mH" = (/obj/structure/desertdam/decals/road_stop{dir = 1; icon_state = "stop_decal5"; pixel_y = 3; pixel_x = 8},/obj/structure/desertdam/decals/road_stop{dir = 1; icon_state = "stop_decal5"; pixel_y = 4; pixel_x = -3},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "mJ" = (/obj/item/trash/used_stasis_bag,/turf/open/floor/prison/whitegreen,/area/turing/base/medical)
 "mK" = (/obj/structure/machinery/light/double{dir = 1},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
-"mP" = (/obj/item/tool/warning_cone{pixel_x = -13; pixel_y = 16},/turf/open/floor/prison/darkbrown2,/area/turing/base/engineering)
-"mS" = (/obj/effect/decal/cleanable/dirt,/obj/structure/sink{dir = 4; pixel_x = 9},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"mN" = (/obj/item/weapon/knife/marine/kabar{pixel_x = -9; pixel_y = -14; anchored = 1; layer = 5},/obj/item/clothing/accessory/patch/upp/airborne{pixel_x = 1; pixel_y = -5; anchored = 1},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/barracks)
+"mP" = (/obj/item/tool/warning_cone{pixel_x = -13; pixel_y = 16},/obj/effect/decal/warning_stripes{icon_state = "N"; layer = 3.33; pixel_y = 1},/turf/open/floor/prison/darkbrown2,/area/turing/base/engineering)
+"mS" = (/obj/effect/decal/cleanable/dirt,/obj/structure/sink{dir = 4; pixel_x = 9},/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
 "mV" = (/obj/structure/machinery/door/airlock/hybrisa/generic/autoname,/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
 "mX" = (/turf/open/auto_turf/ice/layer0,/area/turing/streets/east)
 "nm" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/reagent_container/food/drinks/coffeecup/uscm{pixel_x = 9; name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."; pixel_y = 1},/obj/item/trash/ceramic_plate{layer = 3.01; pixel_x = -6; pixel_y = -5},/obj/item/mre_food_packet/clf{pixel_x = -6; pixel_y = -1},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "no" = (/obj/structure/machinery/power/apc/no_power/north,/obj/structure/filingcabinet/chestdrawer{pixel_x = 10; pixel_y = 15},/turf/open/floor/prison/bright_clean/southwest,/area/turing/command/checkpoint)
+"np" = (/obj/structure/prop/colorable_rock/colorable,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
 "nq" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "1,2"},/turf/open/floor/plating,/area/turing/base/hangar)
 "ns" = (/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/engineering)
 "nu" = (/obj/structure/dartboard,/turf/closed/wall/wood,/area/turing/streets/east)
 "nv" = (/obj/effect/decal/strata_decals/catwalk/prison,/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
 "nw" = (/obj/item/trash/cigbutt{pixel_x = 29; pixel_y = -5},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"nx" = (/obj/structure/machinery/light/double{dir = 4},/obj/item/ammo_box/magazine/nsg23/large{pixel_x = 0; pixel_y = 4},/obj/item/ammo_box/magazine/nsg23/large{pixel_x = 0; pixel_y = -5},/obj/structure/surface/rack,/turf/open/floor/prison/red/southeast,/area/turing/base/barracks)
 "nA" = (/turf/open/floor/prison/whitegreencorner/north,/area/turing/base/medical)
 "nI" = (/obj/structure/bed/chair/vehicle{pixel_x = 8},/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,/area/turing/base/hangar)
 "nJ" = (/obj/structure/dropship_equipment/mg_holder,/turf/open/floor/plating,/area/turing/base/hangar)
@@ -291,7 +300,7 @@
 "ox" = (/obj/item/prop/magazine/sof{pixel_x = -9; pixel_y = 4},/obj/item/prop/magazine/dirty,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/barracks)
 "oy" = (/obj/structure/bed/chair{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "oz" = (/obj/effect/decal/cleanable/blood/oil,/obj/structure/machinery/landinglight/ds2/delaythree,/turf/open/asphalt/cement/cement12,/area/turing/streets/west)
-"oH" = (/obj/item/ammo_box/magazine/nsg23/large{pixel_x = 0; pixel_y = -5},/obj/item/ammo_box/magazine/nsg23/large{pixel_x = 0; pixel_y = 4},/obj/structure/surface/rack,/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/prison/bright_clean,/area/turing/base/barracks)
+"oH" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/storage/box/guncase/heavy/rmcsmg{pixel_x = 3; pixel_y = 10},/obj/item/storage/box/guncase/heavy/motiondetectors/rmc{pixel_x = 2},/obj/item/storage/box/guncase/heavy/rmcsmg{pixel_x = 2; pixel_y = 22},/turf/open/floor/prison/red/northeast,/area/turing/base/barracks)
 "oJ" = (/obj/structure/surface/rack{color = "#98a3ab"},/obj/item/weapon/knife/marine/kabar{pixel_x = 5; pixel_y = -3},/obj/item/clothing/mask/gas/pmc/royal_marine{pixel_x = -5; pixel_y = 4},/turf/open/asphalt/cement,/area/turing/streets/west)
 "oM" = (/turf/open/hybrisa/street/sidewalk/north,/area/turing/streets/west)
 "oO" = (/obj/structure/machinery/light/blue{dir = 4},/obj/effect/decal/cleanable/dirt,/obj/structure/flora/pottedplant{icon_state = "pottedplant_10"; pixel_x = -1; pixel_y = 1},/turf/open/floor/prison/blue_plate,/area/turing/command)
@@ -309,7 +318,7 @@
 "pD" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/computer/communications/simple{dir = 8; pixel_y = 1; pixel_x = 0},/turf/open/floor/prison/blue_plate/north,/area/turing/command)
 "pL" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light{dir = 8},/obj/structure/closet/secure_closet/marine_personal/rmc/rifleman{pixel_x = 8},/obj/structure/closet/secure_closet/marine_personal/rmc/medic{pixel_x = -8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "pM" = (/obj/structure/sign/poster/corporate{layer = 2.9; pixel_y = 32},/obj/structure/sign/poster/hunk{pixel_x = 4; pixel_y = 32},/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
-"pP" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/ammo_box/magazine/m39/squash{pixel_y = 17; pixel_x = 3},/obj/item/ammo_box/magazine/shotgun/buckshot{pixel_x = -4; pixel_y = 8},/obj/item/ammo_box/magazine/shotgun/buckshot{pixel_x = 4; pixel_y = -1},/turf/open/floor/prison/bright_clean,/area/turing/base/barracks)
+"pP" = (/turf/open/floor/prison/bright_clean,/area/turing/base/barracks)
 "pR" = (/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "pS" = (/obj/structure/flora/wood/stick4,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "pT" = (/turf/closed/wall/hybrisa/colony/reinforced/hull,/area/turing/streets/east)
@@ -327,14 +336,14 @@
 "qt" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "2,1"},/turf/open/floor/plating,/area/turing/base/hangar)
 "qw" = (/turf/closed/shuttle/twe_dropship/transparent{icon_state = "4,14"},/area/turing/base/hangar)
 "qy" = (/obj/item/tool/warning_cone{pixel_x = -4; pixel_y = 8},/turf/open/floor/plating,/area/turing/base/hangar)
-"qC" = (/obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,/turf/open/floor/prison/blue_plate,/area/turing/command)
+"qC" = (/obj/structure/machinery/door/airlock/almayer/maint/autoname,/turf/open/floor/prison/blue_plate,/area/turing/command)
 "qD" = (/obj/effect/decal/warning_stripes{icon_state = "N"; pixel_y = 2; pixel_x = -1},/turf/open/hybrisa/street/sidewalkfull,/area/turing/streets/west)
 "qI" = (/obj/structure/dropship_equipment/paradrop_system,/turf/open/floor/plating,/area/turing/base/hangar)
 "qL" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{dir = 1},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "qM" = (/obj/structure/largecrate/random/secure,/turf/open/floor/prison/darkbrown2/southeast,/area/turing/base/engineering)
 "qO" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal4"},/obj/effect/decal/hybrisa/road/lines2,/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "qP" = (/turf/open/floor/prison/whitegreencorner/east,/area/turing/base/medical)
-"qT" = (/obj/structure/machinery/cm_vending/clothing/engi/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"qT" = (/obj/structure/machinery/cm_vending/clothing/engi/rmc,/turf/open/floor/prison/red/northeast,/area/turing/base/barracks)
 "qW" = (/obj/structure/machinery/power/apc/no_power/north,/turf/open/floor/plating,/area/turing/base/hangar)
 "qY" = (/obj/structure/machinery/light{dir = 1},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "ra" = (/obj/effect/decal/warning_stripes{icon_state = "SE-out"; pixel_x = 1; pixel_y = 0},/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
@@ -350,14 +359,16 @@
 "rM" = (/obj/item/trash/upp_mre{pixel_x = -2; pixel_y = 22},/obj/item/trash/cigbutt{pixel_x = 9; pixel_y = 2},/obj/item/trash/cigbutt{pixel_x = 16; pixel_y = -5},/obj/item/trash/cigbutt/bcigbutt,/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
 "rQ" = (/obj/item/lightstick/red/variant/planted,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "rT" = (/turf/open/floor/strata/multi_tiles/southeast,/area/turing/base/hangar)
-"rV" = (/obj/item/reagent_container/food/condiment/sugar,/obj/item/reagent_container/food/condiment/enzyme,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/structure/closet{desc = "It's a fancy storage unit for long-life foodstuffs."; name = "long-life foodstuff storage"; pixel_x = 0; pixel_y = 0},/obj/item/storage/box/powderedmilk,/obj/item/reagent_container/food/condiment/juice/egg,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"rU" = (/obj/item/trash/cigbutt,/turf/open/floor/plating/plating_catwalk/prison,/area/turing/command)
+"rV" = (/obj/item/reagent_container/food/condiment/sugar,/obj/item/reagent_container/food/condiment/enzyme,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/structure/closet{desc = "It's a fancy storage unit for long-life foodstuffs."; name = "long-life foodstuff storage"; pixel_x = 0; pixel_y = 0},/obj/item/storage/box/powderedmilk,/obj/item/reagent_container/food/condiment/juice/egg,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/item/reagent_container/food/snacks/flour,/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
+"rY" = (/obj/structure/bed/chair{pixel_y = 13; pixel_x = 6},/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
 "rZ" = (/turf/open/floor/prison/floor_marked,/area/turing/base/engineering)
 "sb" = (/obj/structure/filingcabinet{pixel_x = 9; pixel_y = 16},/turf/open/floor/prison/blue_plate/north,/area/turing/command)
 "sg" = (/obj/structure/machinery/light/double,/turf/open/floor/prison/whitegreen/southeast,/area/turing/base/medical)
 "sh" = (/obj/structure/surface/rack,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/obj/item/fuel_cell/used,/turf/open/floor/prison/darkbrown2/west,/area/turing/base/engineering)
 "si" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/sterile_white,/area/turing/base/medical)
 "sj" = (/obj/structure/bed/chair{dir = 1; layer = 2.7},/turf/open/floor/prison/blue_plate,/area/turing/command)
-"sk" = (/obj/structure/machinery/colony_floodlight,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
+"sk" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/plating_catwalk/aicore,/area/turing/base/barracks)
 "sm" = (/obj/structure/prop/hybrisa/furniture/tables/tablepool,/obj/item/prop/colony/game{pixel_y = 4; pixel_x = 9},/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
 "sn" = (/obj/structure/machinery/light/double{dir = 4},/obj/structure/prop/invuln/joey,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "so" = (/obj/effect/decal/hybrisa/tiretrack,/turf/open/floor/prison,/area/turing/base/garage)
@@ -384,6 +395,7 @@
 "td" = (/obj/effect/decal/hybrisa/colorable_rug{color = "#3d3d3d"; dir = 1; pixel_x = 8; pixel_y = -39; name = "rubber mat"},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "tg" = (/obj/structure/desertdam/decals/road_stop{dir = 1; icon_state = "stop_decal5"; pixel_y = 3; pixel_x = 8},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "tp" = (/obj/structure/machinery/big_computers/computerblack/computer2{pixel_x = -6; pixel_y = 0},/obj/structure/flora/pottedplant{icon_state = "pottedplant_17"; pixel_y = 3; pixel_x = 9},/turf/open/floor/prison/blue/north,/area/turing/command)
+"ts" = (/obj/structure/flora/tree/tyrargo{pixel_x = -46; pixel_y = -1; layer = 5.73},/obj/structure/prop/colorable_rock/colorable/alt,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
 "tw" = (/obj/item/lightstick/red/variant/planted,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/east)
 "tx" = (/obj/structure/machinery/power/smes/buildable/charged,/turf/open/floor/prison/darkbrown2/north,/area/turing/base/engineering)
 "ty" = (/obj/structure/machinery/vending/generic,/obj/structure/machinery/light/double,/turf/open/floor/prison/bright_clean/southwest,/area/turing/command/checkpoint)
@@ -404,19 +416,21 @@
 "um" = (/obj/structure/ship_ammo/rocket/thermobaric,/obj/structure/machinery/light/double,/turf/open/floor/plating,/area/turing/base/hangar)
 "up" = (/obj/item/prop/magazine/dropship{pixel_x = 9; pixel_y = 1},/obj/item/prop/magazine/playboy{pixel_x = 0; pixel_y = -1},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/barracks)
 "us" = (/obj/structure/flora/tree/tyrargo{pixel_x = -5; pixel_y = -8; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
+"ut" = (/obj/structure/prop/colorable_rock/colorable/alt1,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
 "ux" = (/obj/item/trash/cigbutt{pixel_x = -10; pixel_y = 14},/turf/open/floor/prison,/area/turing/base/hangar)
 "uz" = (/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar{roundstart_template = /datum/map_template/shuttle/gibraltar; name = "Port Hangar Bay"},/turf/open/floor/plating,/area/turing/streets/west)
 "uA" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "uB" = (/obj/structure/bed/roller/hospital_empty/bigrollerempty{icon_state = "bigrollerempty_up"},/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
 "uD" = (/turf/closed/shuttle/twe_dropship{icon_state = "8,6"},/area/turing/base/hangar)
 "uF" = (/obj/structure/largecrate/random/secure,/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
-"uG" = (/obj/structure/closet/secure_closet/rmc_smartgunner,/obj/item/weapon/gun/smartgun/rmc/unloaded{pixel_x = 4; pixel_y = -2},/obj/item/smartgun_battery{pixel_x = -5; pixel_y = 9},/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"uG" = (/obj/structure/machinery/light/double{dir = 8},/obj/structure/closet/secure_closet/rmc_smartgunner{pixel_x = -8; pixel_y = 0},/obj/structure/closet/secure_closet/rmc_smartgunner{pixel_x = 8; pixel_y = 0},/turf/open/floor/prison/red/northwest,/area/turing/base/barracks)
+"uI" = (/obj/structure/prop/colorable_rock/colorable/alt,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
 "uK" = (/obj/effect/decal/hybrisa/road/road_stop{dir = 8; icon_state = "stop_decal5"},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "uL" = (/obj/effect/decal/cleanable/dirt,/obj/item/trash/pistachios,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "uM" = (/obj/structure/bed/chair/comfy/teal{dir = 8},/turf/open/floor/prison/sterile_white,/area/turing/base/medical)
 "uP" = (/obj/structure/surface/table/woodentable/poor,/obj/item/device/flashlight/lamp/on,/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
 "uR" = (/obj/structure/flora/tree/dead/tree_3,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
-"uU" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/door/poddoor/shutters/almayer{dir = 4; id = "squadarmory"; name = "\improper Gear Lockers"},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"uU" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/redcorner/west,/area/turing/base/barracks)
 "uX" = (/obj/structure/window/framed/hybrisa/marshalls/reinforced,/obj/structure/machinery/door/poddoor/hybrisa/open_shutters{dir = 4},/turf/open/space/basic,/area/turing/command)
 "uY" = (/obj/effect/decal/cleanable/dirt/greenglow{color = "#140400"; name = "dirt"},/obj/structure/prop/tyrargo/gen{dir = 4},/obj/structure/cable/orange{icon_state = "2-10"; pixel_x = 17; pixel_y = 11; level = 2},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "vb" = (/obj/structure/flora/tree/tyrargo{layer = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
@@ -424,7 +438,6 @@
 "ve" = (/obj/structure/barricade/hesco{dir = 4},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
 "vf" = (/obj/structure/closet/secure_closet/marine_personal/rmc/engi{pixel_x = -8},/obj/structure/closet/secure_closet/marine_personal/rmc/rifleman{pixel_x = 8},/obj/structure/machinery/light{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "vi" = (/obj/structure/platform_decoration/wood/east,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/east)
-"vm" = (/obj/structure/prop/vehicles/tank/humvee/transport/destroyed,/turf/open/floor/hybrisa/metal/grated/north,/area/turing/base/garage)
 "vn" = (/obj/structure/flora/pottedplant{icon_state = "pottedplant_25"; pixel_x = 6; pixel_y = 15},/obj/structure/sign/banners/twe_flag{pixel_y = 28},/turf/open/floor/prison/blue/north,/area/turing/base/hangar)
 "vq" = (/obj/structure/machinery/door/airlock/multi_tile/hybrisa/medical,/turf/open/floor/prison/sterile_white,/area/turing/base/medical)
 "vr" = (/obj/effect/decal/warning_stripes{icon_state = "S"; layer = 3.3; pixel_y = -1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
@@ -435,7 +448,7 @@
 "vO" = (/obj/structure/flora/tree/dead/tree_5,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/east)
 "vR" = (/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/almayer/blackfull/west,/area/turing/base/garage)
 "vX" = (/obj/structure/machinery/body_scanconsole{pixel_y = 6; dir = 8},/turf/open/floor/prison/whitegreencorner,/area/turing/base/medical)
-"wb" = (/obj/structure/machinery/colony_floodlight_switch,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/engineering)
+"wb" = (/obj/structure/machinery/vending/coffee,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "wc" = (/obj/structure/cargo_container/wy/right,/turf/open/asphalt/cement/cement12,/area/turing/streets/west)
 "wg" = (/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
 "wk" = (/obj/structure/sign/banners/twe_flag{pixel_y = 60; pixel_x = -12},/obj/item/clothing/head/cmcap/royal_marine/iasf/commander_cap{pixel_x = -4; pixel_y = -9},/turf/open/floor/prison/blue_plate/north,/area/turing/command)
@@ -459,15 +472,19 @@
 "wR" = (/obj/effect/decal/warning_stripes{icon_state = "door_warning"; pixel_y = -2},/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/prison,/area/turing/base/garage)
 "wT" = (/obj/vehicle/powerloader{layer = 5},/turf/open/floor/mech_bay_recharge_floor,/area/turing/base/hangar)
 "wY" = (/obj/structure/bed/chair{can_buckle = 0; dir = 4},/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = 1; pixel_y = 3},/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = 2; pixel_y = 6},/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison,/area/turing/command)
+"wZ" = (/obj/structure/closet/secure_closet/marine_personal/rmc/engi{pixel_x = 8},/obj/structure/closet/secure_closet/marine_personal/rmc/medic{pixel_x = -8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"xa" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
 "xb" = (/turf/open/hybrisa/street/sidewalk/southeast,/area/turing/streets/west)
 "xm" = (/obj/structure/cargo_container/hybrisa/containersextended/tanright,/turf/open/asphalt/cement,/area/turing/streets/west)
 "xn" = (/turf/closed/wall/wood,/area/turing/base/lake_house)
 "xo" = (/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/drinks/coffeecup/uscm{pixel_x = 9; name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."; pixel_y = 1},/turf/open/floor/almayer/blackfull/west,/area/turing/base/garage)
+"xp" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/storage/box/guncase/heavy/sentry/pmc_platoon,/obj/item/storage/box/guncase/heavy/sentry/pmc_platoon{pixel_x = 0; pixel_y = 12},/turf/open/floor/prison/red/north,/area/turing/base/barracks)
 "xr" = (/obj/structure/prop/hybrisa/misc/machinery/screens/redalert,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/command)
 "xu" = (/obj/structure/filingcabinet{pixel_x = 9; pixel_y = 14},/obj/structure/filingcabinet{pixel_x = -6; pixel_y = 14},/turf/open/floor/prison/bright_clean/southwest,/area/turing/command/checkpoint)
 "xv" = (/obj/structure/machinery/computer/communications{dir = 4; pixel_y = 5},/obj/structure/surface/table/reinforced/prison{color = "#6b675e"},/turf/open/floor/prison/blue,/area/turing/base/hangar)
 "xx" = (/turf/open/floor/prison/bluecorner/north,/area/turing/command)
 "xC" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/barracks)
+"xG" = (/obj/structure/machinery/sentry_holder/wy,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/streets/west)
 "xI" = (/obj/structure/machinery/vending/snack,/obj/structure/machinery/light/double,/turf/open/floor/prison,/area/turing/base/garage)
 "xM" = (/obj/structure/machinery/light{dir = 1},/obj/structure/machinery/disposal/delivery,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "xN" = (/turf/open/floor/prison,/area/turing/base/garage)
@@ -477,15 +494,16 @@
 "xX" = (/obj/effect/decal/warning_stripes{icon_state = "E"},/obj/structure/largecrate/random/barrel/white{pixel_x = -14; pixel_y = -11},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "xZ" = (/obj/structure/flora/tree/tyrargo{pixel_x = -18; pixel_y = -4; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
 "ya" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/stool,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
-"yc" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/door_control{pixel_y = -7; pixel_x = -10; id = "squadarmoryexit"; name = "armoury passageway door-control"; req_one_access_txt = "301"; desc = "A remote control-switch for a door. This seems to only accept higher authority."},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/barracks)
+"yc" = (/turf/open/floor/prison/redcorner/north,/area/turing/base/barracks)
 "yg" = (/obj/structure/window/framed/hybrisa/marshalls/reinforced,/obj/structure/machinery/door/poddoor/hybrisa/open_shutters,/turf/open/floor/plating,/area/turing/base/hangar)
 "yh" = (/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
 "yi" = (/mob/living/simple_animal/cat/kitten{name = "Honey fifth"; desc = "This kitten seems like a simple one, but he's wearing a collar with a bell that says Medovik Fifth on it."},/obj/structure/bed/bedroll,/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
 "yj" = (/obj/structure/cargo_container/watatsumi/left,/turf/open/floor/prison/darkbrown2/west,/area/turing/base/engineering)
-"yn" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/hybrisa/coffee_machine,/obj/structure/machinery/light{dir = 4},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"yn" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/hybrisa/coffee_machine,/obj/structure/machinery/light{dir = 4},/turf/open/floor/kutjevo/tan/multi_tiles/west,/area/turing/base/barracks)
 "yq" = (/obj/structure/cargo_container/lockmart/right,/turf/open/asphalt/cement,/area/turing/streets/west)
 "yw" = (/obj/effect/decal/warning_stripes{icon_state = "S"; pixel_x = -1},/obj/effect/decal/cleanable/hybrisa/dirt_2,/turf/open/floor/plating,/area/turing/base/hangar)
 "yx" = (/obj/structure/closet/toolcloset,/turf/open/floor/prison,/area/turing/base/garage)
+"yA" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/plating/plating_catwalk/prison,/area/turing/command)
 "yC" = (/obj/structure/machinery/light{dir = 8; light_power = .25},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "yD" = (/obj/structure/machinery/vending/cigarette/wy/free,/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/prison,/area/turing/base/garage)
 "yI" = (/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
@@ -503,6 +521,7 @@
 "zm" = (/obj/structure/largecrate/random/mini/med{pixel_x = -6; pixel_y = 12; layer = 7},/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
 "zn" = (/turf/open/asphalt/cement/cement15,/area/turing/streets/west)
 "zq" = (/obj/structure/surface/rack{color = "#98a3ab"},/obj/item/tool/weldingtool/simple{pixel_x = -3; pixel_y = 8},/obj/item/tool/weldpack{pixel_x = 7; pixel_y = 0},/turf/open/floor/prison,/area/turing/base/garage)
+"zs" = (/obj/structure/gun_rack/flamer/unloaded{pixel_x = 10; pixel_y = 1},/obj/structure/gun_rack/mk221{pixel_x = -7; pixel_y = 1; layer = 6},/turf/open/floor/prison/red,/area/turing/base/barracks)
 "zt" = (/obj/structure/desertdam/decals/road_stop{dir = 4; icon_state = "stop_decal5"; pixel_x = 4},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "zx" = (/obj/structure/window/framed/hybrisa/colony/reinforced,/obj/structure/machinery/door/poddoor/hybrisa/open_shutters,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "zz" = (/turf/open/floor/prison/blue/north,/area/turing/base/hangar)
@@ -519,10 +538,11 @@
 "Ak" = (/obj/structure/flora/tree/tyrargo,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/east)
 "Am" = (/obj/structure/machinery/landinglight/ds2/delaythree{dir = 4},/turf/open/asphalt/cement/cement1,/area/turing/streets/west)
 "Ap" = (/obj/structure/machinery/big_computers/computerblack/computer5,/turf/open/floor/prison/blue/north,/area/turing/command)
-"Aq" = (/obj/structure/surface/table/reinforced/black,/obj/item/stack/sheet/plasteel{amount = 40; pixel_x = 7; pixel_y = 6},/obj/item/stack/sheet/metal/large_stack,/obj/item/stack/barbed_wire/full_stack,/obj/structure/closet/crate/construction{pixel_y = 8},/obj/effect/decal/cleanable/dirt,/obj/item/ammo_box/magazine/nade_box/rmc/incen{pixel_x = 24; pixel_y = -2},/turf/open/floor/prison/bright_clean,/area/turing/base/barracks)
+"Aq" = (/obj/structure/surface/table/reinforced/black,/obj/item/stack/sheet/plasteel{amount = 40; pixel_x = 7; pixel_y = 6},/obj/item/stack/sheet/metal/large_stack,/obj/item/stack/barbed_wire/full_stack,/obj/structure/closet/crate/construction{pixel_y = 8},/obj/effect/decal/cleanable/dirt,/obj/item/stack/sheet/metal/large_stack,/obj/item/stack/sheet/metal/large_stack,/obj/item/stack/sandbags_empty/full,/obj/item/stack/sandbags_empty/full,/turf/open/floor/prison/bright_clean,/area/turing/base/barracks)
+"Ar" = (/turf/open/floor/plating/plating_catwalk/aicore,/area/turing/base/barracks)
 "At" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/prop/almayer/computer/PC{dir = 8; pixel_x = -1; pixel_y = 6},/turf/open/floor/prison/blue,/area/turing/command)
 "Au" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/obj/effect/decal/cleanable/dirt{layer = 2.52},/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/blue_plate,/area/turing/command)
-"Aw" = (/obj/structure/machinery/colony_floodlight,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
+"Aw" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/red/west,/area/turing/base/barracks)
 "AG" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/reagent_container/food/drinks/cans/dr_gibb{pixel_x = 2; pixel_y = 2},/obj/item/reagent_container/food/drinks/cans/pepsi{pixel_x = -7; pixel_y = 2},/obj/item/reagent_container/food/drinks/cans/classcola{pixel_x = -2; pixel_y = 12},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "AI" = (/obj/structure/largecrate/supply/generator,/turf/open/floor/prison/floor_marked,/area/turing/base/engineering)
 "AK" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/strata/multi_tiles/west,/area/turing/base/hangar)
@@ -530,6 +550,7 @@
 "AM" = (/obj/effect/decal/warning_stripes{icon_state = "S"; layer = 3.3; pixel_x = -1},/turf/open/hybrisa/street/sidewalkfull,/area/turing/streets/west)
 "AN" = (/obj/structure/largecrate/supply/weapons/flamers,/turf/open/floor/prison/floor_marked,/area/turing/base/engineering)
 "AR" = (/obj/structure/flora/tree/dead/tree_6,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
+"AS" = (/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
 "AV" = (/turf/closed/wall/hybrisa/rock,/area/turing/streets/west)
 "AY" = (/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,/area/turing/base/hangar)
 "Bc" = (/obj/effect/decal/cleanable/dirt,/obj/structure/prop/dam/crane,/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
@@ -542,12 +563,13 @@
 "BD" = (/obj/structure/bed/chair{can_buckle = 0; dir = 4},/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = 1; pixel_y = 3},/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = 2; pixel_y = 6},/obj/structure/machinery/light/blue,/turf/open/floor/prison,/area/turing/command)
 "BE" = (/obj/structure/flora/tree/tyrargo{pixel_x = -22; pixel_y = -15},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
 "BF" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
-"BG" = (/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/rmc,/turf/open/floor/prison/bright_clean,/area/turing/base/barracks)
+"BG" = (/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/rmc,/turf/open/floor/prison/red,/area/turing/base/barracks)
 "BL" = (/obj/structure/bed/roller/hospital_empty/bigrollerempty3{dir = 1; icon_state = "bigrollerempty3_up"},/turf/open/floor/prison/whitegreen,/area/turing/base/medical)
 "BN" = (/turf/open/asphalt/cement/cement12,/area/turing/streets/west)
 "BS" = (/obj/structure/machinery/landinglight/ds2/delayone{dir = 8},/obj/structure/machinery/landinglight/ds2/spoke{pixel_x = -12},/turf/open/asphalt/cement/cement3,/area/turing/streets/west)
 "BU" = (/obj/effect/decal/cleanable/dirt,/obj/item/trash/cigbutt,/turf/open/floor/prison/blue_plate,/area/turing/command)
-"Cm" = (/obj/structure/machinery/big_computers/computerblack/computer2{pixel_x = 10; pixel_y = 0},/turf/open/floor/prison/darkbrown2/north,/area/turing/base/engineering)
+"BY" = (/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
+"Cm" = (/obj/structure/machinery/big_computers/computerblack/computer2{pixel_x = 10; pixel_y = 0},/obj/structure/machinery/colony_floodlight_switch{pixel_y = 30},/turf/open/floor/prison/darkbrown2/north,/area/turing/base/engineering)
 "Cr" = (/obj/effect/decal/cleanable/dirt,/turf/open/hybrisa/street/sidewalk/southwest,/area/turing/streets/west)
 "Ct" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/obj/structure/machinery/power/apc/no_power/north,/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
 "Cy" = (/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = -7; pixel_y = 6},/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/turing/command)
@@ -566,7 +588,7 @@
 "CX" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/warning_stripes{icon_state = "E"},/turf/open/hybrisa/street/sidewalkfull,/area/turing/streets/west)
 "CZ" = (/obj/structure/cargo_container/wy2/left,/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
 "Db" = (/obj/structure/bed/chair/vehicle{pixel_x = -8},/turf/open/shuttle/dropship/light_grey_top_left,/area/turing/base/hangar)
-"Dg" = (/obj/structure/machinery/microwave{density = 0; pixel_y = 9},/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/light{dir = 4},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Dg" = (/obj/structure/machinery/microwave{density = 0; pixel_y = 9},/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/light{dir = 4},/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
 "Dk" = (/obj/structure/machinery/door/poddoor/almayer/closed{id = "Hangar"; name = "\improper Lockdown"; vehicle_resistant = 1; dir = 8},/turf/open/floor/plating,/area/turing/base/hangar)
 "Dm" = (/obj/effect/decal/warning_stripes{icon_state = "NE-out"; pixel_y = 2},/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/blue/north,/area/turing/base/hangar)
 "Do" = (/obj/structure/surface/table/reinforced/prison{color = "#6b675e"},/obj/item/prop/almayer/comp_open,/turf/open/floor/prison/blue/east,/area/turing/base/hangar)
@@ -585,19 +607,21 @@
 "DT" = (/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/drinks/coffeecup/wy{pixel_x = -7; pixel_y = 4},/turf/open/floor/prison/blue_plate,/area/turing/command)
 "DW" = (/obj/structure/prop/almayer/ship_memorial/golden_arrow{desc = "A memorial plaque dedicated to those of the Royal marine commando who have fallen in combat. It's an unfortunately long list of names."},/turf/closed/wall/hybrisa/colony/reinforced/hull,/area/turing/streets/west)
 "DX" = (/obj/structure/largecrate/random/case/small,/obj/structure/largecrate/random/mini/ammo{pixel_x = -9; pixel_y = 9},/turf/open/floor/prison/floor_marked,/area/turing/base/engineering)
+"Ea" = (/obj/structure/machinery/sentry_holder/wy,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/command/checkpoint)
 "Eb" = (/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
 "Ec" = (/turf/open/gm/river,/area/turing/streets/east)
 "Eg" = (/obj/structure/surface/table/reinforced/prison{color = "#8e98a0"},/obj/item/roller,/turf/open/floor/prison/whitegreencorner/west,/area/turing/base/medical)
 "Eh" = (/obj/structure/prop/hybrisa/misc/trash,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/east)
-"Ei" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/storage/belt/gun/m39/rmc,/obj/item/storage/belt/gun/m39/rmc,/obj/item/ammo_box/magazine/vp70/extended{pixel_x = 2; pixel_y = 3},/obj/item/weapon/gun/smg/p90/twe,/obj/item/ammo_box/magazine/p90,/turf/open/floor/prison/bright_clean,/area/turing/base/barracks)
+"Ei" = (/obj/structure/surface/table/reinforced/black,/obj/item/smartgun_battery{pixel_x = -5; pixel_y = 9},/obj/item/stack/cable_coil/pink{pixel_x = 5; pixel_y = 0},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Ek" = (/obj/structure/machinery/floodlight/landing/floor,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/turing/base/hangar)
 "El" = (/obj/structure/prop/dam/crane/damaged,/turf/open/asphalt/cement,/area/turing/streets/west)
+"Em" = (/turf/open/floor/plating/plating_catwalk/prison,/area/turing/command)
 "En" = (/obj/structure/bed/roller/hospital_empty/bigrollerbloodempty{dir = 8; icon_state = "bigrollerbloodempty_up"},/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
 "Eo" = (/obj/structure/machinery/door/airlock/hybrisa/generic/autoname{dir = 1},/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
 "Ep" = (/obj/structure/prop/hybrisa/fakeplatforms/platform5/deco{dir = 4; pixel_x = -3},/turf/open/hybrisa/street/sidewalk/east,/area/turing/streets/west)
-"Eq" = (/obj/item/reagent_container/food/drinks/cans/food/upp/speck{pixel_x = 31; pixel_y = -21; layer = 5},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Eq" = (/obj/item/reagent_container/food/drinks/cans/food/upp/speck{pixel_x = 31; pixel_y = -21; layer = 5},/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
 "Er" = (/obj/structure/bed/sofa/hybrisa/sofa/black{icon_state = "couch_hori3_black"; pixel_y = 12},/obj/structure/machinery/light{dir = 4},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
-"Ev" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/storage/box/guncase/heavy/rmcsmg{pixel_x = 2; pixel_y = 22},/obj/item/storage/box/guncase/heavy/rmcsmg{pixel_x = 3; pixel_y = 10},/obj/item/storage/box/guncase/heavy/motiondetectors/rmc{pixel_x = 2},/turf/open/floor/prison/bright_clean,/area/turing/base/barracks)
+"Ev" = (/obj/effect/decal/cleanable/dirt,/obj/structure/surface/table/reinforced/black,/obj/item/weapon/gun/smartgun/rmc/unloaded{pixel_x = 4; pixel_y = -2},/obj/item/weapon/gun/smartgun/rmc/unloaded{pixel_x = 4; pixel_y = 8},/obj/item/smartgun_battery{pixel_x = -11; pixel_y = 11},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Ey" = (/obj/structure/machinery/door/poddoor/almayer/closed{dir = 4; id = "Cargo TWE"; name = "Vault Lockdown"},/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
 "EA" = (/obj/effect/decal/cleanable/dirt,/obj/vehicle/powerloader{layer = 5},/obj/structure/machinery/light/double,/turf/open/floor/mech_bay_recharge_floor,/area/turing/base/engineering)
 "EB" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
@@ -609,7 +633,7 @@
 "EY" = (/obj/structure/prop/tyrargo/boards{pixel_x = 10; pixel_y = -5},/turf/open/auto_turf/strata_grass/layer0_mud_alt,/area/turing/streets/west)
 "EZ" = (/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/hangar)
 "Fa" = (/obj/effect/decal/cleanable/dirt,/turf/open/hybrisa/street/sidewalkfull,/area/turing/streets/west)
-"Fb" = (/obj/structure/machinery/cm_vending/clothing/specialist/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Fb" = (/obj/structure/machinery/cm_vending/clothing/specialist/rmc,/turf/open/floor/prison/red/north,/area/turing/base/barracks)
 "Fc" = (/obj/structure/machinery/landinglight/ds2{dir = 4},/turf/open/asphalt/cement/cement1,/area/turing/streets/west)
 "Fe" = (/obj/structure/cargo_container/trijent/left,/turf/open/floor/prison/darkbrown2/west,/area/turing/base/engineering)
 "Fh" = (/obj/structure/machinery/vending/cigarette/wy/free,/turf/open/floor/prison/blue_plate,/area/turing/command)
@@ -624,11 +648,11 @@
 "FG" = (/obj/structure/dropship_equipment/weapon/minirocket_pod,/turf/open/floor/plating,/area/turing/base/hangar)
 "FK" = (/obj/structure/cargo_container/lockmart/mid,/turf/open/asphalt/cement,/area/turing/streets/west)
 "FL" = (/obj/structure/flora/tree/dead/tree_6,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
-"FS" = (/obj/structure/closet/secure_closet/rmc_section_leader{pixel_x = -7; pixel_y = -1},/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"FS" = (/obj/structure/machinery/light/double{dir = 8},/obj/structure/closet/secure_closet/rmc_troop_sergeant{pixel_x = 9; pixel_y = -1},/obj/structure/closet/secure_closet/rmc_section_leader{pixel_x = -7; pixel_y = -1},/turf/open/floor/prison/red/southwest,/area/turing/base/barracks)
 "FV" = (/turf/closed/shuttle/twe_dropship{icon_state = "1,4"},/area/turing/base/hangar)
 "FX" = (/obj/effect/decal/cleanable/hybrisa/dirt,/obj/structure/largecrate/random/barrel/black{pixel_x = 3; pixel_y = -12; layer = 6},/turf/open/floor/prison,/area/turing/base/garage)
 "Ga" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal4"},/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
-"Gb" = (/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/start/bridge/rmc,/obj/effect/landmark/start/marine/leader/rmc,/obj/effect/landmark/late_join/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Gb" = (/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/start/bridge/rmc,/obj/effect/landmark/start/marine/leader/rmc,/obj/effect/landmark/late_join,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Gg" = (/obj/structure/cable/orange{icon_state = "1-10"; pixel_x = -5; level = 2; pixel_y = 8},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "Gj" = (/obj/structure/flora/tree/dead/tree_5,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "Gk" = (/obj/structure/flora/tree/dead/tree_2{pixel_y = 4; pixel_x = -25},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
@@ -651,14 +675,14 @@
 "Hk" = (/obj/structure/noticeboard{pixel_y = 32},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Hm" = (/turf/open/floor/prison/darkbrown2/north,/area/turing/base/engineering)
 "Ho" = (/obj/structure/platform_decoration/metal,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/east)
-"Hr" = (/obj/structure/machinery/shower{dir = 4; layer = 3.2},/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 1; pixel_y = 10},/turf/open/floor/plating/plating_catwalk/strata,/area/turing/base/barracks)
+"Hr" = (/obj/structure/machinery/shower{dir = 4; layer = 3.2},/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 1; pixel_y = 10},/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
 "Hs" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "7,0"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/turing/base/hangar)
 "Hu" = (/obj/structure/platform{dir = 8},/turf/open/floor/prison/blue_plate,/area/turing/command)
 "Hv" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "3,15"},/turf/open/floor/plating,/area/turing/base/hangar)
 "Hx" = (/obj/structure/cargo_container/hybrisa/containersextended/whitewyleft,/turf/open/asphalt/cement/cement3,/area/turing/streets/west)
 "Hy" = (/obj/structure/surface/table/almayer{color = "#8B9490"},/obj/structure/bedsheetbin,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Hz" = (/obj/structure/janitorialcart,/obj/item/tool/mop{pixel_x = 14},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
-"HC" = (/obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{dir = 1},/turf/open/floor/prison/blue_plate,/area/turing/command)
+"HC" = (/obj/structure/machinery/door/airlock/almayer/maint/autoname{dir = 1},/turf/open/floor/prison/blue_plate,/area/turing/command)
 "HE" = (/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/darkbrown2/northwest,/area/turing/base/engineering)
 "HF" = (/obj/structure/flora/pottedplant{icon_state = "pottedplant_29"; pixel_y = 9; pixel_x = 5},/obj/structure/machinery/light/double,/turf/open/floor/prison/blue/southeast,/area/turing/base/hangar)
 "HI" = (/obj/effect/decal/hybrisa/tiretrack{dir = 4; pixel_x = -2; pixel_y = 5},/obj/effect/decal/hybrisa/tiretrack{dir = 4; pixel_x = -2; pixel_y = 5},/obj/effect/decal/cleanable/generic,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
@@ -668,7 +692,7 @@
 "If" = (/obj/item/device/cassette_tape/aesthetic{pixel_x = -1; pixel_y = 0},/obj/item/ashtray/bronze{icon_state = "ashtray_full_bl"; pixel_x = -1; pixel_y = 9},/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
 "Ih" = (/obj/structure/largecrate/random/secure,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "Is" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{density = 0},/turf/open/floor/plating,/area/turing/base/hangar)
-"Iu" = (/obj/effect/decal/cleanable/dirt,/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/drinks/cans/food/upp/soup{pixel_x = 6; pixel_y = 0},/obj/item/reagent_container/food/drinks/cans/food/upp/soup{pixel_x = -4; pixel_y = -1},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Iu" = (/obj/effect/decal/cleanable/dirt,/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/drinks/cans/food/upp/soup{pixel_x = 6; pixel_y = 0},/obj/item/reagent_container/food/drinks/cans/food/upp/soup{pixel_x = -4; pixel_y = -1},/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
 "Iw" = (/obj/item/trash/tray{pixel_x = 5; pixel_y = 11},/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
 "Iy" = (/obj/structure/flora/tree/dead/tree_1,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "Iz" = (/obj/effect/decal/hybrisa/road/lines2,/obj/structure/machinery/light/double,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
@@ -692,17 +716,18 @@
 "Jo" = (/obj/effect/decal/warning_stripes{icon_state = "cargo"},/turf/open/floor/prison/floor_plate,/area/turing/streets/east)
 "Ju" = (/obj/effect/decal/cleanable/hybrisa/dirt,/obj/structure/largecrate/random/barrel/black{pixel_x = -8; pixel_y = 35; layer = 4},/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/prison,/area/turing/base/garage)
 "Jv" = (/obj/structure/sign/poster/blacklight{pixel_x = 5; pixel_y = 5},/obj/structure/sign/poster/nspa{pixel_x = 0; pixel_y = 2},/obj/structure/sign/poster/wylogo{pixel_x = -6; pixel_y = 7},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/command)
+"Jw" = (/obj/effect/decal/cleanable/dirt{layer = 2.52},/obj/effect/decal/cleanable/dirt{layer = 2.52},/turf/open/floor/plating/plating_catwalk/prison,/area/turing/command)
 "Jx" = (/obj/structure/platform_decoration/wood/north{dir = 2},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "JA" = (/obj/structure/surface/table/woodentable/poor,/obj/item/ashtray/bronze{icon_state = "ashtray_full_bl"; pixel_x = -1; pixel_y = 9},/obj/effect/decal/cleanable/dirt,/obj/item/storage/fancy/cigar/matchbook/wy_gold,/obj/item/storage/fancy/cigarettes/blackpack_4{pixel_x = 9; pixel_y = 10},/turf/open/floor/kutjevo/fake_wood,/area/turing/streets/east)
 "JC" = (/obj/effect/decal/cleanable/hybrisa/dirt,/obj/structure/largecrate/random/case/double,/turf/open/floor/prison,/area/turing/base/garage)
 "JE" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light/double{dir = 4},/obj/structure/machinery/space_heater,/turf/open/floor/prison/darkbrown2/east,/area/turing/base/engineering)
 "JM" = (/obj/structure/machinery/recharge_station,/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/prison/darkbrown2/southwest,/area/turing/base/engineering)
-"JN" = (/obj/structure/machinery/cm_vending/gear/mortar_stuff,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"JN" = (/obj/structure/machinery/cm_vending/gear/mortar_stuff,/turf/open/floor/prison/red/north,/area/turing/base/barracks)
 "JO" = (/obj/structure/cargo_container/watatsumi/mid,/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
 "JP" = (/turf/closed/shuttle/twe_dropship/transparent{icon_state = "3,12"},/area/turing/base/hangar)
 "JZ" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/prop/almayer/CICmap/rmc,/turf/open/floor/prison/blue_plate,/area/turing/command)
 "Ka" = (/obj/structure/flora/wood,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
-"Kc" = (/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 4},/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/late_join/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Kc" = (/obj/structure/barricade/handrail/wire{layer = 3.1; dir = 4},/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/late_join,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Kk" = (/obj/effect/decal/hybrisa/dirt_2,/turf/open/floor/hybrisa/carpet/carpetdarkerblue,/area/turing/base/barracks)
 "Kn" = (/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "Kq" = (/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
@@ -714,7 +739,7 @@
 "KL" = (/obj/structure/bed/chair/office/light{dir = 8; pixel_x = -6; pixel_y = 0},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "KM" = (/obj/structure/surface/table/reinforced/prison{color = "#8e98a0"},/obj/item/storage/firstaid/softpack/toxin{pixel_x = 6; pixel_y = 1},/obj/item/storage/firstaid/softpack/burn{pixel_x = -10; pixel_y = 1},/obj/item/storage/firstaid/softpack{pixel_x = -7; pixel_y = 10},/obj/structure/machinery/light/double,/turf/open/floor/prison/whitegreen,/area/turing/base/medical)
 "KN" = (/obj/effect/decal/warning_stripes{icon_state = "N"; layer = 3.33; pixel_y = 1},/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/prison/darkbrown2/southeast,/area/turing/base/engineering)
-"KO" = (/obj/structure/machinery/light/double{dir = 4},/obj/structure/surface/table/reinforced/almayer_B,/obj/item/ammo_box/magazine/vp78/rmc{pixel_x = 4; pixel_y = 8},/obj/item/ammo_box/magazine/vp70/extended{pixel_x = 5; pixel_y = 12},/obj/item/ammo_box/rounds/smartgun/holo_target{pixel_x = 1; pixel_y = 4},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"KO" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/ammo_box/magazine/nsg23/large{pixel_x = 0; pixel_y = 4},/obj/item/ammo_box/magazine/nsg23/large{pixel_x = 0; pixel_y = -5},/turf/open/floor/prison/red/north,/area/turing/base/barracks)
 "KP" = (/turf/closed/shuttle/twe_dropship{icon_state = "0,7"},/area/turing/base/hangar)
 "KS" = (/obj/effect/decal/warning_stripes{icon_state = "S"; layer = 3.3; pixel_y = -1},/obj/structure/machinery/disposal/delivery,/turf/open/floor/prison/darkbrown2/east,/area/turing/base/engineering)
 "KT" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "6,0"},/turf/open/floor/plating,/area/turing/base/hangar)
@@ -723,6 +748,7 @@
 "KW" = (/obj/structure/flora/wood/stick4,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
 "La" = (/obj/structure/flora/tree/tyrargo{pixel_x = -11; pixel_y = -15; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/west)
 "Lb" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light/double{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Lc" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/plating_catwalk/prison,/area/turing/command)
 "Ld" = (/obj/structure/surface/table/almayer{color = "#EBD9B7"},/obj/item/clothing/gloves/marine/veteran/insulated{pixel_y = 4},/obj/item/clothing/glasses/welding{layer = 3.6; pixel_x = -4; pixel_y = 10},/turf/open/floor/prison/darkbrown2/west,/area/turing/base/engineering)
 "Lg" = (/obj/structure/surface/table/woodentable/poor,/obj/item/device/flashlight/flare,/obj/item/ashtray/bronze{pixel_x = 6; pixel_y = -4},/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
 "Lh" = (/obj/structure/machinery/landinglight/ds2/delayone{dir = 4},/turf/open/asphalt/cement/cement1,/area/turing/streets/west)
@@ -790,7 +816,7 @@
 "ND" = (/obj/structure/barricade/hesco{dir = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "NE" = (/obj/structure/machinery/light/double{dir = 8},/obj/structure/machinery/vending/ingredients,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "NF" = (/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
-"NG" = (/obj/structure/bed,/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/start/marine/tl/rmc,/obj/effect/landmark/start/marine/tl/rmc2ic,/obj/effect/landmark/late_join/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"NG" = (/obj/structure/bed,/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/start/marine/tl/rmc,/obj/effect/landmark/start/marine/tl/rmc2ic,/obj/effect/landmark/late_join,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "NK" = (/turf/open/floor/prison/darkbrown2/west,/area/turing/base/engineering)
 "NR" = (/obj/structure/prop/hybrisa/fakeplatforms/platform5{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/hybrisa/street/sidewalk/southeast,/area/turing/streets/west)
 "NV" = (/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
@@ -800,9 +826,10 @@
 "Of" = (/obj/effect/decal/grass_overlay/grass1/dark{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt/greenglow{color = "#140400"; name = "dirt"},/obj/structure/fence/dark,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "Oj" = (/obj/structure/largecrate/random/barrel/yellow,/obj/structure/machinery/light/double{dir = 8; pixel_y = -5},/turf/open/floor/prison/darkbrown2/northwest,/area/turing/base/engineering)
 "Ok" = (/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/whitegreen/northeast,/area/turing/base/medical)
+"On" = (/obj/structure/prop/colorable_rock/colorable/alt1,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "Op" = (/obj/structure/machinery/landinglight/ds2/delaytwo{dir = 1},/turf/open/asphalt/cement/cement4,/area/turing/streets/west)
 "Or" = (/turf/open/floor/prison/blue_plate/north,/area/turing/command)
-"Os" = (/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/start/marine/rmc,/obj/effect/landmark/late_join/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Os" = (/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/start/marine/rmc,/obj/effect/landmark/late_join,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Ot" = (/obj/structure/barricade/handrail/medical{dir = 8},/turf/open/floor/prison/whitegreencorner/east,/area/turing/base/medical)
 "Ow" = (/obj/structure/closet/secure_closet/engineering_electrical{pixel_x = -25; pixel_y = 0},/obj/structure/machinery/fuelcell_recycler,/turf/open/floor/prison/darkbrown2/north,/area/turing/base/engineering)
 "Oy" = (/obj/structure/surface/table/reinforced/prison{color = "#6b675e"},/obj/structure/machinery/computer/cameras{dir = 1; pixel_y = -11},/obj/item/reagent_container/food/drinks/coffeecup/uscm{name = "TWE coffee mug"; desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."; pixel_y = 13; pixel_x = -9},/turf/open/floor/prison/blue,/area/turing/base/hangar)
@@ -819,7 +846,7 @@
 "OW" = (/turf/open/hybrisa/street/sidewalk,/area/turing/streets/west)
 "OX" = (/obj/structure/bed/roller/hospital_empty/bigrollerempty{icon_state = "bigrollerempty_up"},/turf/open/floor/prison/whitegreen,/area/turing/base/medical)
 "Pd" = (/obj/structure/prop/tyrargo/boards/boards_1{pixel_x = 13; pixel_y = 0},/obj/structure/prop/tyrargo/boards/boards_2{pixel_x = 16; pixel_y = -1},/turf/open/auto_turf/strata_grass/layer0_mud_alt,/area/turing/streets/west)
-"Pe" = (/obj/item/tool/kitchen/tray{pixel_x = -3; pixel_y = 3},/obj/item/trash/plate{pixel_x = 3; pixel_y = 3},/obj/item/trash/plate{pixel_x = 3; pixel_y = 5},/obj/item/trash/plate{pixel_x = 3; pixel_y = 7},/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/condiment/hotsauce/sriracha{pixel_x = 10; pixel_y = 18},/obj/item/reagent_container/food/condiment/hotsauce/tabasco{pixel_x = 1; pixel_y = 21},/obj/item/reagent_container/food/drinks/coffeecup{pixel_x = -10; pixel_y = 0},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Pe" = (/obj/item/tool/kitchen/tray{pixel_x = -3; pixel_y = 3},/obj/item/trash/plate{pixel_x = 3; pixel_y = 3},/obj/item/trash/plate{pixel_x = 3; pixel_y = 5},/obj/item/trash/plate{pixel_x = 3; pixel_y = 7},/obj/structure/surface/table/reinforced/black,/obj/item/reagent_container/food/condiment/hotsauce/sriracha{pixel_x = 10; pixel_y = 18},/obj/item/reagent_container/food/condiment/hotsauce/tabasco{pixel_x = 1; pixel_y = 21},/obj/item/reagent_container/food/drinks/coffeecup{pixel_x = -10; pixel_y = 0},/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
 "Pj" = (/obj/structure/mineral_door/wood{dir = 4},/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
 "Pk" = (/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{name = "\improper Lockdown"; dir = 1; explo_proof = 1; needs_power = 0; unacidable = 1; id = "bunker_exit_tunnel"},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "Pl" = (/obj/structure/machinery/door/airlock/hybrisa/generic_solid,/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
@@ -836,7 +863,7 @@
 "PA" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/turing/command)
 "PC" = (/turf/open/hybrisa/street/sidewalk/south,/area/turing/streets/west)
 "PD" = (/turf/closed/shuttle/twe_dropship{icon_state = "8,7"},/area/turing/base/hangar)
-"PI" = (/obj/structure/sign/poster/music{pixel_x = -12; pixel_y = 34},/obj/structure/prop/server_equipment/laptop/on{pixel_x = -1; pixel_y = -1},/obj/structure/surface/table/woodentable/fancy,/obj/structure/machinery/light{dir = 1},/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
+"PI" = (/obj/structure/prop/server_equipment/laptop/on{pixel_x = -1; pixel_y = -1},/obj/structure/surface/table/woodentable/fancy,/obj/structure/machinery/light{dir = 1},/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
 "PJ" = (/turf/open/shuttle/dropship,/area/turing/base/hangar)
 "PK" = (/obj/effect/decal/cleanable/hybrisa/dirt,/obj/item/weapon/twohanded/folded_metal_chair,/turf/open/floor/almayer/blackfull/west,/area/turing/base/garage)
 "PL" = (/obj/structure/prop/hybrisa/misc/machinery/screens/multimonitormedium_off,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/command)
@@ -856,7 +883,7 @@
 "Qs" = (/obj/structure/machinery/vending/cola,/turf/open/floor/prison/blue_plate,/area/turing/command)
 "Qw" = (/obj/structure/machinery/light{dir = 8},/obj/structure/closet/cabinet,/obj/item/mre_food_packet/clf{pixel_x = -6; pixel_y = -1},/obj/item/mre_food_packet/entree/wy,/obj/item/reagent_container/food/drinks/bottle/beer/craft,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Qx" = (/obj/structure/bed/hybrisa/hospital/hospitaldivider,/obj/structure/machinery/light/double,/turf/open/floor/prison/whitegreen,/area/turing/base/medical)
-"QA" = (/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/structure/curtain/blue,/obj/effect/landmark/start/marine/engineer/rmc,/obj/effect/landmark/start/marine/medic/rmc,/obj/effect/landmark/late_join/rmc,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"QA" = (/obj/structure/bed,/obj/structure/bed{pixel_y = 13},/obj/effect/landmark/start/marine/engineer/rmc,/obj/effect/landmark/start/marine/medic/rmc,/obj/effect/landmark/late_join,/obj/structure/curtain/blue,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "QC" = (/obj/structure/bed/chair/vehicle{pixel_x = 8},/turf/open/shuttle/dropship/light_grey_bottom_right,/area/turing/base/hangar)
 "QG" = (/obj/effect/decal/warning_stripes{icon_state = "N"; layer = 3.33; pixel_y = 2},/turf/open/floor/prison/blue/north,/area/turing/base/hangar)
 "QJ" = (/obj/item/trash/cigbutt{pixel_x = 4},/obj/structure/pipes/standard/simple/hidden/dark{dir = 4},/turf/open/floor/prison,/area/turing/base/hangar)
@@ -875,7 +902,7 @@
 "Rm" = (/obj/structure/sign/safety/bathunisex{pixel_x = -16},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Rr" = (/obj/structure/surface/table/reinforced/prison{color = "#6b675e"},/obj/item/prop/almayer/flight_recorder/colony{pixel_x = -6; pixel_y = 1},/obj/item/tool/screwdriver/tactical{pixel_x = 6; pixel_y = 7},/turf/open/floor/prison/blue,/area/turing/base/hangar)
 "Rv" = (/obj/structure/barricade/handrail/strata{dir = 8},/obj/item/stool{pixel_x = -2; pixel_y = 12},/turf/open/floor/kutjevo/fake_wood,/area/turing/streets/east)
-"Ry" = (/obj/structure/machinery/power/reactor,/turf/open/floor/corsat,/area/turing/base/engineering)
+"Ry" = (/obj/structure/machinery/power/reactor{name = "\improper S-52 fusion reactor 17"},/turf/open/floor/corsat,/area/turing/base/engineering)
 "Rz" = (/obj/item/paper/crumpled{pixel_x = 6; pixel_y = 24},/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/turing/command)
 "RB" = (/obj/structure/machinery/landinglight/ds2{dir = 1},/turf/open/asphalt/cement/cement4,/area/turing/streets/west)
 "RD" = (/obj/structure/stairs/perspective{color = "#8B7B5B"; dir = 4; icon_state = "p_stair_sn_full_cap"; layer = 2.5},/obj/structure/platform/wood/east,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/east)
@@ -889,7 +916,7 @@
 "RR" = (/turf/closed/shuttle/twe_dropship/transparent{icon_state = "5,13"},/area/turing/base/hangar)
 "RS" = (/obj/structure/machinery/light/double{dir = 8; pixel_y = -5},/turf/open/floor/prison/darkbrown2/west,/area/turing/base/engineering)
 "RT" = (/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/prison,/area/turing/base/garage)
-"RU" = (/obj/structure/machinery/fuelcell_recycler,/turf/open/floor/prison/darkbrown2/north,/area/turing/base/engineering)
+"RU" = (/obj/structure/machinery/light/double,/turf/open/floor/prison/darkbrown2/southeast,/area/turing/base/engineering)
 "RV" = (/obj/structure/extinguisher_cabinet,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/command)
 "RZ" = (/obj/structure/desertdam/decals/road_stop{dir = 1; icon_state = "stop_decal5"},/obj/structure/desertdam/decals/road_stop{icon_state = "stop_decal2"; pixel_y = -12},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "Sa" = (/obj/structure/surface/table/reinforced/black,/obj/structure/machinery/prop/almayer/CICmap/rmc,/turf/open/space/basic,/area/turing/command)
@@ -917,12 +944,13 @@
 "Tf" = (/obj/item/trash/popcorn,/obj/effect/decal/hybrisa/dirt_2,/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
 "Tg" = (/obj/item/clothing/gloves/latex,/turf/open/floor/prison/sterile_white,/area/turing/base/medical)
 "Th" = (/obj/structure/ship_ammo/rocket/napalm,/turf/open/floor/plating,/area/turing/base/hangar)
-"Tl" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/vending/dinnerware,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Tl" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/vending/dinnerware,/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
 "Tn" = (/obj/item/trash/cigbutt{pixel_x = 1; pixel_y = 8},/obj/item/trash/cigbutt{pixel_x = 1; pixel_y = 8},/obj/structure/prop/hybrisa/fakeplatforms/platform5/deco{dir = 1; pixel_x = -3},/turf/open/hybrisa/street/sidewalk/east,/area/turing/streets/west)
 "To" = (/obj/structure/cargo_container/wy2/mid,/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
 "Tq" = (/obj/effect/decal/cleanable/dirt,/obj/structure/largecrate/random/case/double,/obj/structure/machinery/light/double,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "Ts" = (/obj/structure/platform_decoration/wood/east{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/kutjevo/fake_wood,/area/turing/streets/east)
 "Tt" = (/obj/item/trash/twe_mre,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/blue_plate,/area/turing/command)
+"Tu" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
 "Tv" = (/obj/structure/largecrate/supply/weapons/m39,/turf/open/floor/prison/floor_marked,/area/turing/base/engineering)
 "Tw" = (/turf/open/floor/prison/darkbrowncorners2/southwest,/area/turing/base/engineering)
 "Tx" = (/obj/effect/decal/hybrisa/road/road_edge{icon_state = "road_edge_decal3"},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/streets/west)
@@ -939,23 +967,25 @@
 "TV" = (/obj/structure/prop/hybrisa/misc/machinery/screens/frame,/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/hangar)
 "TX" = (/obj/structure/machinery/floodlight/landing,/turf/open/asphalt/cement,/area/turing/streets/west)
 "TY" = (/obj/effect/decal/cleanable/hybrisa/dirt_2,/turf/open/floor/almayer/orange/north,/area/turing/base/hangar)
+"Ub" = (/obj/effect/decal/cleanable/dirt,/obj/structure/machinery/light{dir = 8},/obj/structure/surface/table/reinforced/black,/turf/open/floor/kutjevo/tan/multi_tiles/west,/area/turing/base/barracks)
 "Uf" = (/obj/structure/bed/hybrisa/hospital/hospitaldivider,/turf/open/floor/prison/sterile_white,/area/turing/base/medical)
 "Ug" = (/obj/structure/barricade/sandbags/full{dir = 8},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/east)
 "Ui" = (/obj/structure/bed/chair{can_buckle = 0; dir = 4},/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = 1; pixel_y = 3},/obj/structure/bed/chair{can_buckle = 0; dir = 4; pixel_x = 2; pixel_y = 6},/turf/open/floor/prison,/area/turing/command)
-"Un" = (/obj/structure/surface/table/reinforced/black,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Uj" = (/obj/structure/prop/colorable_rock/colorable,/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/east)
+"Un" = (/obj/structure/surface/table/reinforced/black,/turf/open/floor/almayer/dark_sterile,/area/turing/base/barracks)
 "Uo" = (/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{dir = 8},/turf/open/floor/prison,/area/turing/base/garage)
 "Uq" = (/obj/effect/decal/warning_stripes{icon_state = "cargo_arrow2"; dir = 8},/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/prison,/area/turing/base/garage)
 "Ur" = (/obj/effect/decal/strata_decals/catwalk/prison,/turf/open/floor/plating/kutjevo,/area/turing/base/hangar)
 "Ut" = (/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/hybrisa/metal/grated/north,/area/turing/base/garage)
 "Ux" = (/obj/item/trash/hybrisa/cuppa_joes/lid,/obj/effect/decal/hybrisa/dirt_2,/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
-"UE" = (/obj/item/trash/cigbutt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"UE" = (/obj/item/trash/cigbutt,/obj/effect/decal/cleanable/dirt,/obj/structure/bed/chair/comfy/bench/north,/turf/open/floor/plating/plating_catwalk/prison,/area/turing/base/barracks)
 "UG" = (/obj/structure/machinery/door_control{id = "souter_east"; name = "Hangar Inner Podlock"; pixel_x = -8; pixel_y = -1},/turf/closed/wall/hybrisa/marhsalls/reinforced,/area/turing/base/hangar)
 "UK" = (/obj/structure/largecrate/supply/generator,/turf/open/floor/prison/darkbrown2/southeast,/area/turing/base/engineering)
 "UL" = (/obj/effect/decal/hybrisa/dirt_2,/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
 "UP" = (/obj/structure/surface/table/reinforced/prison{color = "#8e98a0"},/obj/item/storage/surgical_tray,/turf/open/floor/prison/whitegreen,/area/turing/base/medical)
 "UQ" = (/obj/structure/roof/hybrisa/billboardsandsigns/billboardsmedium/billboard3{dir = 6; lazy_nodes = 0; layer = 3},/turf/open/hybrisa/street/sidewalk/northwest,/area/turing/streets/west)
-"US" = (/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic_solid{dir = 2},/obj/structure/machinery/door/poddoor/shutters/almayer{dir = 4; id = "squadarmory"; name = "\improper Gear Lockers"},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
-"UT" = (/obj/effect/decal/cleanable/dirt,/obj/item/paper/crumpled{pixel_x = 6; pixel_y = 18},/turf/open/floor/prison/blue_plate,/area/turing/command)
+"US" = (/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic_solid{dir = 2},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"UT" = (/obj/effect/decal/cleanable/dirt,/obj/item/paper/crumpled{pixel_x = 6; pixel_y = 18},/turf/open/floor/plating/plating_catwalk/prison,/area/turing/command)
 "UU" = (/obj/effect/decal/cleanable/dirt,/obj/structure/largecrate/random/barrel,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/engineering)
 "UZ" = (/obj/structure/largecrate/supply/supplies/wy_emergency_food,/turf/open/floor/prison/blue_plate,/area/turing/base/engineering)
 "Vg" = (/obj/structure/machinery/space_heater,/obj/structure/machinery/power/apc/power/north,/turf/open/floor/kutjevo/fake_wood,/area/turing/base/lake_house)
@@ -1006,7 +1036,7 @@
 "Xt" = (/obj/structure/surface/table/reinforced/black,/obj/item/weapon/gun/rifle/nsg23/rmc/unloaded{pixel_x = 1; pixel_y = 4},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Xu" = (/obj/effect/decal/hybrisa/tiretrack,/obj/effect/decal/cleanable/hybrisa/dirt,/turf/open/floor/prison,/area/turing/base/garage)
 "Xv" = (/turf/closed/shuttle/twe_dropship/transparent{icon_state = "5,12"},/area/turing/base/hangar)
-"Xw" = (/obj/structure/machinery/computer/crew/alt{dir = 1; pixel_y = -24},/obj/structure/bed/chair{pixel_y = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
+"Xw" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/ammo_box/rounds/smartgun/holo_target{pixel_x = 1; pixel_y = 4},/obj/item/ammo_box/magazine/vp70/extended{pixel_x = 5; pixel_y = 12},/obj/item/ammo_box/magazine/vp78/rmc{pixel_x = 4; pixel_y = 8},/obj/structure/machinery/light/double{dir = 4},/turf/open/floor/prison/red/northeast,/area/turing/base/barracks)
 "Xz" = (/obj/structure/machinery/light{dir = 8},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "XC" = (/obj/structure/barricade/sandbags/full{dir = 4},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/east)
 "XE" = (/obj/effect/decal/cleanable/dirt,/obj/structure/barricade/handrail/wire{dir = 8; layer = 3.01},/obj/structure/coatrack{pixel_x = 3; pixel_y = 11},/obj/structure/coatrack{pixel_x = 10; pixel_y = 4},/obj/structure/machinery/light,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
@@ -1021,14 +1051,14 @@
 "XX" = (/obj/structure/desertdam/decals/road_stop{dir = 1; icon_state = "stop_decal5"},/obj/structure/desertdam/decals/road_edge{icon_state = "road_edge_decal3"; pixel_y = 3; pixel_x = -1},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "XZ" = (/obj/effect/decal/hybrisa/road/lines2,/obj/effect/decal/cleanable/dirt,/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
 "Yb" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
-"Yd" = (/obj/structure/closet/secure_closet/rmc_troop_sergeant{pixel_y = -33; pixel_x = 9},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
-"Ye" = (/obj/structure/machinery/light/double,/turf/open/floor/prison/darkbrown2/southwest,/area/turing/base/engineering)
+"Yd" = (/turf/open/floor/prison/red/west,/area/turing/base/barracks)
 "Yl" = (/obj/structure/bed/chair{buckling_y = 18; dir = 8; pixel_x = -14; pixel_y = -5},/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
 "Ym" = (/obj/structure/flora/tree/tyrargo{pixel_x = -41; pixel_y = -4; layer = 5.73},/turf/open/auto_turf/snow/brown_base/layer3,/area/turing/streets/west)
 "Yn" = (/obj/structure/shuttle/part/twe_cosmetic1/transparent{icon_state = "6,13"; density = 0},/turf/open/floor/plating,/area/turing/base/hangar)
 "Yo" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/reagent_container/food/drinks/coffeecup{pixel_x = -5; pixel_y = 0},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Ys" = (/obj/structure/machinery/light/double{dir = 1},/obj/structure/bed/roller/hospital_empty/bigrollerempty{icon_state = "bigrollerempty_up"},/turf/open/floor/prison/whitegreen/northeast,/area/turing/base/medical)
 "Yv" = (/obj/structure/dropship_equipment/weapon/laser_beam_gun,/turf/open/floor/plating,/area/turing/base/hangar)
+"Yw" = (/obj/structure/bed/chair{pixel_y = 8},/obj/structure/machinery/computer/crew/alt{dir = 1; pixel_y = -24},/obj/structure/machinery/light{dir = 4},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "YA" = (/obj/structure/cargo_container/hybrisa/containersextended/emptymedicalleft{pixel_x = 0; pixel_y = 4; layer = 6},/turf/open/asphalt/cement/cement3,/area/turing/streets/west)
 "YF" = (/obj/structure/prop/hybrisa/misc/trash,/obj/structure/sign/nosmoking_1{pixel_y = 32; layer = 2.8},/obj/structure/machinery/light/double{dir = 1},/turf/open/floor/prison/whitegreen/north,/area/turing/base/medical)
 "YH" = (/obj/structure/cargo_container/seegson/mid,/turf/open/floor/prison/floor_marked,/area/turing/base/engineering)
@@ -1039,13 +1069,15 @@
 "YS" = (/obj/structure/largecrate/random/barrel,/obj/effect/decal/cleanable/dirt,/turf/open/floor/prison/darkbrown2/west,/area/turing/base/engineering)
 "YT" = (/turf/open/floor/prison/blue,/area/turing/base/hangar)
 "YW" = (/obj/structure/sign/poster/blacklight{pixel_x = 7; pixel_y = 0},/obj/structure/sign/poster/corporate{pixel_x = 2; pixel_y = 5},/turf/closed/wall/wood,/area/turing/base/lake_house)
+"YY" = (/obj/structure/surface/table/reinforced/almayer_B,/obj/item/ammo_box/magazine/shotgun/buckshot{pixel_x = 4; pixel_y = -1},/obj/item/ammo_box/magazine/shotgun/buckshot{pixel_x = -4; pixel_y = 8},/obj/item/ammo_box/magazine/m39/squash{pixel_y = 17; pixel_x = 3},/turf/open/floor/prison/red/southeast,/area/turing/base/barracks)
 "Za" = (/turf/open/floor/prison,/area/turing/base/hangar)
-"Zb" = (/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/rmc,/turf/open/floor/prison/bright_clean,/area/turing/base/barracks)
+"Zb" = (/turf/open/floor/prison/redcorner/east,/area/turing/base/barracks)
 "Zc" = (/obj/item/stool{pixel_x = -4; pixel_y = 19},/turf/open/floor/prison/bright_clean/southwest,/area/turing/base/barracks)
 "Zf" = (/obj/structure/bed/chair/office/light,/turf/open/floor/prison/blue,/area/turing/base/hangar)
 "Zg" = (/obj/structure/bed/hybrisa/bunkbed1{dir = 4},/obj/structure/machinery/light{dir = 1},/turf/open/floor/hybrisa/carpet/carpetdarkerblue,/area/turing/base/barracks)
 "Zi" = (/obj/effect/decal/warning_stripes{icon_state = "E"; pixel_x = 2},/obj/effect/decal/cleanable/hybrisa/dirt,/obj/item/tool/warning_cone{pixel_y = 2},/turf/open/floor/prison,/area/turing/base/garage)
 "Zk" = (/obj/structure/machinery/door/poddoor/railing{dir = 2; id = "BarrierNorth"},/turf/open/auto_turf/snow/brown_base/layer0,/area/turing/streets/west)
+"Zm" = (/obj/structure/prop/colorable_rock/colorable/alt,/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "Zn" = (/obj/structure/bed/chair{buckling_y = 5; dir = 1; pixel_y = 0; pixel_x = -16},/obj/effect/decal/cleanable/hybrisa/trash{icon_state = "trash_9"; pixel_x = -8; pixel_y = 12},/turf/open/floor/strata/fake_wood,/area/turing/base/barracks)
 "Zs" = (/obj/structure/flora/tree/tyrargo{layer = 8},/turf/open/auto_turf/snow/brown_base/layer2,/area/turing/streets/east)
 "Zu" = (/obj/structure/machinery/disposal/delivery,/turf/open/floor/prison/blue_plate/north,/area/turing/command)
@@ -1076,81 +1108,81 @@ AVAVTNTNTNEbEbTNTNTNeeEbTNTNTNEbEbEbEbTNTNTNTNTNXiEbTNTNTNTNWzEbTNTNWzTNEbTNpRpR
 AVAVAVTNTNEbTNTNEbTNEbEbTNEbEbEbEbeeTNEbTNTNTNTNTNTNTNEbTNTNWzEbEbIGIGTNEblvpRpRpRpRMjZsKnVFVFKnKnVFVFKnZsNAKnKnKnKnKnNAKnKnKnKnKnKnKnWhWhWhWhKnWhWhWhWhKnNAKnKnKnKnKnKnKnKnfefefefe
 AVAVAVAVeeTNTNeedoPPMsxrPLPPJvRVPPPPPPPPohPPPPTNTNTNTNTNugTNIGjAGapxIGFzFzIGpRpRpRpRVFAfAfVFVFAfAfVFVFKnKnKnKnKnKnKnNAKnKnKnKnKnKnKnWhWhWhWhWhWhWhWhWhWhKnKnKnZsKnKnKnKnKnfefefefefe
 AVAVAVAVAVTNTNTNPPPPrJAptpsBgzWbQWkkhtZuZMsbPPTNeeTNTNTNTNTNnPHSdGdQNYTFpRavpRpRpRpRdWKnNAKnmKKnNAAfNAKnKnKnKnZsNAKnNAKnKnKnYNKnKnWhWhWhWhWhWhWhWhWhWhWhKnKnKnKnKnNANAKnKnKnfefefefe
-AVAVAVAVAVTNTNPPPPPPhMVyxSsSxxPzkeudwkOrcmVUPPTNEbTNTNEbTNEbFzpuXZXZiupRpRztpRpRpRpRVoVoVoVoVoVoNAaJNAZsKnKnKnKnKnKnKnNAKnKnKnKnKnWhWhWhWhWhWhWhmXWhWhWhKnAkKnKnKnKnxngagaxnfefefefe
-AVAVAVAVPPPPPPPPdfPPbrRzPAxSpDPAPAxSMrALxSbbuXTNTNEboYEbEbEbIGdZnMflpRpRpRztpRpRpRpRfDVoVoVofDVoNAAfKnNAKnNANAKnfVKnKnKnKnKnKnKnKnWhWhEcEcEcWhWhWhWhmXWhWhKnKnKnKnDsxnuPLgYWxnfefefe
-AVAVAVAVPPMSMSEQehPPplxSPAbcgkxSTtxSVtwABUICuXTNTNEbEbEbTNEbIGgCqOedaRYKHIztpRpRpRpRgogoOFSCgogogogoKnNAKnvOKnKnKnKnKnuRKnKnKnKnKnWhWhWhEcEcEcWhWhWhWhWhWhWhKnKnKnxnVgyIVmyixnfefefe
-AVAVAVAVPPxSehAuehqCWlPAPAPABeUTPANhPAxSPAZOuXTNEbEbEbTNEbEbSSGqpRTFTdpRpRztpRpRpRpRwqgKRPrwPxnoxugoNAKnKnKnKnKnKnKnKnKnKnNAKnKnYNKnmXWhWhEcEcWhWhWhWhWhWhNAKnKnKnDsyIyIyIIwxnfefefe
-AVAVAVAVPPEFNfNfzCPPgjMzAtMzGuPABUTLCSTLPAPAPPTNeeTNeeTNTNTNFzGqfPIzuKdGdGILZkZkZkZkwqGHTcrwrwTcrwgoKnKnKnKnKnKnNAKnKnKnKnZsKnKnKnWhWhWhWhEcEcEcWhWhmXWhWhKnKnfVKnPjyIyIyIzRxnfefefe
-AVAVAVAVPPPPHCPPPPDHSGPPxrPPPPFwXLPPPPPPFwXLPPTNTNTNTNTNeeEbSWDRlZTxIGtROfIGRZXXcVISgotyTcXUcuOOTcgoKnKnKnKnKnKnKnJxtItItItINaKnWhWhWhWhWhWhWhWhWhWhWhWhWhWhKnKnKnxnyIyIyIyIDsfefefe
-AVAVAVAVPPgQxSgQyKxSehgQauJZPPXTxSoOPPQsZHtOPPTNTNEbEbTNEbEbeFTNTNTNEbTNTNlvpRpRpRpRgogogogogogokAgoKnrQKnKnKnZsNAzfrKLsLsnujUKnKnWhWhWhWhmXWhWhWhWhWhWhWhKnKnKnfVxnzhyIyICNxnfefefe
-AVAVAVAVPPehehehHuehehNfxSPAxSxSxSPAxSPATtWBPPTNTNTNEbFyEbEbTNTNvbEbEbEbTNTNpRpRpRpRKnKnKnKnKnKnVoKnZsKnKnKnKnKnKnzfkMevgsAbjUKnKnWhWhWhWhWhWhWhWhmXWhWhIyKnKnKnKnDsxneEgRxnxnfefefe
-AVAVAVAVPPehehyUHuxSNfNfxSPAaexSPAxSaePAwuDTuXTNTNoYEbEbEbEbTNTNEbEbEbKVTNvbpRpRpRpRKngWKnKnZsKnKnVoKnKnKnKnKnKnKnzfRvJAqjnTjUKnWhWhWhWhWhWhWhWhWhWhWhWhKnKnZsfVKnKnxnxnDsxnKnfefefe
-AVAVAVAVPPehehhEHuehxSxSehJZPPxSPAxSPPcysjQhuXTNTNTNEbEbEbeeTNTNTNTNTNTNVDTNpRpRpRpRKnKnNApSKnKnfVKnfVNAKnKnGjKnpSzfPrTsWPfLjUKnKnKnKnKnKnKnKnWhWhWhWhWhKnKnKnfVNAKnNAKnKnNAKnKnfefe
-AVAVAVAVPPehehLCHuehxSehehehxSxSPAxSxSPACyaguXTNTNTNoYEbEbvbeeTNTNeeTNTNEbTNpRpRpRpRKnNANAKnKnKnVofVKnKnNANAKnKnKnzfrKsvRDrKWaKnKnKnYNKnKnKnKnKnWhWhWhKnKnKnKnKnKnKnKnKnKnKnKnKnfefe
-AVAVAVAVPPehehehHuxSxSehxSxSaexSPAPAaePAPAbuPPTNTNTNTNEbEbEbTNTNeevbTNTNkOTNpRpRpRpRKnTCKnNAKnKnVoVoNAKnNAKnNAKnKnWFMnfJufsZviKnKnKnKnKnNAKnfVKnKnWhKnNANANANAKnfVKnKnKnKnKnNAfefefe
-AVAVAVAVPPodehbtbRxSUiBDwYSaPPlGPAtOPPFheXLVPPTNEbTNTNEbEbEbTNTNTNTNTNEbTNAwpRpRpRpRmbNANAKnKnKnVoVoKnKnKnKnKnKnKnKnrQVoVoEhKnKnKnKnKnKnfVKnKnfVKnKnNANAKnKnKnNANAKnKnKnKnKnfefefefe
-AVAVAVAVPPPPPPPPPPPPPPPPPPPPPPVNPPVNPPPPPPPPPPTNEbEbeeTNTNEbeeTNTNEbEbTNLGTNmHtgtgtgVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVofefefe
-AVAVAVAVTNEbTNTNEbEbEbTNEbTNTNdeszlxXPwEsYtCEbEboYeFTNTNeeEbTNTNEbvbDNDNDNTNpRpRpRpRVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVofefefe
-AVAVAVAVAVTNTNEbTNTNeeTNTNMHTNdeszlxMRUQEKTnEbEbEbTNEbTNTNEbTNTNTNvepRpRWDbTpRpRpRpRKnKnNDKnKnKnrQKnKnKnKnKnKnKnmbVoVoVombKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnfefe
+AVAVAVAVAVTNTNPPPPPPhMVyxSsSxxPzkeudwkOrcmVUPPTNEbTNTNEbTNEbFzpuXZXZiupRpRztpRpRpRpRVoVoVoVoVoVoNAaJNAZsKnZmKnKnKnKnKnNAKnKnKnKnKnWhWhWhWhWhWhWhmXWhWhWhKnAkKnKnKnKnxngagaxnfefefefe
+AVAVAVAVPPPPPPPPdfPPbrRzPAxSpDPAPAxSMrALxSbbuXTNTNEboYEbEbEbIGdZnMflpRpRpRztpRpRpRpRgogoOFSCgogogogoKnNAKnNANAKnfVKnKnKnKnKnKnKnKnWhWhEcEcEcWhWhWhWhmXWhWhKnKnKnKnDsxnuPLgYWxnfefefe
+AVAVAVAVPPMSMSEQehPPplxSPAbcgkEmTtxSVtwArUICuXTNTNEbEbEbTNEbIGgCqOedaRYKHIztpRpRpRpRwqgKRPrwPxnoxugoKnNAKnvOKnKnKnKnKnuRKnKnKnKnKnWhWhWhEcEcEcWhWhWhWhWhWhWhKnKnKnxnVgyIVmyixnfefefe
+AVAVAVAVPPxSehAuehqCWlPAPAPABeUTPANhPAxSEmZOuXTNEbEbEbTNEbEbSSGqpRTFTdpRpRztpRpRpRpRwqGHTcrwrwTcrwgoNAKnKnKnKnKnKnKnKnKnKnNAKnKnYNKnmXWhWhEcEcWhWhWhWhWhWhNAKnKnKnDsyIyIyIIwxnfefefe
+AVAVAVAVPPEFNfNfzCPPgjMzAtMzGuPABUTLCSTLPAPAPPTNeeTNeeTNTNTNFzGqfPIzuKdGdGILZkZkZkZkgotyTcXUcuOOTcgoKnKnKnKnKnKnNAKnKnKnKnZsKnKnKnWhWhWhWhEcEcEcWhWhmXWhWhKnKnfVKnPjyIyIyIzRxnfefefe
+AVAVAVAVPPPPHCPPPPDHSGPPxrPPPPFwXLPPPPPPFwXLPPTNTNTNTNTNeeEbSWDRlZTxIGtROfxGRZXXcVISEagogogogogokAEaKnKnKnKnKnKnKnJxtItItItINaKnWhWhWhWhWhWhWhWhWhWhWhWhWhWhKnKnKnxnyIyIyIyIDsfefefe
+AVAVAVAVPPgQxSgQyKxSehgQauJZPPXTxSoOPPQsZHtOPPTNTNEbEbTNEbEbeFTNTNTNEbTNTNTNpRpRpRpRepKnKnKnKnKnKnKnKnrQKnKnKnZsNAzfrKLsLsnujUKnKnWhWhWhWhmXWhWhWhWhWhWhWhKnKnKnfVxnzhyIyICNxnfefefe
+AVAVAVAVPPehehehHuehyAJwEmPAxSxSxSPAxSPATtWBPPTNTNTNEbFyEbEbTNTNvbEbEbEbTNTNpRpRpRpRKnKnKnKnKnKnVoKnZsKnKnKnKnKnKnzfkMevgsAbjUKnKnWhWhWhWhWhWhWhWhmXWhWhIyKnKnKnKnDsxneEgRxnxnfefefe
+AVAVAVAVPPehehyUHuxSNfNfxSPAaexSLcxSaePAwuDTuXTNTNoYEbEbEbEbTNTNEbEbEbKVTNvbpRpRpRpRKngWKnKnZsKnKnVoKnKnKnKnKnKnKnzfRvJAqjnTjUKnWhWhWhWhWhWhWhWhWhWhWhWhKnKnZsfVKnKnxnxnDsxnKnfefefe
+AVAVAVAVPPehehhEHuehxSxSehJZPPxSEmxSPPcysjQhuXTNTNTNEbEbEbeeTNTNTNTNTNTNVDTNpRpRpRpRKnKnNApSKnKnfVKnfVNAKnKnGjKnpSzfPrTsWPfLjUKnKnKnKnKnKnKnKnWhWhWhWhWhKnKnKnfVNAKnNAKnKnNAKnKnfefe
+AVAVAVAVPPehehLCHuehxSehehehxSxSLcxSxSPACyaguXTNTNTNoYEbEbvbeeTNTNeeTNTNEbTNpRpRpRpRKnNANAKnKnKnVofVKnKnNANAKnKnKnzfrKsvRDrKWaKnKnKnYNKnKnKnKnKnWhWhWhKnKnKnKnKnKnKnKnKnKnKnKnKnfefe
+AVAVAVAVPPehehehHuxSEmyAEmxSaexSPAPAaePAPAbuPPTNTNTNTNEbEbEbTNTNeevbTNTNkOTNpRpRpRpRKnTCKnNAKnKnVoVoNAKnNAKnNAKnKnWFMnfJufsZviKnKnKnKnKnNAKnfVKnKnWhKnNANANANAKnfVKnKnKnKnKnNAfefefe
+AVAVAVAVPPodehbtbRxSUiBDwYSaPPlGPAtOPPFheXLVPPTNEbTNTNEbEbEbTNTNTNTNTNEbTNEbpRpRpRpRMjNANAbVKnKnVoVoKnKnKnOnKnKnKnKnKnVoVoEhKnKnKnKnKnKnfVKnKnfVKnKnNANAKnKnKnNANAKnKnKnKnKnfefefefe
+AVAVAVAVPPPPPPPPPPPPPPPPPPPPPPVNPPVNPPPPPPPPPPTNEbEbeeTNTNEbeeTNTNEbEbTNLGTNmHtgtgtgVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoKnKnKnfefefefe
+AVAVAVAVTNEbTNTNEbEbEbTNEbTNTNdeszlxXPwEsYtCEbEboYeFTNTNeeEbTNTNEbvbDNDNDNTNpRpRpRpRVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoKnKnKnfefefe
+AVAVAVAVAVTNTNEbTNTNeeTNTNMHTNdeszlxMRUQEKTnEbEbEbTNEbTNTNEbTNTNTNvepRpRWDbTpRpRpRpRKnKnNDKnKnKnrQKnKnKnKnKnepKnKnVoVoVoKnKnepKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnfefe
 AVAVAVAVTNTNekTNTNTNEbTNEbXVeedeszlxbQkXNREpEbEbEbTNoYEbTNeeEbEbTNveuYglGgpRpRpRpRpRjaKnNDKnKnKnKnKnKnKnKnrQKnKnKnVoVoVoKnKnKnKnKnKnKnKnKnZsKnKnKnrQKnKnKnKnNAfVKnKnKnKnKnKnKnKnfefe
-AVAVAVAVAVTNTNTNEbEbEbeeEbTNTNdeszlxCrPCMMxbEbTNoYTNTNTNTNTNTNTNVDTNOzOzOzTNpRpRpRpRKnKnnsnsnszxzxzxsEwbnsnsKnKnKnVoVoVoKnKnKnrQKnKnKnKnKnKnKnKnKnKnKnIyKnKnKnKnKnNAKnNAKnKnKnfefefe
-AVAVAVAVAVAVTNTNEbEbEbEbEbEbTNdeszlxRgoYEbEbTNTNEbEbEZEZEZEZEZEZTNTNTNTNTNTNpRpRpRpRKnKnnsHEtxtxaTOwRUCmHgnsKnKnZsVoVoVoZsKnKnKnKnKnGjKnKnKnfVKnZsKnKnKnKnKnKnKnKnZsKnKnKnKnfefefefe
-AVAVAVAVAVTNjgwEsYoMwEsYtCeeTNdeszlxEbKWTNEZEZwNEZEZTVwIhJLywITVEZEZEZEZTNvbpRpRpRpRKnKnnsNKKUSiWtSiSiswhPnsKnKnKnVoVoVoKnKnKnKnZsKnKnVLVLVLVLVLVLVLVLoxVLVLVLKnKnKnKnKnKnKnKnfefefe
-AVAVAVAVTNTNWTFaaUaUaUaUMwEbeedeszlxTNEbTNEZqkpXvnzzDmQGMWQGQGPSeufSlqEZTNTNpRpRpRpRKnKnnsshWtWtkZuLvrAaKSnsZsKnKnVoVoVoKnKnKnKnKnKnKnVLNGeJQAGbBdjVHkxMkyVLVLVLVLVLbxupVLVLKnfefefe
-AVAVAVAVTNTNWTaUaUaUaUaUMwTNTNdeszlxeeEbTNEZhgspZauxZaijijQJZaZaZavzDoEZTNTNpRpRpRpRFLKnnswQWtWtWtxXRylMRynsKnKnKnVoVoVoKnZsKnKnKnKnKnVLcfjFjFjFjFjFbJpVbJVLpLDBmyNggZSBPtVLVLKnfefe
-AVAVAVAVTNTNWTaUDWDWenaUMwTNTNdeszlxTNoYTNEZlXOBYTRrxvZfOyqhqbruaMwPHFEZLGTNpRpRpRpRKnKnnsaqKLWtgIppRyiRRynsKnKnKnVoVoVoKnKnKnKnKnKnKnyYWefsFoSsjFbJjFbJjFjFbJeSUEjFbJtEbJhVVLKnfefe
-AVAVAVAVTNEUWTaUooFDNlaUMwEUeedeszlxiQTNTNEZEZCBrTygygygygygygygSyEZEZEZTNMHpRpRpRpRrQKnnsLdWtWtVAimRyiRRynsKnZsKnVoVoVoKnKnZsKnZsKnKnyYAhjFjFcRjFbJbJjFbJqLbJbJitjFbJbJGUkQVLNAfefe
-AVAVAVAVTNXPFaaUAMAMAMaUajOVTNdeszlxTNTNTNEZwgJdJdcxcxcxcxcxJdJdJdltwgEZTNTNpRpRpRpRKnKnnsJMQaQamPMqPoQaKNnsKnKnrQVoVoVoKnKnKnKnKnKnKnVLcfjFjFjFjFjFjFbJjFinQnyajFbJjFbJcFVLVLKnfefe
-AVAVAVAVTNWTaUFaLTaUCXaUFaMwEUdeszlxTNXiTNEZJdJdEkGnVQHvsCWgVQVQEkcxlkEZTNTNpRpRpRpRKnKnzjWtWtuAWtWtWtWtWtmVVoVoVoVoVoVoKnNAKnKnKnKnZsVLdyKcOsOsXEtdbJDDbJVLvfaAqrfHXwVLVLVLKnKnfefe
-AVAVAVEUTNWTaUaUqDaPqDaUaUaUoMdeszlxkRTNTNUGWNcxVQKBgBMcqwMiVQFGGnJdyhEZTNTNpRpRpRpRKnGjzjWtWtWtVAUUWtWteNnsVoVoVoVoVoVorQNAKnKnKnKnKnVLVLVLVLVLVLrBjFBlVLVLVLVLTQVLVLVLKnKnKnfefefe
-AVAVTNTNTNWTaUaUFaFaFaFaaUaUOWdeszszjDjDjDCULMLMVQgBwvlHMXRRYnGnGncxcxEZTNskpRpRpRpRmbKnzjWtWtWtkZWtWtWtWtmVVoVoVoVoVoVoKnKnNAKnKnKnKnVLHrqYbJfYVLXzalVLQwjtLvfkamXgQcVLKnNAKnfefefe
-AVAVTNTNLGWTXKqDLnLnLnLnbDMwEUdeszszszszszCULMLMgBywsXJPowXvkJGnGncxJdEZTNLGpRpRpRpRKnKnnsMtVAVAuAWtVAVAVAnsKnKnmbVoVoVoKnKnKnKnKnKnNAVLHrbJjFfYVLRmjFVLjFjFbJbJbJbJbJVLKnKnKnfefefe
+AVAVAVAVAVTNTNTNEbEbEbeeEbTNTNdeszlxCrPCMMxbEbTNoYTNTNuITNTNTNTNVDTNOzOzOzTNpRpRpRpRKnKnnsnsnszxzxzxsEnsnsnsKnKnKnVoVoVoKnKnKnrQKnKnKnKnKnKnKnKnKnKnKnIyKnKnKnKnKnNAKnNAKnKnKnfefefe
+AVAVAVAVAVAVTNTNEbEbEbEbEbEbTNdeszlxRgoYEbEbTNTNEbEbEZEZEZEZEZEZTNTNTNTNTNTNpRpRpRpRKnKnnsHEtxtxaTOwHmCmHgnsKnKnZsVoVoVoZsKnKnKnKnKnGjKnKnKnfVKnZsKnKnKnKnKnKnKnKnZsKnKnKnKnfefefefe
+AVAVAVAVAVTNjgwEsYoMwEsYtCeeTNdeszlxEbKWTNEZEZwNEZEZTVwIhJLywITVEZEZEZEZTNvbpRpRpRpRKnKnnsNKKUSiWtSiWtswhPnsKnKnKnVoVoVoKnKnKnKnZsKnKnVLVLVLVLVLVLVLVLoxVLVLVLVLVLVLbxupmNVLKnfefefe
+AVAVAVAVTNTNWTFaaUaUaUaUMwEbeedeszlxTNEbTNEZqkpXvnzzDmQGMWQGQGPSeufSlqEZTNTNpRpRpRpRKnKnnsshWtuLvrAavrAaKSnsZsKnKnVoVoVoKnKnKnKnKnKnKnVLNGeJQAGbBdjVHkxMkyVLpLDBmyNggZSBPtVLKnfefefe
+AVAVAVAVTNTNWTaUaUaUaUaUMwTNTNdeszlxeeEbTNEZhgspZauxZaijijQJZaZaZavzDoEZTNTNpRpRpRpRFLKnnswQWtxXRylMRylMRynsKnKnKnVoVoVoKnZsKnKnKnKnKnVLcfjFjFjFjFjFbJpVbJVLbJbJjFjFjFbJbJVLVLVLfefe
+AVAVAVAVTNTNWTaUDWDWenaUMwTNTNdeszlxTNoYTNEZlXOBYTRrxvZfOyqhqbruaMwPHFEZLGTNpRpRpRpRKnKnnsaqKLppRyiRRyiRRynsKnKnKnVoVoVoKnKnKnKnKnKnKnyYWefsFoSslbbJjFBYjFjFbJeSUEinddrYjFjFhVVLfefe
+AVAVAVAVTNEUWTaUooFDNlaUMwEUeedeszlxiQTNTNEZEZCBrTygygygygygygygSyEZEZEZTNMHpRpRpRpRrQKnnsLdWtimRyiRRyiRRynsKnZsKnVoVoVoKnKnZsKnZsKnKnyYAhjFaEcRlbbJbJlbbJqLbJBYitinfTBYGUjFkQVLfefe
+AVAVAVAVTNXPFaaUAMAMAMaUajOVTNdeszlxTNTNTNEZwgJdJdcxcxcxcxcxJdJdJdltwgEZTNTNpRpRpRpRKnKnnsJMQaQamPMqPoQaKNnsKnKnrQVoVoVoOnKnKnKnKnKnKnVLcfjFjFjFjFjFjFbJjFinQnyajFbJjFbJbJVLVLVLfefe
+AVAVAVAVTNWTaUFaLTaUCXaUFaMwEUdeszlxTNXiTNEZJdJdEkGnVQHvsCWgVQVQEkcxlkEZTNTNpRpRpRpRKnKnzjWtWtuAWtWtWtWtWtmVVoVoVoVoVoVoKnNAKnKnKnKnZsVLdyKcOsOsXEtdbJDDbJVLvfaAqrfHqrwZYwVLKnKnfefe
+AVAVAVEUTNWTaUaUqDaPqDaUaUaUoMdeszlxkRTNTNUGWNcxVQKBgBMcqwMiVQFGGnJdyhEZTNTNpRpRpRpRKnGjzjWtWtWtVAUUWtWteNnsVoVoVoVoVoVorQNAKnKnKnKnKnVLVLVLVLVLVLrBjFBlVLVLVLVLTQVLVLVLVLVLKnfefefe
+AVAVTNTNTNWTaUaUFaFaFaFaaUaUOWdeszszjDjDjDCULMLMVQgBwvlHMXRRYnGnGncxcxEZTNTNpRpRpRpRKnKnzjWtWtWtkZWtWtWtWtmVVoVoVoVoVoVoKnKnNAKnKnKnKnVLHrqYbJfYVLXzalVLQwjtLvfkamXgQcVLKnNAKnfefefe
+AVAVTNTNLGWTXKqDLnLnLnLnbDMwEUdeszszszszszCULMLMgBywsXJPowXvkJGnGncxJdEZTNLGpRpRpRpRKnKnnsMtVAVAuAWtVAVAVAnsKnKnKnVoVoVoKnKnKnKnKnKnNAVLHrbJjFfYVLRmjFVLjFjFbJbJbJbJbJVLKnKnKnfefefe
 AVAVAVTNTNWTeLAMAMAMAMgDcrMwTNdeszszBNBNBNCULMLMVQODRlDbPJgvcMVQVQrakLEZTNTNpRpRpRpRKnKnnsTqIMVAIhpaVAafEAnsKnKnKnVoVoVoKnKnKnKnNAKnKnVLdIjFbJdIQdjFjFVLcfbJcQcQbJcQfUVLKnKnKnfefefe
 AVAVAVAVTNMvPCPCwwPCPCPCPCxbTNdeszlxTNTNTNEZnvJdVQODyNAYwlAYyNVQVQPQjHEZTNTNpRpRpRpRKnfVnsnsnsEonsnsEonsnsnsKnKnKnVoVoVoKnROKnKnKnKnKnVLjFzPHyNcVLjFbJQdbJcvCDmDbJCDYoVLKnKnKnfefefe
 AVAVAVEUTNTNTNTNTNTNTNEbEbTNTNdeszlxTNTNTNEZUrFkVQZWRlsMbfnIsOjGVQPQZFEZTNLNpRpRpRpRKnKnnsOjHmoWlRoWHmoWhNnsKnKnKnVoVoVoKnKnKnKnZsKnKnVLReVLVLVLVLcfcFVLbJbJCDnmbJCDAGVLKnKnKnKnfefe
-AVAVAVAVAVAVAVTNTNBELGTNTNARTNdeszlxerTNEbEZUrcxVQKPRljyTJQCsOPDVQPQZFEZLGTNpRpRpRpRKnKnnsYSgbgbgbgbKqKqhPnsKnROKnVoVoVoNANAKnKnKnKnKnVLbJbJHzmxVLjFjFQdbJbJmzjFYbbJtEVLKnKnKnKnfefe
-AVAVAVAVAVAVTNBETNTNTNTNTNTNVwdeszlxMHTNEbEZIEcxVQdTFVobxQoXmtuDqyPQdDEZTNTNpRpRpRpRrQKnnsHKUZgbgygbCZToGInsKnrQKnVoVoVoIyNAKnKnKnKnKnVLjFjFjFBzVLjFjFVLcfjFjFbJbJmaynVLKnKnKnKnfefe
-AVAVAVAVAVTNTNTNEbTNTNTNTNTNMHdeszszjDjDjDDzLMAKVQMpFVkCjvkCRIONVQPZjmEZTNTNpRpRpRpRKnKnnsRSKqzmgygbgbgbJEnsKnKnKnVoVoVoKnKnKnKnKnKnKnVLnNYbjFbJVLjFjFVLbJjFjFEqjFjFmSVLKnKnKnfefefe
-AVAVAVAVTNTNEbTNEbTNTNTNTNARTNdeszszszszszDzLMAKGnyMnqfoowWpZVkxGnJdRdEZLGTNpRpRpRpRKnKnnsyjJOheZZgbBcgbeaEyVoVoVoVoVoVorQNAKnKnNAKnKnVLbqGpGpGpVLaEalVLjnPerVTlIuUnDgVLKnKnfefefefe
-AVAVAVTNTNEbTNEbEbTNLGTNTNTNEbdeszszBNBNBNDzLMAKVQGnVQqtVQbyVQGnVQJdRdEZTNLGpRpRpRpRKnKnnsfIMUgbKqgbgbgbeaEyVoVoVoVoVoVoKnvONAKnKnZsKnVLVLVLVLVLVLrBbJVLVLVLinVLVLVLVLVLKnKnNAfefefe
-AVAVAVTNTNEbEbEbBEEbTNCKEbLGTNdeszlxTNTNEbUGxWPqVQIsCHwxVQKTHsKIVQRdyhEZTNVwpRpRpRpRusKnnseArZWOLogbgbgbeaEyVoVoVoVoVoVoKnKnKnKnKnKnKnVLSLMfMfErVLyCcFVLPILwgfdmBshkZgVLKnKnKnKnfefe
-AVAVTNTNEbEbTNTNTNTNTNEbTNTNTNdeszlxEbEbEbEZJdcxqoVQGnGnVQGnGnVQqoRdJdEZTNTNpRpRpRpRKnKnnsFesWiENoZZZZgbeaEyVoVoVoVoVoVombKnKnKnKnKnKnVLbJjFjFbJVLbJbJVLUxULTfTPRHivKkVLKnKnKnKnfefe
+AVAVAVAVAVAVAVTNTNBELGTNTNARTNdeszlxerTNEbEZUrcxVQKPRljyTJQCsOPDVQPQZFEZLGTNpRpRpRpRKnKnnsYSgbgbgbgbKqKqhPnsKnROKnVoVoVoNANAKnKnKnKnKnVLbJbJHzmxVLjFjFQdjLbJmzjFYbbJtEVLKnKnKnKnfefe
+AVAVAVAVAVAVTNBETNTNTNTNTNTNVwdeszlxMHTNEbEZIEcxVQdTFVobxQoXmtuDqyPQdDEZTNTNpRpRpRpRrQKnnsHKUZgbgygbCZToGInsKnrQKnVoVoVoIyNAKnKnKnKnKnVLjFlblbBzVLjFjFVLUbmCskArArmaynVLKnKnKnKnfefe
+AVAVAVAVAVTNTNTNEbTNTNTNTNTNMHdeszszjDjDjDDzLMAKVQMpFVkCjvkCRIONVQPZjmEZTNTNpRpRpRpRKnKnnsRSKqzmgygbgbgbJEnsKnKnKnVoVoVoKnKnepKnKnKnKnVLnNYbjFbJVLjFjFVLASTuTuEqTuTumSVLKnKnKnfefefe
+AVAVAVAVTNTNEbTNEbTNTNTNTNARTNdeszszszszszDzLMAKGnyMnqfoowWpZVkxGnJdRdEZLGTNpRpRpRpRKnKnnsyjJOheZZgbBcgbeaEyVoVoVoVoVoVorQNAKnKnNAKnKnVLbqGpGpGpVLcfalVLjnPerVTlIuUnDgVLKnKnfefefefe
+AVAVAVTNTNEbTNEbEbTNLGTNTNTNnpdeszszBNBNBNDzLMAKVQGnVQqtVQbyVQGnVQJdRdEZTNLGpRpRpRpRKnKnnsfIMUgbKqgbgbgbeaEyVoVoVoVoVoVoKnvONAKnKnZsKnVLVLVLVLVLVLrBbJVLVLVLinVLVLVLVLVLKnKnNAfefefe
+AVAVAVTNTNEbEbEbBEEbTNtsEbLGTNdeszlxTNTNEbUGxWPqVQIsCHwxVQKTHsKIVQRdyhEZTNVwpRpRpRpRusKnnseArZWOLogbgbgbeaEyVoVoVoVoVoVoKnKnKnKnKnKnKnVLSLMfMfErVLyCcFVLPILwgfdmBshkZgVLKnKnKnKnfefe
+AVAVTNTNEbEbTNTNTNTNTNEbTNTNTNdeszlxEbEbEbEZJdcxqoVQGnGnVQGnGnVQqoRdJdEZTNTNpRpRpRpRKnKnnsFesWiENoZZZZgbeaEyVoVoVoVoVoVoKnKnKnKnKnZmKnVLbJjFjFbJVLbJbJVLUxULTfTPRHivKkVLKnKnKnKnfefe
 AVAVAVTNTNTNTNLGTNTNLGTNRgEbHedeszlxEbmgEbEZJdcxJdJdJdcxcxRdRdJdcqJdRdEZTNTNpRpRpRpRKnKnnsCRDXjPLogbKqgbeaEyVoVoVoVoVoVoVoVoVoVoVoVoVoQdbJbJjFjFQdjFjFMATPTPEBEBczTPdsVLKnKnKnKnfefe
-AVAVAVAVTNTNTNTNEbTNEbTNTNIJTNdeszlxTNEbLGEZJdJdRdJdcxJdRJTeTYTYTeQNTYEZTNTNpRpRpRpRKnKnnsfXbaWOWOJakiJaMmnsKnKnmbVoVoVoVoVoVoVoVoVoVoVLbKbJjFCEVLnwbJPlTPEBEBULTPTPOHVLKnKnKnKnfefe
+AVAVAVAVTNTNTNTNEbTNEbTNTNIJTNdeszlxTNutLGEZJdJdRdJdcxJdRJTeTYTYTeQNTYEZTNTNpRpRpRpRKnKnnsfXbaWOWOJakiJaMmnsKnKnKnVoVoVoVoVoVoVoVoVoVoVLbKbJjFCEVLnwbJPlTPEBEBULTPTPOHVLKnKnKnKnfefe
 AVAVAVAVAVLGTNpRsqpRrLTNLGEbRgdeszlxLGTNTNEZSEJdJdcxJdJdgtWXWCWXwowoWXEZTNTNpRpRpRpRKnKnnsRSrZrZmEWOWOrZhPnsKnKnKnVoVoVoVoVoVoVoVoVoVoQdMCjFbJjFNubJbJVLEBEBTPTPTPTPeMVLKnKnKnKnfefe
-AVAVAVAVAVAVEbEYeKPdhuEbTNEbEbdeszlxTNLGTNEZuFPWNWzgNkfQkVSrwTSrdASraFEZTNskpRpRpRpRmbKnnswJlUmEyTANbEYHvdnsKnKnKnVoVoVombKnKnKnKnKnKnVLbJjFbJoyVLjFbJxCSHrMtMYlMVMVMVVLKnKnKnfefefe
+AVAVAVAVAVAVEbEYeKPdhuEbTNEbEbdeszlxTNLGTNEZuFPWNWzgNkfQkVSrwTSrdASraFEZTNTNpRpRpRpRKnKnnswJlUmEyTANbEYHvdnsKnKnKnVoVoVoKnKnKnKnKnKnKnVLbJjFbJoyVLjFbJxCSHrMtMYlMVMVMVVLKnKnKnfefefe
 AVAVAVAVAVEbpRlgcgPsVrpRTNEbTNdeszlxEbTNEbEZEZEZEZEZEZEZEZEZEZEZEZEZEZEZTNLGpRpRpRpRrQKnnskldzrZmEtbTvAIqMnsKnrQKnVoVoVoKnKnKnKnKnKnKnVLlYjFbJQOVLLKalVLVxsmIfZnihMVqaVLKnKnfefefefe
-AVAVAVTNTNTNEbLGTNLGLGEbEbTNARdeszlxskRgEbTNTNTNTNTNTNEbEbTNEbTNTNTNEbTNTNTNpRpRpRpRKnKnnsnsXITRrZmBTwqgnsnsKnNAKnVoVoVoKnKnKnKnKnKnKnVLVLVLVLVLVLrBbJVLVLVLVLVLVLVLVLVLKnKnKnfefefe
-AVAVAVLGTNTNTNTNLGPyjDjDjDjDjDszszszjDjDjDjDjDbiTNTNTNTNEbTNEbTNLGTNTNEbTNTNpRpRpRpRKnKnKnnsnsYeTRTwknnsnsKnKnKnKnVoVoVoKnKnKnKnKnKnKnVLvLWSvvsninLbDpinuGetetetJNFbqTVLVLKnKnKnfefe
-AVAVAVTNEbTNTNEbTNdeTXaCgMhhwMaCozhhwMaCgMhhTXlxLGARTNEZEZEZSyEZEZEZEZEZEZEZpRpRpRpRKnKnKnNAnsnshHUKnsnsKnKnKnKnNAVoVoVoKnKnKnKnKnKnKnVLbJjFjFjFVLbJjFycYbYbjFjFbJjFbJKOVLVLKnKnfefe
-AVAVAVTNTNTNdnMNTNdeQLlTlTlTlTlTlTlTlTlTlTHPBSlxEbEbTNEZiIdPtDqWqISkVQBqzQEZpRpRpRpRKngWKnKnKnnsnsnsnsKnKnfVKnKnKnVoVoVombROKnKnKnKnKnVLWAjFjFjFjFbJjFuUbJbJjLFvlajFbJbJEvVLKnKnfefe
-AVAVAVAVTNTNEbTNMHdeFclTlTlTlTlTlTlTlTlTlTlTzblxRgTNLGEZnJVQRQVQQfSkFGBqFGEZpRpRpRpRfVKnKnKnfVKnNANAKnZsNAKnKnKnKnVoVoVoKnKnrQKnKnKnKnVLlwrijFjFqLjFbJUSjFjFjFAqfEbJbJbJEiVLKnKnfefe
-AVAVAVTNTNEbMxTNTNdeLhlTlTlTlTlTlTlTlTlTlTlTPXlxAwEbMHEZVQVQGnVQVQVQVQGnVQEZpRpRpRpRKnKnfVKnKnixfVNAHodHdHdHdHsyKnVoVoVoKnKnKnKnZsKnKnVLQUZcbJbJVLbJbJVLYdbJbJBFbJjFbJpPVLVLKnKnfefe
-AVAVTNTNTNEbTNTNEbdehKlTlTlTlTlTlTlTlTlTlTlTCLszjDjDjDDkVQGnVQVQGnGnVQVQVQEZpRpRpRpRrQfVKnKnKnNANANACQeHJoJoWyCQfVVoVoVoKnNAKnKnKnKnKnVLbJXtFpSnVLNEQmVLFSBGZbjZZboHVLVLVLKnKnKnfefe
-AVAVTNEbEbEbTNEbTNdeAmlTlTlTlTlTlTlTlTlTlTlTVsszszszszDkGnGnVQGnKJKJVQVQVQEZpRpRpRpRKnKnKnNAKnNAKnNACQizgwaOizCQKnVoVoVorQNAKnKnKnKnKnVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLKnKnKnKnfefefe
+AVAVAVTNTNTNEbLGTNLGLGEbEbTNARdeszlxTNRgEbTNTNTNTNTNTNEbEbTNEbTNTNTNEbTNTNTNpRpRpRpRKnKnnsnsXITRrZmBTwqgnsnsKnNAKnVoVoVoKnKnKnKnKnOnKnVLVLVLVLVLVLrBbJVLVLVLVLVLVLVLVLVLKnKnKnfefefe
+AVAVAVLGTNTNTNTNLGPyjDjDjDjDjDszszszjDjDjDjDjDbiTNTNTNTNEbTNEbTNLGTNTNEbTNTNpRpRpRpRKnKnKnnsnsgITRTwRUnsnsKnKnKnepVoVoVoKnKnKnKnKnKnKnVLvLWSvvsninLbDpinuGetetetJNFbqTVLVLVLVLKnfefe
+AVAVAVTNEbTNTNEbTNdeTXaCgMhhwMaCozhhwMaCgMhhTXlxLGARTNEZEZEZSyEZEZEZEZEZEZEZpRpRpRpRKnKnKnNAnsnshHUKnsnsKnKnKnKnNAVoVoVoKnKnKnKnKnKnKnVLbJjFjFjFVLbJjFinAwxalbjFbJjFycKOxpXwVLVLfefe
+AVAVAVTNTNTNdnMNTNdeQLlTlTlTlTlTlTlTlTlTlTHPBSlxEbEbTNEZiIdPtDqWqISkVQBqzQEZpRpRpRpRKngWKnKnKnnsnsnsnsKnKnfVKnKnKnVoVoVoKnROKnKnKnKnKnVLWAjFlbjFjFbJjFjFZbbJjLFvlaEvbJbJbJycoHVLfefe
+AVAVAVAVTNTNEbTNMHdeFclTlTlTlTlTlTlTlTlTlTlTzblxRgTNLGEZnJVQRQVQQfSkFGBqFGEZpRpRpRpRfVKnKnKnfVKnNANAKnZsNAKnKnKnKnVoVoVoKnKnrQKnKnKnKnVLlwrilbjFqLjFbJUSuUjFjFAqfEEibJbJbJfDbGVLfefe
+AVAVAVTNTNEbMxTNTNdeLhlTlTlTlTlTlTlTlTlTlTlTPXlxEbEbMHEZVQVQGnVQVQVQVQGnVQEZpRpRpRpRKnKnfVKnKnixfVNAHodHdHdHdHsyKnVoVoVoKnKnKnKnZsKnKnVLQUZcbJbJVLbJbJVLYdBYBYBFbJjFbJpPfDYYVLVLfefe
+AVAVTNTNTNEbTNTNEbdehKlTlTlTlTlTlTlTlTlTlTlTCLszjDjDjDDkVQGnVQVQGnGnVQVQVQEZpRpRpRpRrQfVKnKnKnNANANACQeHJoJoWyCQfVVoVoVoKnNAKnKnKnKnKnVLwbXtFpSnVLNEQmVLFSBGiXjZiXBGiXzsnxVLVLKnfefe
+AVAVTNEbEbEbTNEbTNdeAmlTlTlTlTlTlTlTlTlTlTlTVsszszszszDkGnGnVQGnKJKJVQVQVQEZpRpRpRpRKnKnKnNAKnNAKnNACQizgwaOizCQKnVoVoVorQNAKnKnKnKnKnVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLKnfefefe
 anAVTNEbEbEbRgTNTNdeFclTlTlTlTlTlTlTlTlTlTlTzbjeszszszDkVQVQGnGnKJKJYvVQkjEZpRpRpRpRKnKnKnKnYNKnKnNAcahUOPOPtQLWIyVoVoVoKnNAKnNAKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnNAKnKnKnfefefefe
-anAVEbTNEbTNEbTNTNdeLhlTlTlTlTlTlTlTlTlTlTlTPXszBNBNBNDkVQGnGnVQVQGnGnVQXMEZpRpRpRpRKnKnKnNAKnKnKnKnNAKnKnKnKnKnKnVoVoVoKnKnKnKnNAKngWKnKnKnKnKnKnKnZsKnKnKnNAKnKnKnNAKnKnKnfefefefe
-anAVTNTNTNEbTNTNTNdehKlTlTlTlTlTlTlTlTlTlTlTCLlxskEbTNEZVQVQVQVQVQGnVQiGjYEZpRpRpRpRKnYNKnNANANANATCNAKnKnKnNAKnKnVoVoVoKnKnKnKnNArQKnKnKnKnKnKnKnKnKnKnKnKnNAKnKnfVKnKnKnKnfefefefe
-anAVTNTNCKEbTNLGTNdeAmlTlTlTlTlTlTlTlTlTlTlTVslxLGEbTNEZThVQVQVQVQVQVQMaVQEZpRpRpRpRKnKnKnKnNANAKnKnKnKnKnrQKnKnKnVoVoVoKnKnYNKnKnKnKnKnKnZsKnKnKnKnKnIyKnNANANAKnKnKnKnKnKnKnKnfefe
-anAVTNTNEbTNTNTNTNdeFclTlTlTlTlTlTlTlTlTlTlTzblxTNEbEbEZumVQVjVQVjVQVjMaVMEZpRpRpRpRmbKnKnKnNAKnKnKnKnKnKnKnKnKnrQVoVoVombKnKnKnKnKnKnKnKnKnmbKnrQKnKnKnKnKnmbKnKnKnKnKnKnKnKnKnfefe
+anAVEbTNEbTNEbTNuIdeLhlTlTlTlTlTlTlTlTlTlTlTPXszBNBNBNDkVQGnGnVQVQGnGnVQXMEZpRpRpRpRKnKnKnNAKnKnKnKnNAKnKnKnKnKnKnVoVoVoKnKnKnKnNAKngWKnKnKnKnKnKnKnZsKnKnKnNAKnKnKnNAKnKnKnfefefefe
+anAVTNTNTNEbTNTNTNdehKlTlTlTlTlTlTlTlTlTlTlTCLlxTNEbTNEZVQVQVQVQVQGnVQiGjYEZpRpRpRpRKnYNKnNANANANATCNAKnKnKnNAKnKnVoVoVoKnKnKnKnNArQKnKnKnKnKnKnKnKnKnKnKnKnNAKnKnfVKnKnKnKnfefefefe
+anAVTNTNCKEbTNLGTNdeAmlTlTlTlTlTlTlTlTlTlTlTVslxLGEbTNEZThVQVQVQVQVQVQMaVQEZpRpRpRpRKnKnKnKnNANAKnKnKnOnKnrQKnKnKnVoVoVoKnKnYNKnKnKnKnepKnZsKnKnKnKnKnIyKnNAUjNAKnKnKnKnKnKnKnKnfefe
+anAVTNTNEbTNTNTNTNdeFclTlTlTlTlTlTlTlTlTlTlTzblxTNEbEbEZumVQVjVQVjVQVjMaVMEZpRpRpRpRKnKnKnKnNAKnKnKnKnKnKnKnKnKnKnVoVoVoKnKnKnKnKnKnKnKnKnKnKnKnrQZmKnKnKnKnKnKnKnKnKnKnKnKnKnKnfefe
 anAVTNTNLGTNTNEbTNdeLhlTlTlTlTlTuzlTlTlTlTlTPXlxTNMHTNEZEZEZEZEZEZEZEZEZEZEZpRpRpRpRVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoKnKnKnKnKnIyKnKnKnfefefe
 anAVTNTNTNMHEbTNTNfzhKlTlTlTlTlTlTlTlTlTlTlTCLlxTNTNTNLGpREbTNpRTNpREbpRLGTNpRpRpRpRVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoKnrQKnZsKnKnKnKnfefefefe
-anAVTNTNRgEbKVKaMHdeAmlTlTlTlTlTlTlTlTlTlTlTVslxTNTNEbpRTNLGTNTNpRLGpREbTNTNpRpRpRpRVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoKnKnKnKnKnKnKnKnfefefefe
-anAVTNTNTNGkTNTNTNdeFclTlTlTlTlTlTlTlTlTlTlTzblxTNEEEEEEEEDrEEEEEEEEEEEEEEEEpRpRpRpRKnKnKnKnKnKnKnKnKnKnKnKnKnKnmbVoNAVoVoVombKnKnKnKnKnKnKnKnrQKnmbVoVoVoVohrKnKnKnKnKnKnKnKnfefefe
-anAVTNEbTNLGVwTNTNdeLhlTlTlTlTlTlTlTlTlTlTlTPXlxLGEEwBxNLxVKoZyxSvfZsIxoSVEEpRpRpRpRrQKnKnKnKnKnKnKnKnKnrQKnKnKnKnVoVoVoVoKnKnKnKnrQKnKnKnKnKnKnKnKnVoVoVoVoVlKnKnKnKnKnKnKnKnfefefe
+anAVTNTNRgEbKVKaMHdeAmlTlTlTlTlTlTlTlTlTlTlTVslxTNTNnppRTNLGTNTNpRLGpREbTNTNpRpRpRpRVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoVoKnKnKnKnKnKnKnKnfefefefe
+anAVTNTNTNGkTNTNTNdeFclTlTlTlTlTlTlTlTlTlTlTzblxTNEEEEEEEEDrEEEEEEEEEEEEEEEEpRpRpRpRKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnVoNAVoVoVoKnKnKnKnKnKnKnKnKnrQKnKnVoVoVoVohrKnKnKnKnKnKnKnKnfefefe
+anAVTNEbTNLGVwTNTNdeLhlTlTlTlTlTlTlTlTlTlTlTPXlxLGEEwBxNLxVKoZyxSvfZsIxoSVEEpRpRpRpRrQKnKnKnKnepKnKnKnKnrQKnKnKnKnVoVoVoVoKnKnKnKnrQKnKnKnKnKnepKnKnVoVoVoVoVlKnKnKnKnKnKnKnKnfefefe
 anAVTNEbTNTNEbTNTNdehKlTlTlTlTlTlTlTlTlTlTlTCLlxTNEEDyNeRTNeRTRExNGsboDPIXEEpRpRpRpRKnKnKnKnKnKnKnfxfxfxfxfxfxfxfxvqWVfxvqWVfxfxfxfxfxfxKnKnNANAKnKnXCgNgNgNUgKnKnKnKnKnKnZsKnKnfefe
 anAVTNEbTNTNTNTNTNdeAmlTlTlTlTlTlTlTlTlTlTlTVslxEbEExNUtoQNeOezqgPPKGsvRTTEEpRpRpRpRKnFLKnKnKnKnfxfxmiiMLOfxMEjbHcOtkdYFOtJhpMEnCtuBYsfxfxfxKnNANAKnVoVoVoVoKnKnKnKnKnKnKnNAKnKnfefe
-anAVTNEbTNEbTNCKEbdeFclTlTlTlTlTlTlTlTlTlTlTzblxEbEExNvmSqUtqnxNRTRTxNxNFXEEpRpRpRpRKnKnKnKnPpKnfxOEWVWVWVfxqPWVWVtFIIWVtFIIjOkEkEkEnANVOkfxfxKnKnNANAVoVoVoVoKnNANAZsKnKnKnNAKnfefe
-anAVAVTNTNEbEbTNQZdeLhlTlTlTlTlTlTlTlTlTlTlTPXlxTNEExNRTKrXuxNREJChYRTRTpfEEpRpRpRpRKnKnKnKnKnKnfxrCWVWVWVYMWVWVkEkECGkEWVsiWVkEbWWVkEWVhzGMfxfxKnKnKnNAsVKnKntwNAKnKnNAKnKnKnKnfefe
-anAVAVAVTNEbEbTNTNdehKlTlTlTlTlTlTlTlTlTlTlTCLlxEbEEMLKrxNsoxNUqRTxNRTxNJuEEpRpRpRpRmbKnKnKnKnKnfxGJuMWVWVfxWVWVWVWVWVWVkEkEWVgxWVkEWVWVkEhzGMfxNAKnsVKnKnKnsVNAKnKnNANAKnKnKnKnfefe
+anAVTNEbTNEbTNCKEbdeFclTlTlTlTlTlTlTlTlTlTlTzblxEbEExNNeSqUtqnxNRTRTxNxNFXEEpRpRpRpRKnKnKnKnPpKnfxOEWVWVWVfxqPWVWVtFIIWVtFIIjOkEkEkEnANVOkfxfxKnKnNANAVoVoVoVoKnNANAZsKnKnKnNAKnfefe
+anAVAVTNTNEbEbTNQZdeLhlTlTlTlTlTlTlTlTlTlTlTPXlxTNEExNRTKrXuxNREJChYRTRTpfEEpRpRpRpRKnKnKnKnZmKnfxrCWVWVWVYMWVWVkEkECGkEWVsiWVkEbWWVkEWVhzGMfxfxKnKnKnNAsVKnKntwNAKnKnNAKnKnKnKnfefe
+anAVAVAVTNEbEbTNTNdehKlTlTlTlTlTlTlTlTlTlTlTCLlxEbEEMLKrxNsoxNUqRTxNRTxNJuEEpRpRpRpRKnKnKnKnKnKnfxGJuMWVWVfxWVWVWVWVWVWVkEkEWVgxWVkEWVWVkEhzGMfxNAKnsVKnKnKnsVNAKnKnNANAKnKnKnKnfefe
 anAVAVTNTNCKEbEbTNdeAmlTlTlTlTlTlTlTlTlTlTlTVslxTNEExNRTRTRTZixNxNRTxNxNxNEEpRpRpRpRKnKnKnKnKnKnfxuhWVWVWVfxWVbWUfUfUfWVWVUfUfUfWVkEWVkEWVWVvsfxKnNAKnrQKnKnNAKnKnKnKnKnfeKnKnfefefe
 anAVAVTNlOZLEbTNLadehslTlTlTlTlTlTlTlTlTlTlTzbaHLGEEnKxNwRRTLYjrMPyDxIxNxNEEpRpRpRpRKnKnKnhoKnKnfxrzWVWVWVYMWVWVUfWnWVWVWVWVDFUfWVWVWVkEWVvXRcfxNAKnKnKnNANANAKnKnKnKnfefefefefefefe
 anAVAVTNTNTNTNEbCKdeTXgVOpzMSUgVOpzMRBgVOpzMTXlxTNEEwzwzwzwzwzEEEEEEEEUoxNEEpRpRpRpRKnKnNANAKnKnfxjsWVWVWVfxEgTgUfDFWVWVbWWVWnUfWVWVkEWVLmJmfxfxKnKnKnGjNAKnKnKnKnKnfefefefefefefefe
 anAVTNTNTNLGEbTNTNdeszszszszszszszszszszszszszlxpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRKnIONAKnKnKnfxfxKMUPGAfxAgGRQxPmBLmJOXBLGRQxGRGRBLBLsgfxfxKnNANANAKnKnKnKnKnKnfefefefefefefefefe
 anAVpRpRpRTNTNCKxZtNcEElszszszszszszszszszszszlxpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRrQKnNANAKnKnKnfxfxfxfxfxfxfxfxfxfxfxfxfxfxfxfxfxfxfxfxfxKnNAKnKnKnKnKnKnKnKnfefefefefefefefefefe
-anAVfdhBioTNEbTNEbHxZIszszszlzxmYLFKyqszszszszlxpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRKnKnKnNAKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnNAKnKnKnKnKnKnKnfefefefefefefefefefefe
-anAVpRpRpRTNTNEbYmYAePszszhXdCoJGmJlszszszszszlxpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnfeKnKnKnKnfeKnKnKnKnKnKnKnKnKnfeKnKnKnKnfefefefefefefefefefefefe
-anAVAVpRTITNTNEbTNJfKxwcBNssJnclBNBNBNBNNiBNBNznTNMHskTNTNekTNTNTNLGTNskMHpRpRpRpRpRmbKnfeKnKnKnKnKnfeKnKnKnKnKnKnfefefeKnKnfefefefeKnKnKnKnKnKnfefefeKnKnfefefefefefefefefefefefefe
+anAVfdhBioTNEbTNEbHxZIszszszlzxmYLFKyqszszszszlxpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRKnKnKnNAKnKnKnepKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnKnNAKnKnKnKnKnKnKnfefefefefefefefefefefe
+anAVpRpRpRTNTNEbYmYAePszszhXdCoJGmJlszszszszszlxpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRpRKnKnKnepKnKnKnKnKnKnKnKnKnKnKnKnfeKnKnKnKnfeKnKnKnKnKnKnKnKnKnfeKnKnKnKnfefefefefefefefefefefefe
+anAVAVpRTITNTNEbTNJfKxwcBNssJnclBNBNBNBNNiBNBNznTNMHTNTNTNekTNTNTNLGTNTNTNpRpRpRpRpRKnKnfeKnKnKnKnKnfeKnKnKnKnKnKnfefefeKnKnfefefefeKnKnKnKnKnKnfefefeKnKnfefefefefefefefefefefefefe
 anAVAVAVMhTITNTNAVAVAVAVTNEbAVTNTNAVEbEbTNMHTNTNTNTNEbEbTNEbLGTNMHAVAVAVenenpRpRpRpRpTpTfefeKnKnKnfefefeKnKnKnKnfefefefefefefefefefeKnKnKnKnKnfefefefefefefefefefefefefefefefefefefe
 anAVAVAVAVAVTNAVAVAVAVAVAVAVAVAVAVAVAVTNTNTNTNTNAREbTNLGTNTNEbTNAVAVAVAVenenatatatatpTpTfefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefe
 anAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVfefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefe
